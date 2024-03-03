@@ -1,0 +1,24 @@
+<component id="LoadingSpinner">
+  <Meta>
+  <Description>Renders a spinner in the center of the page</Description>
+  <UsageDescription>To use this component, simply import it into your code
+    and place it where you want the spinner to appear
+  </UsageDescription>
+  <Tags>atoms,loading</Tags>
+  <Properties>
+    <Prop id="class" type="Classname" description="Class name for wrapper div." />
+  </Properties>
+  </Meta>
+
+  <Story>
+    <Cases>
+      <Case id="default">
+        <Arg id="class" value="text-bold" />
+      </Case>
+    </Cases>
+  </Story>
+
+  <div class="text-center {@class}">
+    <Spinner aria-label="Center-aligned spinner" />
+  </div>
+</component>

@@ -1,0 +1,63 @@
+<components>
+
+  <component id="App">
+    <ToastService ref="toaster" />
+    <NavigationService ref="nav" title="Semantable" />
+    <ItemCollectionController ref="items" data="@@items | arraySortBy:'name'" labelsFields="domain,ns"
+      shownLimit="200" />
+    <TasksListPage />
+    <ToastList />
+  </component>
+
+  <component id="TasksListPage">
+    <Connector data="<-items@info" change="-> ..." />
+    <main class="h-screen overflow-y-auto" scrolledDown="-> items.showMore()"
+      scroll="-> @showScrollToTopButton = data.value > 120">
+      <nav class="bg-gray-800" id="top">
+        <div class="mx-auto max-w-7xl p-4">
+          <div class="flex items-center justify-between">
+            <h5 class="text-xl font-bold leading-none text-slate-100">
+              <span>Semantable</span>
+              <Badge value="@countsInfo" />
+            </h5>
+            <div>
+              <SearchBar.Suggestions (...)="@search" />
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="bg-slate-500 px-2 min-h-1 sticky top-0 z-10">
+        <Container class="min-h-1">
+          <ItemsFilter data="<- items@searchedData" meta="@@forms.filter" initialFields="domain,ns"
+            class="flex-1 min-w-0" onChange="-> items.onFilterBySignature(data)" />
+        </Container>
+      </div>
+
+      <div class="mt-4">
+        <Container class="min-h-1 py-4 flex flex-col bg-white dark:bg-gray-800">
+          <TasksListItem (...)="@item" item="@item" selection="@selection" each="item of data" />
+        </Container>
+      </div>
+
+    </main>
+    <ScrollToTopButton if="@showScrollToTopButton" />
+  </component>
+
+  <component id="TasksListItem">
+    <div class="p-4 flex flex-col" click="-> @opened=true">
+      <div class="">
+        <span class="text-bold text-white" title="@name">{@ns} {@name}</span>
+      </div>
+      <div class=" flex flex-wrap items-center">
+        <ItemCell (...)="@item" each="item of @entries" />
+      </div>
+    </div>
+  </component>
+
+  <component id="ItemCell">
+    <div class="text-gray-100 text-center rounded-lg bg-slate-500 border border-slate-800 p-2 m-1" title="@name">@name
+    </div>
+  </component>
+
+</components>

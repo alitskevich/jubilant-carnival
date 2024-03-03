@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"  manifest1="rc/index.appcache1122">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width">
+
+        <title>Axio.JS</title>
+        <meta name="author" content="alitskevich">
+
+        <link rel="stylesheet" href="rc/bootstrap.min.css">
+        <link rel="stylesheet" href="css/hljs-googlecode.css">
+        <link rel="stylesheet" href="css/app.css">
+
+        <script src="src/axio-infra.js"></script>
+        <script src="src/axio-property.js"></script>
+        <script src="src/axio-entity.js"></script>
+        <script src="src-commons/axio-props.js"></script>
+        <script src="src-commons/axio-l10n.js"></script>
+
+        <script src="src-webclient/axio-web-cache.js"></script>
+        <script src="src-webclient/axio-web-remote.js"></script>
+        <script src="src-webclient/axio-web-dom.js"></script>
+        <script src="src-webclient/axio-web-storage.js"></script>
+
+        <script src="src-webclient/ui/axio-ui-view.js"></script>
+        <script src="src-webclient/ui/axio-ui-basics.js"></script>
+        <script src="src-webclient/ui/axio-ui-field.js"></script>
+        <script src="src-webclient/ui/axio-ui-submit.js"></script>
+
+        <script src="src-webclient/ui-extra/axio-ui-hash-nav.js"></script>
+        <script src="src-webclient/plugins/axio-showdown.js"></script>
+        
+
+        <script src="libs/coffee-script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="masthead">
+                <ul id="nav" class="nav nav-pills pull-right" data-widget="NavList" data-data-url="string://appPages"></ul>
+                <h3><a href="#!home">AXIO.JS</a></h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <article id="app" data-widget="Application">Init...</article>
+            <div class="footer">
+                
+                <p><span data-widget="html" data-html-expression="'&copy; '+APP.copyright"></span>
+                     [<a href="http://www.linkedin.com/in/litskevich">LinkedIn</a>]. 
+                </p>
+            
+            </div>
+        </div>
+        <script type="text/coffeescript" src="app/app.coffee"></script>
+    </body>
+</html>

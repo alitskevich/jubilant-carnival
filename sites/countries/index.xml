@@ -1,0 +1,84 @@
+<components>
+
+  <component id="App">
+    <ToastService ref="toaster" />
+    <NavigationService ref="nav" title="Countries" />
+    <ItemCollectionController ref="items" data="@@items | arraySortBy:name" labelsFields="region,subregion" />
+    <TasksList (...)="<-items@info" />
+    <ToastList />
+  </component>
+
+  <component id="TasksList">
+    <main class="h-screen overflow-y-auto" scrolledDown="-> items.showMore()"
+      scroll="-> @showScrollToTopButton = data.value > 120">
+      <a name="top"></a>
+      <nav class="bg-gray-800">
+        <Container class="py-4">
+          <div class="w-full flex items-center justify-between">
+            <h5 class="text-xl font-bold leading-none text-slate-100">
+              <a href="https://restcountries.com/#api-endpoints-v3-all"
+                class=" text-blue-600 hover:underline dark:text-blue-500">
+                <span>Countries</span>
+              </a>
+              <Badge class="" value="@countsInfo" />
+            </h5>
+            <div>
+              <SearchBar.Suggestions (...)="@search" />
+
+            </div>
+          </div>
+        </Container>
+      </nav>
+
+      <div class="bg-slate-500 min-h-1 sticky top-0 z-2">
+        <Container>
+          <Chips data="@tags" click="-> items.onTag(data)" />
+        </Container>
+      </div>
+
+      <div class="flex justify-center sm:my-2">
+        <Container class="">
+          <div class="flow-root w-full">
+            <ul role="list" class="max-lg:flex max-lg:flex-col lg:grid lg:grid-cols-2 xl:grid-cols-3 
+              sm:gap-2 xl:gap-4 max-lg:divide-y divide-gray-200 dark:divide-gray-700">
+              <TasksListItem (...)="@item" selection="@selection" each="item of @data" />
+            </ul>
+          </div>
+        </Container>
+      </div>
+
+    </main>
+    <ScrollToTopButton if="@showScrollToTopButton" />
+  </component>
+
+  <component id="TasksListItem">
+    <li class="py-3 px-3 sm:py-4 -mx-2 sm:mx-0 dark:bg-gray-600 dark:border-gray-500 sm:rounded-lg">
+      <div class="flex items-center space-x-4">
+        <div class="flex-shrink-0">
+          <figure class="rounded-full w-9 h-9 flex bg-gray-100 justify-center items-center"
+            style="font-size:1.6rem!important;" data-value="@flag">
+            <span>@flag</span>
+          </figure>
+        </div>
+        <div class="flex-1 min-w-0">
+          <p class="text-sm font-medium text-gray-900 truncate dark:text-white">
+            <span>@name</span>
+            <a class="p-2" target="wwd_{@id}"
+              href="https://www.worlddata.info/{@continent}/${@cca2}/index.php">@cca2</a>
+          </p>
+          <p class="text-sm text-gray-500 truncate dark:text-gray-400">
+            <span class="ml-2" title="@population">🧑‍🤝‍🧑 {@populationText}</span>
+            <span class="ml-2" title="@capital">{@capital}</span>
+            <span class="ml-2" title="@status" if="@status == officially-assigned#not">🚫</span>
+            <span class="ml-2" title="Not UN member" if="@unMember#not">❗</span>
+            <span class="ml-2" title="Not independent" if="@independent#not">❗</span>
+          </p>
+        </div>
+        <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+          <a class="p-2" target="gglm_{@id}" href="https://goo.gl/maps/{@map}">🗺 map</a>
+        </div>
+      </div>
+    </li>
+  </component>
+
+</components>

@@ -1,0 +1,32 @@
+<components>
+
+  <component id="App">
+    <ToastService ref="toaster" />
+    <MetadataService ref="meta" url="@@metaUrl" />
+    <AsyncLoader isLoading="<- meta@isLoading" title="@subtitle ?? '🚀 Launching app'"
+      subtitle="@subtitle ?? 'install the actual version'" error="<- meta@error" onError="-> nav.reload()">
+      <TgWebAppService ref="tg" buttonText="@@buttonText" action="@@action" submitQueryUrl="@@submitQueryUrl"
+        actionQuery="@@actionQuery" data="@@data" />
+      <MainPage />
+    </AsyncLoader>
+    <ToastList />
+  </component>
+
+  <component id="DebugInfo">
+    <details if="@@debugInfo">
+      <summary> Debug Info </summary>
+      <pre>@@debugInfo</pre>
+    </details>
+  </component>
+
+  <component id="MainPage">
+    <main class="w-full px-4 mx-auto max-w-4xl">
+
+      <Forma meta="@@forms.item" data="<- tg@data" change="-> tg@data" tabs="@@itemForm.tabs"
+        groups="@@itemForm.groups" />
+
+      <DebugInfo />
+    </main>
+  </component>
+
+</components>

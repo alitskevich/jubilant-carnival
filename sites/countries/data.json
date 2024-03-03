@@ -1,0 +1,7325 @@
+[
+  {
+    "name": "Barbados",
+    "cca2": "BB",
+    "ccn3": "052",
+    "cca3": "BRB",
+    "cioc": "BAR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Bridgetown"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [13.16666666, -59.53333333],
+    "landlocked": false,
+    "area": 430,
+    "flag": "🇧🇧",
+    "population": 287371,
+    "fifa": "BRB",
+    "capitalInfo": {
+      "latlng": [13.1, -59.62]
+    },
+    "continent": "north america",
+    "map": "2m36v8STvbGAWd9c7"
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "cca2": "IO",
+    "ccn3": "086",
+    "cca3": "IOT",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Diego Garcia"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-6, 71.5],
+    "landlocked": false,
+    "area": 60,
+    "flag": "🇮🇴",
+    "population": 3000,
+    "capitalInfo": {
+      "latlng": [-7.3, 72.4]
+    },
+    "continent": "asia",
+    "map": "bheNucgekVEYozoi6"
+  },
+  {
+    "name": "Republic of the Congo",
+    "cca2": "CG",
+    "ccn3": "178",
+    "cca3": "COG",
+    "cioc": "CGO",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Brazzaville"],
+    "region": "Africa",
+    "subregion": "Middle",
+    "languages": {
+      "fra": "French",
+      "kon": "Kikongo",
+      "lin": "Lingala"
+    },
+    "latlng": [-1, 15],
+    "landlocked": false,
+    "area": 342000,
+    "flag": "🇨🇬",
+    "population": 5657000,
+    "gini": {
+      "2011": 48.9
+    },
+    "fifa": "CGO",
+    "capitalInfo": {
+      "latlng": [-4.25, 15.28]
+    },
+    "continent": "africa",
+    "map": "Phf5dDDKdfCtuBTb6"
+  },
+  {
+    "name": "Brazil",
+    "cca2": "BR",
+    "ccn3": "076",
+    "cca3": "BRA",
+    "cioc": "BRA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Brasília"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "por": "Portuguese"
+    },
+    "latlng": [-10, -55],
+    "landlocked": false,
+    "area": 8515767,
+    "flag": "🇧🇷",
+    "population": 212559409,
+    "gini": {
+      "2019": 53.4
+    },
+    "fifa": "BRA",
+    "capitalInfo": {
+      "latlng": [-15.79, -47.88]
+    },
+    "continent": "south america",
+    "map": "waCKk21HeeqFzkNC9"
+  },
+  {
+    "name": "Luxembourg",
+    "cca2": "LU",
+    "ccn3": "442",
+    "cca3": "LUX",
+    "cioc": "LUX",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Luxembourg"],
+    "region": "Europe",
+    "subregion": "Western",
+    "languages": {
+      "deu": "German",
+      "fra": "French",
+      "ltz": "Luxembourgish"
+    },
+    "latlng": [49.75, 6.16666666],
+    "landlocked": true,
+    "area": 2586,
+    "flag": "🇱🇺",
+    "population": 632275,
+    "gini": {
+      "2018": 35.4
+    },
+    "fifa": "LUX",
+    "capitalInfo": {
+      "latlng": [49.6, 6.12]
+    },
+    "continent": "europe",
+    "map": "L6b2AgndgHprt2Ko9"
+  },
+  {
+    "name": "United States Virgin Islands",
+    "cca2": "VI",
+    "ccn3": "850",
+    "cca3": "VIR",
+    "cioc": "ISV",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Charlotte Amalie"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [18.35, -64.933333],
+    "landlocked": false,
+    "area": 347,
+    "flag": "🇻🇮",
+    "population": 106290,
+    "fifa": "VIR",
+    "capitalInfo": {
+      "latlng": [18.35, -64.93]
+    },
+    "continent": "north america",
+    "map": "mBfreywj8dor6q4m9"
+  },
+  {
+    "name": "Kiribati",
+    "cca2": "KI",
+    "ccn3": "296",
+    "cca3": "KIR",
+    "cioc": "KIR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["South Tarawa"],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": {
+      "eng": "English",
+      "gil": "Gilbertese"
+    },
+    "latlng": [1.41666666, 173],
+    "landlocked": false,
+    "area": 811,
+    "flag": "🇰🇮",
+    "population": 119446,
+    "gini": {
+      "2006": 37
+    },
+    "capitalInfo": {
+      "latlng": [1.33, 172.98]
+    },
+    "continent": "oceania",
+    "map": "NBfYvrndW4skAimw9"
+  },
+  {
+    "name": "Romania",
+    "cca2": "RO",
+    "ccn3": "642",
+    "cca3": "ROU",
+    "cioc": "ROU",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Bucharest"],
+    "region": "Europe",
+    "subregion": "Southeast",
+    "languages": {
+      "ron": "Romanian"
+    },
+    "latlng": [46, 25],
+    "landlocked": false,
+    "area": 238391,
+    "flag": "🇷🇴",
+    "population": 19286123,
+    "gini": {
+      "2018": 35.8
+    },
+    "fifa": "ROU",
+    "capitalInfo": {
+      "latlng": [44.43, 26.1]
+    },
+    "continent": "europe",
+    "map": "845hAgCf1mDkN3vr7"
+  },
+  {
+    "name": "Laos",
+    "cca2": "LA",
+    "ccn3": "418",
+    "cca3": "LAO",
+    "cioc": "LAO",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Vientiane"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "lao": "Lao"
+    },
+    "latlng": [18, 105],
+    "landlocked": true,
+    "area": 236800,
+    "flag": "🇱🇦",
+    "population": 7275556,
+    "gini": {
+      "2018": 38.8
+    },
+    "fifa": "LAO",
+    "capitalInfo": {
+      "latlng": [17.97, 102.6]
+    },
+    "continent": "asia",
+    "map": "F3asVB7sRKgSnwbE7"
+  },
+  {
+    "name": "Malta",
+    "cca2": "MT",
+    "ccn3": "470",
+    "cca3": "MLT",
+    "cioc": "MLT",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Valletta"],
+    "region": "Europe",
+    "subregion": "Southern",
+    "languages": {
+      "eng": "English",
+      "mlt": "Maltese"
+    },
+    "latlng": [35.83333333, 14.58333333],
+    "landlocked": false,
+    "area": 316,
+    "flag": "🇲🇹",
+    "population": 525285,
+    "gini": {
+      "2018": 28.7
+    },
+    "fifa": "MLT",
+    "capitalInfo": {
+      "latlng": [35.88, 14.5]
+    },
+    "continent": "europe",
+    "map": "skXCqguxDxxEKVk47"
+  },
+  {
+    "name": "Togo",
+    "cca2": "TG",
+    "ccn3": "768",
+    "cca3": "TGO",
+    "cioc": "TOG",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Lomé"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [8, 1.16666666],
+    "landlocked": false,
+    "area": 56785,
+    "flag": "🇹🇬",
+    "population": 8278737,
+    "gini": {
+      "2015": 43.1
+    },
+    "fifa": "TOG",
+    "capitalInfo": {
+      "latlng": [6.14, 1.21]
+    },
+    "continent": "africa",
+    "map": "jzAa9feXuXPrKVb89"
+  },
+  {
+    "name": "Iraq",
+    "cca2": "IQ",
+    "ccn3": "368",
+    "cca3": "IRQ",
+    "cioc": "IRQ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Baghdad"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic",
+      "arc": "Aramaic",
+      "ckb": "Sorani"
+    },
+    "latlng": [33, 44],
+    "landlocked": false,
+    "area": 438317,
+    "flag": "🇮🇶",
+    "population": 40222503,
+    "gini": {
+      "2012": 29.5
+    },
+    "fifa": "IRQ",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [33.33, 44.4]
+    },
+    "continent": "asia",
+    "map": "iL8Bmy1sUCW9fUk18"
+  },
+  {
+    "name": "Kenya",
+    "cca2": "KE",
+    "ccn3": "404",
+    "cca3": "KEN",
+    "cioc": "KEN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Nairobi"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "eng": "English",
+      "swa": "Swahili"
+    },
+    "latlng": [1, 38],
+    "landlocked": false,
+    "area": 580367,
+    "flag": "🇰🇪",
+    "population": 53771300,
+    "gini": {
+      "2015": 40.8
+    },
+    "fifa": "KEN",
+    "capitalInfo": {
+      "latlng": [-1.28, 36.82]
+    },
+    "continent": "africa",
+    "map": "Ni9M7wcCxf8bJHLX8"
+  },
+  {
+    "name": "Cayman Islands",
+    "cca2": "KY",
+    "ccn3": "136",
+    "cca3": "CYM",
+    "cioc": "CAY",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["George Town"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [19.5, -80.5],
+    "landlocked": false,
+    "area": 264,
+    "flag": "🇰🇾",
+    "population": 65720,
+    "fifa": "CAY",
+    "capitalInfo": {
+      "latlng": [19.3, -81.38]
+    },
+    "continent": "north america",
+    "map": "P3ZVXX3LH63t91hL8"
+  },
+  {
+    "name": "Guinea",
+    "cca2": "GN",
+    "ccn3": "324",
+    "cca3": "GIN",
+    "cioc": "GUI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Conakry"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [11, -10],
+    "landlocked": false,
+    "area": 245857,
+    "flag": "🇬🇳",
+    "population": 13132792,
+    "gini": {
+      "2012": 33.7
+    },
+    "fifa": "GUI",
+    "capitalInfo": {
+      "latlng": [9.5, -13.7]
+    },
+    "continent": "africa",
+    "map": "8J5oM5sA4Ayr1ZYGA"
+  },
+  {
+    "name": "United States",
+    "cca2": "US",
+    "ccn3": "840",
+    "cca3": "USA",
+    "cioc": "USA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Washington, D.C."],
+    "region": "Americas",
+    "subregion": "North",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [38, -97],
+    "landlocked": false,
+    "area": 9372610,
+    "flag": "🇺🇸",
+    "population": 329484123,
+    "gini": {
+      "2018": 41.4
+    },
+    "fifa": "USA",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [38.89, -77.05]
+    },
+    "continent": "north americas",
+    "map": "e8M246zY4BSjkjAv6"
+  },
+  {
+    "name": "Tunisia",
+    "cca2": "TN",
+    "ccn3": "788",
+    "cca3": "TUN",
+    "cioc": "TUN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Tunis"],
+    "region": "Africa",
+    "subregion": "Northern",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [34, 9],
+    "landlocked": false,
+    "area": 163610,
+    "flag": "🇹🇳",
+    "population": 11818618,
+    "gini": {
+      "2015": 32.8
+    },
+    "fifa": "TUN",
+    "capitalInfo": {
+      "latlng": [36.8, 10.18]
+    },
+    "continent": "africa",
+    "map": "KgUmpZdUuNRaougs8"
+  },
+  {
+    "name": "Bolivia",
+    "cca2": "BO",
+    "ccn3": "068",
+    "cca3": "BOL",
+    "cioc": "BOL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Sucre"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "aym": "Aymara",
+      "grn": "Guaraní",
+      "que": "Quechua",
+      "spa": "Spanish"
+    },
+    "latlng": [-17, -65],
+    "landlocked": true,
+    "area": 1098581,
+    "flag": "🇧🇴",
+    "population": 11673029,
+    "gini": {
+      "2019": 41.6
+    },
+    "fifa": "BOL",
+    "capitalInfo": {
+      "latlng": [-19.02, -65.26]
+    },
+    "continent": "south america",
+    "map": "9DfnyfbxNM2g5U9b9"
+  },
+  {
+    "name": "China",
+    "cca2": "CN",
+    "ccn3": "156",
+    "cca3": "CHN",
+    "cioc": "CHN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Beijing"],
+    "region": "Asia",
+    "subregion": "Eastern",
+    "languages": {
+      "zho": "Chinese"
+    },
+    "latlng": [35, 105],
+    "landlocked": false,
+    "area": 9706961,
+    "flag": "🇨🇳",
+    "population": 1402112000,
+    "gini": {
+      "2016": 38.5
+    },
+    "fifa": "CHN",
+    "capitalInfo": {
+      "latlng": [39.92, 116.38]
+    },
+    "continent": "asia",
+    "map": "p9qC6vgiFRRXzvGi7"
+  },
+  {
+    "name": "South Korea",
+    "cca2": "KR",
+    "ccn3": "410",
+    "cca3": "KOR",
+    "cioc": "KOR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Seoul"],
+    "region": "Asia",
+    "subregion": "Eastern",
+    "languages": {
+      "kor": "Korean"
+    },
+    "latlng": [37, 127.5],
+    "landlocked": false,
+    "area": 100210,
+    "flag": "🇰🇷",
+    "population": 51780579,
+    "gini": {
+      "2016": 31.4
+    },
+    "fifa": "KOR",
+    "capitalInfo": {
+      "latlng": [37.55, 126.98]
+    },
+    "continent": "asia",
+    "map": "7ecjaJXefjAQhxjGA"
+  },
+  {
+    "name": "Kuwait",
+    "cca2": "KW",
+    "ccn3": "414",
+    "cca3": "KWT",
+    "cioc": "KUW",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Kuwait City"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [29.5, 45.75],
+    "landlocked": false,
+    "area": 17818,
+    "flag": "🇰🇼",
+    "population": 4270563,
+    "fifa": "KUW",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [29.37, 47.97]
+    },
+    "continent": "asia",
+    "map": "aqr3aNQjS1BAvksJ7"
+  },
+  {
+    "name": "Algeria",
+    "cca2": "DZ",
+    "ccn3": "012",
+    "cca3": "DZA",
+    "cioc": "ALG",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Algiers"],
+    "region": "Africa",
+    "subregion": "Northern",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [28, 3],
+    "landlocked": false,
+    "area": 2381741,
+    "flag": "🇩🇿",
+    "population": 44700000,
+    "gini": {
+      "2011": 27.6
+    },
+    "fifa": "ALG",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [36.75, 3.05]
+    },
+    "continent": "africa",
+    "map": "RsAyAfyaiNVb8DpW8"
+  },
+  {
+    "name": "Aruba",
+    "cca2": "AW",
+    "ccn3": "533",
+    "cca3": "ABW",
+    "cioc": "ARU",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Oranjestad"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "nld": "Dutch",
+      "pap": "Papiamento"
+    },
+    "latlng": [12.5, -69.96666666],
+    "landlocked": false,
+    "area": 180,
+    "flag": "🇦🇼",
+    "population": 106766,
+    "fifa": "ARU",
+    "capitalInfo": {
+      "latlng": [12.52, -70.03]
+    },
+    "continent": "north america",
+    "map": "8hopbQqifHAgyZyg8"
+  },
+  {
+    "name": "Russia",
+    "cca2": "RU",
+    "ccn3": "643",
+    "cca3": "RUS",
+    "cioc": "RUS",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Moscow"],
+    "region": "Europe",
+    "subregion": "Eastern",
+    "languages": {
+      "rus": "Russian"
+    },
+    "latlng": [60, 100],
+    "landlocked": false,
+    "area": 17098242,
+    "flag": "⬛",
+    "population": 144104080,
+    "gini": {
+      "2018": 37.5
+    },
+    "fifa": "RUS",
+    "capitalInfo": {
+      "latlng": [55.75, 37.6]
+    },
+    "continent": "europe",
+    "map": "4F4PpDhGJgVvLby57"
+  },
+  {
+    "name": "Denmark",
+    "cca2": "DK",
+    "ccn3": "208",
+    "cca3": "DNK",
+    "cioc": "DEN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Copenhagen"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "dan": "Danish"
+    },
+    "latlng": [56, 10],
+    "landlocked": false,
+    "area": 43094,
+    "flag": "🇩🇰",
+    "population": 5831404,
+    "gini": {
+      "2018": 28.2
+    },
+    "fifa": "DEN",
+    "capitalInfo": {
+      "latlng": [55.67, 12.58]
+    },
+    "continent": "europe",
+    "map": "UddGPN7hAyrtpFiT6"
+  },
+  {
+    "name": "Lithuania",
+    "cca2": "LT",
+    "ccn3": "440",
+    "cca3": "LTU",
+    "cioc": "LTU",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Vilnius"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "lit": "Lithuanian"
+    },
+    "latlng": [56, 24],
+    "landlocked": false,
+    "area": 65300,
+    "flag": "🇱🇹",
+    "population": 2794700,
+    "gini": {
+      "2018": 35.7
+    },
+    "fifa": "LTU",
+    "capitalInfo": {
+      "latlng": [54.68, 25.32]
+    },
+    "continent": "europe",
+    "map": "dd1s9rrLjrK2G8yY6"
+  },
+  {
+    "name": "United Kingdom",
+    "cca2": "GB",
+    "ccn3": "826",
+    "cca3": "GBR",
+    "cioc": "GBR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["London"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [54, -2],
+    "landlocked": false,
+    "area": 242900,
+    "flag": "🇬🇧",
+    "population": 67215293,
+    "gini": {
+      "2017": 35.1
+    },
+    "capitalInfo": {
+      "latlng": [51.5, -0.08]
+    },
+    "continent": "europe",
+    "map": "FoDtc3UKMkFsXAjHA"
+  },
+  {
+    "name": "Estonia",
+    "cca2": "EE",
+    "ccn3": "233",
+    "cca3": "EST",
+    "cioc": "EST",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Tallinn"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "est": "Estonian"
+    },
+    "latlng": [59, 26],
+    "landlocked": false,
+    "area": 45227,
+    "flag": "🇪🇪",
+    "population": 1331057,
+    "gini": {
+      "2018": 30.3
+    },
+    "fifa": "EST",
+    "capitalInfo": {
+      "latlng": [59.43, 24.72]
+    },
+    "continent": "europe",
+    "map": "6SsynwGUodL1sDvq8"
+  },
+  {
+    "name": "Taiwan",
+    "cca2": "TW",
+    "ccn3": "158",
+    "cca3": "TWN",
+    "cioc": "TPE",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Taipei"],
+    "region": "Asia",
+    "subregion": "Eastern",
+    "languages": {
+      "zho": "Chinese"
+    },
+    "latlng": [23.5, 121],
+    "landlocked": false,
+    "area": 36193,
+    "flag": "🇹🇼",
+    "population": 23503349,
+    "fifa": "TPE",
+    "capitalInfo": {
+      "latlng": [25.03, 121.52]
+    },
+    "continent": "asia",
+    "map": "HgMKFQjNadF3Wa6B6"
+  },
+  {
+    "name": "Canada",
+    "cca2": "CA",
+    "ccn3": "124",
+    "cca3": "CAN",
+    "cioc": "CAN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Ottawa"],
+    "region": "Americas",
+    "subregion": "North",
+    "languages": {
+      "eng": "English",
+      "fra": "French"
+    },
+    "latlng": [60, -95],
+    "landlocked": false,
+    "area": 9984670,
+    "flag": "🇨🇦",
+    "population": 38005238,
+    "gini": {
+      "2017": 33.3
+    },
+    "fifa": "CAN",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [45.42, -75.7]
+    },
+    "continent": "north america",
+    "map": "jmEVLugreeqiZXxbA"
+  },
+  {
+    "name": "Fiji",
+    "cca2": "FJ",
+    "ccn3": "242",
+    "cca3": "FJI",
+    "cioc": "FIJ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Suva"],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": {
+      "eng": "English",
+      "fij": "Fijian",
+      "hif": "Fiji Hindi"
+    },
+    "latlng": [-18, 175],
+    "landlocked": false,
+    "area": 18272,
+    "flag": "🇫🇯",
+    "population": 896444,
+    "gini": {
+      "2013": 36.7
+    },
+    "fifa": "FIJ",
+    "capitalInfo": {
+      "latlng": [-18.13, 178.42]
+    },
+    "continent": "oceania",
+    "map": "r9fhDqoLZdg1zmE99"
+  },
+  {
+    "name": "French Polynesia",
+    "cca2": "PF",
+    "ccn3": "258",
+    "cca3": "PYF",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Papeetē"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [-15, -140],
+    "landlocked": false,
+    "area": 4167,
+    "flag": "🇵🇫",
+    "population": 280904,
+    "capitalInfo": {
+      "latlng": [-17.53, -149.56]
+    },
+    "continent": "oceania",
+    "map": "xgg6BQTRyeQg4e1m6"
+  },
+  {
+    "name": "Peru",
+    "cca2": "PE",
+    "ccn3": "604",
+    "cca3": "PER",
+    "cioc": "PER",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Lima"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "aym": "Aymara",
+      "que": "Quechua",
+      "spa": "Spanish"
+    },
+    "latlng": [-10, -76],
+    "landlocked": false,
+    "area": 1285216,
+    "flag": "🇵🇪",
+    "population": 32971846,
+    "gini": {
+      "2019": 41.5
+    },
+    "fifa": "PER",
+    "capitalInfo": {
+      "latlng": [-12.05, -77.05]
+    },
+    "continent": "south america",
+    "map": "uDWEUaXNcZTng1fP6"
+  },
+  {
+    "name": "Australia",
+    "cca2": "AU",
+    "ccn3": "036",
+    "cca3": "AUS",
+    "cioc": "AUS",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Canberra"],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-27, 133],
+    "landlocked": false,
+    "area": 7692024,
+    "flag": "🇦🇺",
+    "population": 25687041,
+    "gini": {
+      "2014": 34.4
+    },
+    "fifa": "AUS",
+    "capitalInfo": {
+      "latlng": [-35.27, 149.13]
+    },
+    "continent": "oceania",
+    "map": "DcjaDa7UbhnZTndH6"
+  },
+  {
+    "name": "Chile",
+    "cca2": "CL",
+    "ccn3": "152",
+    "cca3": "CHL",
+    "cioc": "CHI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Santiago"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [-30, -71],
+    "landlocked": false,
+    "area": 756102,
+    "flag": "🇨🇱",
+    "population": 19116209,
+    "gini": {
+      "2017": 44.4
+    },
+    "fifa": "CHI",
+    "capitalInfo": {
+      "latlng": [-33.45, -70.67]
+    },
+    "continent": "south america",
+    "map": "XboxyNHh2fAjCPNn9"
+  },
+  {
+    "name": "Mayotte",
+    "cca2": "YT",
+    "ccn3": "175",
+    "cca3": "MYT",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Mamoudzou"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [-12.83333333, 45.16666666],
+    "landlocked": false,
+    "area": 374,
+    "flag": "🇾🇹",
+    "population": 226915,
+    "capitalInfo": {
+      "latlng": [-12.78, 45.22]
+    },
+    "continent": "africa",
+    "map": "1e7MXmfBwQv3TQGF7"
+  },
+  {
+    "name": "Egypt",
+    "cca2": "EG",
+    "ccn3": "818",
+    "cca3": "EGY",
+    "cioc": "EGY",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Cairo"],
+    "region": "Africa",
+    "subregion": "Northern",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [27, 30],
+    "landlocked": false,
+    "area": 1002450,
+    "flag": "🇪🇬",
+    "population": 102334403,
+    "gini": {
+      "2017": 31.5
+    },
+    "fifa": "EGY",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [30.05, 31.25]
+    },
+    "continent": "africa",
+    "map": "uoDRhXbsqjG6L7VG7"
+  },
+  {
+    "name": "Puerto Rico",
+    "cca2": "PR",
+    "ccn3": "630",
+    "cca3": "PRI",
+    "cioc": "PUR",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["San Juan"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English",
+      "spa": "Spanish"
+    },
+    "latlng": [18.25, -66.5],
+    "landlocked": false,
+    "area": 8870,
+    "flag": "🇵🇷",
+    "population": 3194034,
+    "fifa": "PUR",
+    "capitalInfo": {
+      "latlng": [18.47, -66.12]
+    },
+    "continent": "north america",
+    "map": "sygfDbtwn389wu8x5"
+  },
+  {
+    "name": "North Macedonia",
+    "cca2": "MK",
+    "ccn3": "807",
+    "cca3": "MKD",
+    "cioc": "MKD",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Skopje"],
+    "region": "Europe",
+    "subregion": "Southeast",
+    "languages": {
+      "mkd": "Macedonian"
+    },
+    "latlng": [41.83333333, 22],
+    "landlocked": true,
+    "area": 25713,
+    "flag": "🇲🇰",
+    "population": 2077132,
+    "gini": {
+      "2018": 33
+    },
+    "fifa": "MKD",
+    "capitalInfo": {
+      "latlng": [42, 21.43]
+    },
+    "continent": "europe",
+    "map": "55Q8MEnF6ACdu3q79"
+  },
+  {
+    "name": "Bangladesh",
+    "cca2": "BD",
+    "ccn3": "050",
+    "cca3": "BGD",
+    "cioc": "BAN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Dhaka"],
+    "region": "Asia",
+    "subregion": "Southern",
+    "languages": {
+      "ben": "Bengali"
+    },
+    "latlng": [24, 90],
+    "landlocked": false,
+    "area": 147570,
+    "flag": "🇧🇩",
+    "population": 164689383,
+    "gini": {
+      "2016": 32.4
+    },
+    "fifa": "BAN",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [23.72, 90.4]
+    },
+    "continent": "asia",
+    "map": "op6gmLbHcvv6rLhH6"
+  },
+  {
+    "name": "Saint Martin",
+    "cca2": "MF",
+    "ccn3": "663",
+    "cca3": "MAF",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Marigot"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [18.08333333, -63.95],
+    "landlocked": false,
+    "area": 53,
+    "flag": "🇲🇫",
+    "population": 38659,
+    "capitalInfo": {
+      "latlng": [18.07, -63.08]
+    },
+    "continent": "north america",
+    "map": "P9ho9QuJ9EAR28JEA"
+  },
+  {
+    "name": "Singapore",
+    "cca2": "SG",
+    "ccn3": "702",
+    "cca3": "SGP",
+    "cioc": "SGP",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Singapore"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "zho": "Chinese",
+      "eng": "English",
+      "msa": "Malay",
+      "tam": "Tamil"
+    },
+    "latlng": [1.36666666, 103.8],
+    "landlocked": false,
+    "area": 710,
+    "flag": "🇸🇬",
+    "population": 5685807,
+    "fifa": "SIN",
+    "capitalInfo": {
+      "latlng": [1.28, 103.85]
+    },
+    "continent": "asia",
+    "map": "QbQt9Y9b5KFzsahV6"
+  },
+  {
+    "name": "Gabon",
+    "cca2": "GA",
+    "ccn3": "266",
+    "cca3": "GAB",
+    "cioc": "GAB",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Libreville"],
+    "region": "Africa",
+    "subregion": "Middle",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [-1, 11.75],
+    "landlocked": false,
+    "area": 267668,
+    "flag": "🇬🇦",
+    "population": 2225728,
+    "gini": {
+      "2017": 38
+    },
+    "fifa": "GAB",
+    "capitalInfo": {
+      "latlng": [0.38, 9.45]
+    },
+    "continent": "africa",
+    "map": "vyRSkqw1H1fnq4ry6"
+  },
+  {
+    "name": "Portugal",
+    "cca2": "PT",
+    "ccn3": "620",
+    "cca3": "PRT",
+    "cioc": "POR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Lisbon"],
+    "region": "Europe",
+    "subregion": "Southern",
+    "languages": {
+      "por": "Portuguese"
+    },
+    "latlng": [39.5, -8],
+    "landlocked": false,
+    "area": 92090,
+    "flag": "🇵🇹",
+    "population": 10305564,
+    "gini": {
+      "2018": 33.5
+    },
+    "fifa": "POR",
+    "capitalInfo": {
+      "latlng": [38.72, -9.13]
+    },
+    "continent": "europe",
+    "map": "BaTBSyc4GWMmbAKB8"
+  },
+  {
+    "name": "Ethiopia",
+    "cca2": "ET",
+    "ccn3": "231",
+    "cca3": "ETH",
+    "cioc": "ETH",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Addis Ababa"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "amh": "Amharic"
+    },
+    "latlng": [8, 38],
+    "landlocked": true,
+    "area": 1104300,
+    "flag": "🇪🇹",
+    "population": 114963583,
+    "gini": {
+      "2015": 35
+    },
+    "fifa": "ETH",
+    "capitalInfo": {
+      "latlng": [9.03, 38.7]
+    },
+    "continent": "africa",
+    "map": "2Q4hQWCbhuZLj3fG6"
+  },
+  {
+    "name": "Bahamas",
+    "cca2": "BS",
+    "ccn3": "044",
+    "cca3": "BHS",
+    "cioc": "BAH",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Nassau"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [24.25, -76],
+    "landlocked": false,
+    "area": 13943,
+    "flag": "🇧🇸",
+    "population": 393248,
+    "fifa": "BAH",
+    "capitalInfo": {
+      "latlng": [25.08, -77.35]
+    },
+    "continent": "north america",
+    "map": "1YzRs1BZrG8p8pmVA"
+  },
+  {
+    "name": "Vatican City",
+    "cca2": "VA",
+    "ccn3": "336",
+    "cca3": "VAT",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Vatican City"],
+    "region": "Europe",
+    "subregion": "Southern",
+    "languages": {
+      "ita": "Italian",
+      "lat": "Latin"
+    },
+    "latlng": [41.9, 12.45],
+    "landlocked": true,
+    "area": 0.44,
+    "flag": "🇻🇦",
+    "population": 451,
+    "capitalInfo": {
+      "latlng": [41.9, 12.45]
+    },
+    "continent": "europe",
+    "map": "DTKvw5Bd1QZaDZmE8"
+  },
+  {
+    "name": "Burkina Faso",
+    "cca2": "BF",
+    "ccn3": "854",
+    "cca3": "BFA",
+    "cioc": "BUR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Ouagadougou"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [13, -2],
+    "landlocked": true,
+    "area": 272967,
+    "flag": "🇧🇫",
+    "population": 20903278,
+    "gini": {
+      "2014": 35.3
+    },
+    "fifa": "BFA",
+    "capitalInfo": {
+      "latlng": [12.37, -1.52]
+    },
+    "continent": "africa",
+    "map": "rKRmpcMbFher2ozb7"
+  },
+  {
+    "name": "Turkmenistan",
+    "cca2": "TM",
+    "ccn3": "795",
+    "cca3": "TKM",
+    "cioc": "TKM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Ashgabat"],
+    "region": "Asia",
+    "subregion": "Central",
+    "languages": {
+      "rus": "Russian",
+      "tuk": "Turkmen"
+    },
+    "latlng": [40, 60],
+    "landlocked": true,
+    "area": 488100,
+    "flag": "🇹🇲",
+    "population": 6031187,
+    "gini": {
+      "1998": 40.8
+    },
+    "fifa": "TKM",
+    "capitalInfo": {
+      "latlng": [37.95, 58.38]
+    },
+    "continent": "asia",
+    "map": "cgfUcaQHSWKuqeKk9"
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "cca2": "MP",
+    "ccn3": "580",
+    "cca3": "MNP",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Saipan"],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": {
+      "cal": "Carolinian",
+      "cha": "Chamorro",
+      "eng": "English"
+    },
+    "latlng": [15.2, 145.75],
+    "landlocked": false,
+    "area": 464,
+    "flag": "🇲🇵",
+    "population": 57557,
+    "capitalInfo": {
+      "latlng": [15.2, 145.75]
+    },
+    "continent": "oceania",
+    "map": "cpZ67knoRAcfu1417"
+  },
+  {
+    "name": "Sint Maarten",
+    "cca2": "SX",
+    "ccn3": "534",
+    "cca3": "SXM",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Philipsburg"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "nld": "Dutch"
+    },
+    "latlng": [18.033333, -63.05],
+    "landlocked": false,
+    "area": 34,
+    "flag": "🇸🇽",
+    "population": 40812,
+    "capitalInfo": {
+      "latlng": [18.02, -63.03]
+    },
+    "continent": "north america",
+    "map": "DjvcESy1a1oGEZuNA"
+  },
+  {
+    "name": "Zambia",
+    "cca2": "ZM",
+    "ccn3": "894",
+    "cca3": "ZMB",
+    "cioc": "ZAM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Lusaka"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-15, 30],
+    "landlocked": true,
+    "area": 752612,
+    "flag": "🇿🇲",
+    "population": 18383956,
+    "gini": {
+      "2015": 57.1
+    },
+    "fifa": "ZAM",
+    "capitalInfo": {
+      "latlng": [-15.42, 28.28]
+    },
+    "continent": "africa",
+    "map": "mweBcqvW8TppZW6q9"
+  },
+  {
+    "name": "Honduras",
+    "cca2": "HN",
+    "ccn3": "340",
+    "cca3": "HND",
+    "cioc": "HON",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Tegucigalpa"],
+    "region": "Americas",
+    "subregion": "Central",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [15, -86.5],
+    "landlocked": false,
+    "area": 112492,
+    "flag": "🇭🇳",
+    "population": 9904608,
+    "gini": {
+      "2019": 48.2
+    },
+    "fifa": "HON",
+    "capitalInfo": {
+      "latlng": [14.1, -87.22]
+    },
+    "continent": "north america",
+    "map": "BbeJK8Sk2VkMHbdF8"
+  },
+  {
+    "name": "Morocco",
+    "cca2": "MA",
+    "ccn3": "504",
+    "cca3": "MAR",
+    "cioc": "MAR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Rabat"],
+    "region": "Africa",
+    "subregion": "Northern",
+    "languages": {
+      "ara": "Arabic",
+      "ber": "Berber"
+    },
+    "latlng": [32, -5],
+    "landlocked": false,
+    "area": 446550,
+    "flag": "🇲🇦",
+    "population": 36910558,
+    "gini": {
+      "2013": 39.5
+    },
+    "fifa": "MAR",
+    "capitalInfo": {
+      "latlng": [34.02, -6.82]
+    },
+    "continent": "africa",
+    "map": "6oMv3dyBZg3iaXQ5A"
+  },
+  {
+    "name": "Nepal",
+    "cca2": "NP",
+    "ccn3": "524",
+    "cca3": "NPL",
+    "cioc": "NEP",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Kathmandu"],
+    "region": "Asia",
+    "subregion": "Southern",
+    "languages": {
+      "nep": "Nepali"
+    },
+    "latlng": [28, 84],
+    "landlocked": true,
+    "area": 147181,
+    "flag": "🇳🇵",
+    "population": 29136808,
+    "gini": {
+      "2010": 32.8
+    },
+    "fifa": "NEP",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [27.72, 85.32]
+    },
+    "continent": "asia",
+    "map": "UMj2zpbQp7B5c3yT7"
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "cca2": "AG",
+    "ccn3": "028",
+    "cca3": "ATG",
+    "cioc": "ANT",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Saint John's"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [17.05, -61.8],
+    "landlocked": false,
+    "area": 442,
+    "flag": "🇦🇬",
+    "population": 97928,
+    "fifa": "ATG",
+    "capitalInfo": {
+      "latlng": [17.12, -61.85]
+    },
+    "continent": "north america",
+    "map": "fnye4wGJ1RzC9jpX9"
+  },
+  {
+    "name": "Oman",
+    "cca2": "OM",
+    "ccn3": "512",
+    "cca3": "OMN",
+    "cioc": "OMA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Muscat"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [21, 57],
+    "landlocked": false,
+    "area": 309500,
+    "flag": "🇴🇲",
+    "population": 5106622,
+    "fifa": "OMA",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [23.62, 58.58]
+    },
+    "continent": "asia",
+    "map": "L2BoXoAwDDwWecnw5"
+  },
+  {
+    "name": "Hong Kong",
+    "cca2": "HK",
+    "ccn3": "344",
+    "cca3": "HKG",
+    "cioc": "HKG",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["City of Victoria"],
+    "region": "Asia",
+    "subregion": "Eastern",
+    "languages": {
+      "eng": "English",
+      "zho": "Chinese"
+    },
+    "latlng": [22.267, 114.188],
+    "landlocked": false,
+    "area": 1104,
+    "flag": "🇭🇰",
+    "population": 7500700,
+    "fifa": "HKG",
+    "capitalInfo": {
+      "latlng": [48.41, -123.33]
+    },
+    "continent": "asia",
+    "map": "1sEnNmT47ffrC8MU8"
+  },
+  {
+    "name": "Greenland",
+    "cca2": "GL",
+    "ccn3": "304",
+    "cca3": "GRL",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Nuuk"],
+    "region": "Americas",
+    "subregion": "North",
+    "languages": {
+      "kal": "Greenlandic"
+    },
+    "latlng": [72, -40],
+    "landlocked": false,
+    "area": 2166086,
+    "flag": "🇬🇱",
+    "population": 56367,
+    "capitalInfo": {
+      "latlng": [64.18, -51.75]
+    },
+    "continent": "north america",
+    "map": "j3289UPEQXt1ceSy8"
+  },
+  {
+    "name": "Paraguay",
+    "cca2": "PY",
+    "ccn3": "600",
+    "cca3": "PRY",
+    "cioc": "PAR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Asunción"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "grn": "Guaraní",
+      "spa": "Spanish"
+    },
+    "latlng": [-23, -58],
+    "landlocked": true,
+    "area": 406752,
+    "flag": "🇵🇾",
+    "population": 7132530,
+    "gini": {
+      "2019": 45.7
+    },
+    "fifa": "PAR",
+    "capitalInfo": {
+      "latlng": [-25.28, -57.57]
+    },
+    "continent": "south america",
+    "map": "JtnqG73WJn1Gx6mz6"
+  },
+  {
+    "name": "Moldova",
+    "cca2": "MD",
+    "ccn3": "498",
+    "cca3": "MDA",
+    "cioc": "MDA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Chișinău"],
+    "region": "Europe",
+    "subregion": "Eastern",
+    "languages": {
+      "ron": "Romanian"
+    },
+    "latlng": [47, 29],
+    "landlocked": true,
+    "area": 33846,
+    "flag": "🇲🇩",
+    "population": 2617820,
+    "gini": {
+      "2018": 25.7
+    },
+    "fifa": "MDA",
+    "capitalInfo": {
+      "latlng": [47.01, 28.9]
+    },
+    "continent": "europe",
+    "map": "JjmyUuULujnDeFPf7"
+  },
+  {
+    "name": "New Caledonia",
+    "cca2": "NC",
+    "ccn3": "540",
+    "cca3": "NCL",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Nouméa"],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [-21.5, 165.5],
+    "landlocked": false,
+    "area": 18575,
+    "flag": "🇳🇨",
+    "population": 271960,
+    "fifa": "NCL",
+    "capitalInfo": {
+      "latlng": [-22.27, 166.45]
+    },
+    "continent": "oceania",
+    "map": "cBhtCeMdob4U7FRU9"
+  },
+  {
+    "name": "Kyrgyzstan",
+    "cca2": "KG",
+    "ccn3": "417",
+    "cca3": "KGZ",
+    "cioc": "KGZ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Bishkek"],
+    "region": "Asia",
+    "subregion": "Central",
+    "languages": {
+      "kir": "Kyrgyz",
+      "rus": "Russian"
+    },
+    "latlng": [41, 75],
+    "landlocked": true,
+    "area": 199951,
+    "flag": "🇰🇬",
+    "population": 6591600,
+    "gini": {
+      "2019": 29.7
+    },
+    "fifa": "KGZ",
+    "capitalInfo": {
+      "latlng": [42.87, 74.6]
+    },
+    "continent": "asia",
+    "map": "SKG8BSMMQVvxkRkB7"
+  },
+  {
+    "name": "Mauritius",
+    "cca2": "MU",
+    "ccn3": "480",
+    "cca3": "MUS",
+    "cioc": "MRI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Port Louis"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "mfe": "Mauritian Creole"
+    },
+    "latlng": [-20.28333333, 57.55],
+    "landlocked": false,
+    "area": 2040,
+    "flag": "🇲🇺",
+    "population": 1265740,
+    "gini": {
+      "2017": 36.8
+    },
+    "fifa": "MRI",
+    "capitalInfo": {
+      "latlng": [-20.15, 57.48]
+    },
+    "continent": "africa",
+    "map": "PpKtZ4W3tir5iGrz7"
+  },
+  {
+    "name": "Bhutan",
+    "cca2": "BT",
+    "ccn3": "064",
+    "cca3": "BTN",
+    "cioc": "BHU",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Thimphu"],
+    "region": "Asia",
+    "subregion": "Southern",
+    "languages": {
+      "dzo": "Dzongkha"
+    },
+    "latlng": [27.5, 90.5],
+    "landlocked": true,
+    "area": 38394,
+    "flag": "🇧🇹",
+    "population": 771612,
+    "gini": {
+      "2017": 37.4
+    },
+    "fifa": "BHU",
+    "capitalInfo": {
+      "latlng": [27.47, 89.63]
+    },
+    "continent": "asia",
+    "map": "VEfXXBftTFLUpNgp8"
+  },
+  {
+    "name": "Centraln Republic",
+    "cca2": "CF",
+    "ccn3": "140",
+    "cca3": "CAF",
+    "cioc": "CAF",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Bangui"],
+    "region": "Africa",
+    "subregion": "Middle",
+    "languages": {
+      "fra": "French",
+      "sag": "Sango"
+    },
+    "latlng": [7, 21],
+    "landlocked": true,
+    "area": 622984,
+    "flag": "🇨🇫",
+    "population": 4829764,
+    "gini": {
+      "2008": 56.2
+    },
+    "fifa": "CTA",
+    "capitalInfo": {
+      "latlng": [4.37, 18.58]
+    },
+    "continent": "africa",
+    "map": "51V8dsi2rGYC9n3c9"
+  },
+  {
+    "name": "Saint Barthélemy",
+    "cca2": "BL",
+    "ccn3": "652",
+    "cca3": "BLM",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Gustavia"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [18.5, -63.41666666],
+    "landlocked": false,
+    "area": 21,
+    "flag": "🇧🇱",
+    "population": 4255,
+    "capitalInfo": {
+      "latlng": [17.88, -62.85]
+    },
+    "continent": "north america",
+    "map": "Mc7GqH466S7AAk297"
+  },
+  {
+    "name": "Cyprus",
+    "cca2": "CY",
+    "ccn3": "196",
+    "cca3": "CYP",
+    "cioc": "CYP",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Nicosia"],
+    "region": "Europe",
+    "subregion": "Southern",
+    "languages": {
+      "ell": "Greek",
+      "tur": "Turkish"
+    },
+    "latlng": [35, 33],
+    "landlocked": false,
+    "area": 9251,
+    "flag": "🇨🇾",
+    "population": 1207361,
+    "gini": {
+      "2018": 32.7
+    },
+    "fifa": "CYP",
+    "capitalInfo": {
+      "latlng": [35.17, 33.37]
+    },
+    "continent": "europe",
+    "map": "77hPBRdLid8yD5Bm7"
+  },
+  {
+    "name": "Réunion",
+    "cca2": "RE",
+    "ccn3": "638",
+    "cca3": "REU",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Saint-Denis"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [-21.15, 55.5],
+    "landlocked": false,
+    "area": 2511,
+    "flag": "🇷🇪",
+    "population": 840974,
+    "capitalInfo": {
+      "latlng": [-20.88, 55.45]
+    },
+    "continent": "africa",
+    "map": "wWpBrXsp8UHVbah29"
+  },
+  {
+    "name": "Chad",
+    "cca2": "TD",
+    "ccn3": "148",
+    "cca3": "TCD",
+    "cioc": "CHA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["N'Djamena"],
+    "region": "Africa",
+    "subregion": "Middle",
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French"
+    },
+    "latlng": [15, 19],
+    "landlocked": true,
+    "area": 1284000,
+    "flag": "🇹🇩",
+    "population": 16425859,
+    "gini": {
+      "2011": 43.3
+    },
+    "fifa": "CHA",
+    "capitalInfo": {
+      "latlng": [12.1, 15.03]
+    },
+    "continent": "africa",
+    "map": "ziUdAZ8skuNfx5Hx7"
+  },
+  {
+    "name": "Greece",
+    "cca2": "GR",
+    "ccn3": "300",
+    "cca3": "GRC",
+    "cioc": "GRE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Athens"],
+    "region": "Europe",
+    "subregion": "Southern",
+    "languages": {
+      "ell": "Greek"
+    },
+    "latlng": [39, 22],
+    "landlocked": false,
+    "area": 131990,
+    "flag": "🇬🇷",
+    "population": 10715549,
+    "gini": {
+      "2018": 32.9
+    },
+    "fifa": "GRE",
+    "capitalInfo": {
+      "latlng": [37.98, 23.73]
+    },
+    "continent": "europe",
+    "map": "LHGcAvuRyD2iKECC6"
+  },
+  {
+    "name": "Montserrat",
+    "cca2": "MS",
+    "ccn3": "500",
+    "cca3": "MSR",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Plymouth"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [16.75, -62.2],
+    "landlocked": false,
+    "area": 102,
+    "flag": "🇲🇸",
+    "population": 4922,
+    "fifa": "MSR",
+    "capitalInfo": {
+      "latlng": [16.7, -62.22]
+    },
+    "continent": "north america",
+    "map": "CSbe7UmxPmiwQB7GA"
+  },
+  {
+    "name": "Yemen",
+    "cca2": "YE",
+    "ccn3": "887",
+    "cca3": "YEM",
+    "cioc": "YEM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Sana'a"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [15, 48],
+    "landlocked": false,
+    "area": 527968,
+    "flag": "🇾🇪",
+    "population": 29825968,
+    "gini": {
+      "2014": 36.7
+    },
+    "fifa": "YEM",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [15.37, 44.19]
+    },
+    "continent": "asia",
+    "map": "WCmE76HKcLideQQw7"
+  },
+  {
+    "name": "Isle of Man",
+    "cca2": "IM",
+    "ccn3": "833",
+    "cca3": "IMN",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Douglas"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "eng": "English",
+      "glv": "Manx"
+    },
+    "latlng": [54.25, -4.5],
+    "landlocked": false,
+    "area": 572,
+    "flag": "🇮🇲",
+    "population": 85032,
+    "capitalInfo": {
+      "latlng": [54.15, -4.48]
+    },
+    "continent": "europe",
+    "map": "4DqVHDgVaFgnh8ZV8"
+  },
+  {
+    "name": "Dominican Republic",
+    "cca2": "DO",
+    "ccn3": "214",
+    "cca3": "DOM",
+    "cioc": "DOM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Santo Domingo"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [19, -70.66666666],
+    "landlocked": false,
+    "area": 48671,
+    "flag": "🇩🇴",
+    "population": 10847904,
+    "gini": {
+      "2019": 41.9
+    },
+    "fifa": "DOM",
+    "capitalInfo": {
+      "latlng": [18.47, -69.9]
+    },
+    "continent": "north america",
+    "map": "soxooTHxEeiAbn3UA"
+  },
+  {
+    "name": "Guernsey",
+    "cca2": "GG",
+    "ccn3": "831",
+    "cca3": "GGY",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["St. Peter Port"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "nfr": "Guernésiais"
+    },
+    "latlng": [49.46666666, -2.58333333],
+    "landlocked": false,
+    "area": 78,
+    "flag": "🇬🇬",
+    "population": 62999,
+    "capitalInfo": {
+      "latlng": [49.45, -2.54]
+    },
+    "continent": "europe",
+    "map": "6kXnQU5QvEZMD9VB7"
+  },
+  {
+    "name": "Liberia",
+    "cca2": "LR",
+    "ccn3": "430",
+    "cca3": "LBR",
+    "cioc": "LBR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Monrovia"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [6.5, -9.5],
+    "landlocked": false,
+    "area": 111369,
+    "flag": "🇱🇷",
+    "population": 5057677,
+    "gini": {
+      "2016": 35.3
+    },
+    "fifa": "LBR",
+    "capitalInfo": {
+      "latlng": [6.3, -10.8]
+    },
+    "continent": "africa",
+    "map": "4VsHsc2oeGeRL3wg6"
+  },
+  {
+    "name": "Zimbabwe",
+    "cca2": "ZW",
+    "ccn3": "716",
+    "cca3": "ZWE",
+    "cioc": "ZIM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Harare"],
+    "region": "Africa",
+    "subregion": "Southern",
+    "languages": {
+      "bwg": "Chibarwe",
+      "eng": "English",
+      "kck": "Kalanga",
+      "khi": "Khoisan",
+      "ndc": "Ndau",
+      "nde": "Northern Ndebele",
+      "nya": "Chewa",
+      "sna": "Shona",
+      "sot": "Sotho",
+      "toi": "Tonga",
+      "tsn": "Tswana",
+      "tso": "Tsonga",
+      "ven": "Venda",
+      "xho": "Xhosa",
+      "zib": "Zimbabwean Sign Language"
+    },
+    "latlng": [-20, 30],
+    "landlocked": true,
+    "area": 390757,
+    "flag": "🇿🇼",
+    "population": 14862927,
+    "gini": {
+      "2019": 50.3
+    },
+    "fifa": "ZIM",
+    "capitalInfo": {
+      "latlng": [-17.82, 31.03]
+    },
+    "continent": "africa",
+    "map": "M26BqdwQctqxXS65A"
+  },
+  {
+    "name": "Guadeloupe",
+    "cca2": "GP",
+    "ccn3": "312",
+    "cca3": "GLP",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Basse-Terre"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [16.25, -61.583333],
+    "landlocked": false,
+    "area": 1628,
+    "flag": "🇬🇵",
+    "population": 400132,
+    "capitalInfo": {
+      "latlng": [16.03, -61.73]
+    },
+    "continent": "north america",
+    "map": "Dy9R2EufJtoWm8UN9"
+  },
+  {
+    "name": "Uganda",
+    "cca2": "UG",
+    "ccn3": "800",
+    "cca3": "UGA",
+    "cioc": "UGA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Kampala"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "eng": "English",
+      "swa": "Swahili"
+    },
+    "latlng": [1, 32],
+    "landlocked": true,
+    "area": 241550,
+    "flag": "🇺🇬",
+    "population": 45741000,
+    "gini": {
+      "2016": 42.8
+    },
+    "fifa": "UGA",
+    "capitalInfo": {
+      "latlng": [0.32, 32.55]
+    },
+    "continent": "africa",
+    "map": "Y7812hFiGa8LD9N68"
+  },
+  {
+    "name": "Vanuatu",
+    "cca2": "VU",
+    "ccn3": "548",
+    "cca3": "VUT",
+    "cioc": "VAN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Port Vila"],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": {
+      "bis": "Bislama",
+      "eng": "English",
+      "fra": "French"
+    },
+    "latlng": [-16, 167],
+    "landlocked": false,
+    "area": 12189,
+    "flag": "🇻🇺",
+    "population": 307150,
+    "gini": {
+      "2010": 37.6
+    },
+    "fifa": "VAN",
+    "capitalInfo": {
+      "latlng": [-17.73, 168.32]
+    },
+    "continent": "oceania",
+    "map": "hwAjehcT7VfvP5zJ8"
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "cca2": "UM",
+    "ccn3": "581",
+    "cca3": "UMI",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Washington DC"],
+    "region": "Americas",
+    "subregion": "North",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [19.3, 166.633333],
+    "landlocked": false,
+    "area": 34.2,
+    "flag": "🇺🇲",
+    "population": 300,
+    "capitalInfo": {},
+    "continent": "oceania",
+    "map": "hZKnrzgeK69dDyPF8"
+  },
+  {
+    "name": "Palestine",
+    "cca2": "PS",
+    "ccn3": "275",
+    "cca3": "PSE",
+    "cioc": "PLE",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Ramallah", "Jerusalem"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [31.9, 35.2],
+    "landlocked": false,
+    "area": 6220,
+    "flag": "🇵🇸",
+    "population": 4803269,
+    "gini": {
+      "2016": 33.7
+    },
+    "fifa": "PLE",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [31.9, 35.2]
+    },
+    "continent": "asia",
+    "map": "QvTbkRdmdWEoYAmt5"
+  },
+  {
+    "name": "Pakistan",
+    "cca2": "PK",
+    "ccn3": "586",
+    "cca3": "PAK",
+    "cioc": "PAK",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Islamabad"],
+    "region": "Asia",
+    "subregion": "Southern",
+    "languages": {
+      "eng": "English",
+      "urd": "Urdu"
+    },
+    "latlng": [30, 70],
+    "landlocked": false,
+    "area": 881912,
+    "flag": "🇵🇰",
+    "population": 220892331,
+    "gini": {
+      "2018": 31.6
+    },
+    "fifa": "PAK",
+    "capitalInfo": {
+      "latlng": [33.68, 73.05]
+    },
+    "continent": "asia",
+    "map": "5LYujdfR5yLUXoERA"
+  },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "cca2": "HM",
+    "ccn3": "334",
+    "cca3": "HMD",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "region": "Antarctic",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-53.1, 72.51666666],
+    "landlocked": false,
+    "area": 412,
+    "flag": "🇭🇲",
+    "population": 0,
+    "capitalInfo": {},
+    "continent": "antarctica",
+    "map": "k5FBAiVaVyozuYeA7"
+  },
+  {
+    "name": "India",
+    "cca2": "IN",
+    "ccn3": "356",
+    "cca3": "IND",
+    "cioc": "IND",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["New Delhi"],
+    "region": "Asia",
+    "subregion": "Southern",
+    "languages": {
+      "eng": "English",
+      "hin": "Hindi",
+      "tam": "Tamil"
+    },
+    "latlng": [20, 77],
+    "landlocked": false,
+    "area": 3287590,
+    "flag": "🇮🇳",
+    "population": 1380004385,
+    "gini": {
+      "2011": 35.7
+    },
+    "fifa": "IND",
+    "capitalInfo": {
+      "latlng": [28.6, 77.2]
+    },
+    "continent": "asia",
+    "map": "WSk3fLwG4vtPQetp7"
+  },
+  {
+    "name": "Brunei",
+    "cca2": "BN",
+    "ccn3": "096",
+    "cca3": "BRN",
+    "cioc": "BRU",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Bandar Seri Begawan"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "msa": "Malay"
+    },
+    "latlng": [4.5, 114.66666666],
+    "landlocked": false,
+    "area": 5765,
+    "flag": "🇧🇳",
+    "population": 437483,
+    "fifa": "BRU",
+    "capitalInfo": {
+      "latlng": [4.88, 114.93]
+    },
+    "continent": "asia",
+    "map": "4jb4CqBXhr8vNh579"
+  },
+  {
+    "name": "United Arab Emirates",
+    "cca2": "AE",
+    "ccn3": "784",
+    "cca3": "ARE",
+    "cioc": "UAE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Abu Dhabi"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [24, 54],
+    "landlocked": false,
+    "area": 83600,
+    "flag": "🇦🇪",
+    "population": 9890400,
+    "gini": {
+      "2018": 26
+    },
+    "fifa": "UAE",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [24.47, 54.37]
+    },
+    "continent": "asia",
+    "map": "AZZTDA6GzVAnKMVd8"
+  },
+  {
+    "name": "Ecuador",
+    "cca2": "EC",
+    "ccn3": "218",
+    "cca3": "ECU",
+    "cioc": "ECU",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Quito"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [-2, -77.5],
+    "landlocked": false,
+    "area": 276841,
+    "flag": "🇪🇨",
+    "population": 17643060,
+    "gini": {
+      "2019": 45.7
+    },
+    "fifa": "ECU",
+    "capitalInfo": {
+      "latlng": [-0.22, -78.5]
+    },
+    "continent": "south america",
+    "map": "TbX8hUW4gcbRPZiK7"
+  },
+  {
+    "name": "Georgia",
+    "cca2": "GE",
+    "ccn3": "268",
+    "cca3": "GEO",
+    "cioc": "GEO",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Tbilisi"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "kat": "Georgian"
+    },
+    "latlng": [42, 43.5],
+    "landlocked": false,
+    "area": 69700,
+    "flag": "🇬🇪",
+    "population": 3714000,
+    "gini": {
+      "2019": 35.9
+    },
+    "fifa": "GEO",
+    "capitalInfo": {
+      "latlng": [41.68, 44.83]
+    },
+    "continent": "asia",
+    "map": "bvCaGBePR1ZEDK5cA"
+  },
+  {
+    "name": "Guam",
+    "cca2": "GU",
+    "ccn3": "316",
+    "cca3": "GUM",
+    "cioc": "GUM",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Hagåtña"],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": {
+      "cha": "Chamorro",
+      "eng": "English",
+      "spa": "Spanish"
+    },
+    "latlng": [13.46666666, 144.78333333],
+    "landlocked": false,
+    "area": 549,
+    "flag": "🇬🇺",
+    "population": 168783,
+    "fifa": "GUM",
+    "capitalInfo": {
+      "latlng": [13.48, 144.75]
+    },
+    "continent": "oceania",
+    "map": "Xfnq2i279b18cH3C9"
+  },
+  {
+    "name": "Seychelles",
+    "cca2": "SC",
+    "ccn3": "690",
+    "cca3": "SYC",
+    "cioc": "SEY",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Victoria"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "crs": "Seychellois Creole",
+      "eng": "English",
+      "fra": "French"
+    },
+    "latlng": [-4.58333333, 55.66666666],
+    "landlocked": false,
+    "area": 452,
+    "flag": "🇸🇨",
+    "population": 98462,
+    "gini": {
+      "2018": 32.1
+    },
+    "fifa": "SEY",
+    "capitalInfo": {
+      "latlng": [-4.62, 55.45]
+    },
+    "continent": "africa",
+    "map": "aqCcy2TKh5TV5MAX8"
+  },
+  {
+    "name": "Falkland Islands",
+    "cca2": "FK",
+    "ccn3": "238",
+    "cca3": "FLK",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Stanley"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-51.75, -59],
+    "landlocked": false,
+    "area": 12173,
+    "flag": "🇫🇰",
+    "population": 2563,
+    "capitalInfo": {
+      "latlng": [-51.7, -57.85]
+    },
+    "continent": "south america",
+    "map": "TZH1x7AGanQKifNk7"
+  },
+  {
+    "name": "Gibraltar",
+    "cca2": "GI",
+    "ccn3": "292",
+    "cca3": "GIB",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Gibraltar"],
+    "region": "Europe",
+    "subregion": "Southern",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [36.13333333, -5.35],
+    "landlocked": false,
+    "area": 6,
+    "flag": "🇬🇮",
+    "population": 33691,
+    "fifa": "GIB",
+    "capitalInfo": {
+      "latlng": [36.13, -5.35]
+    },
+    "continent": "europe",
+    "map": "CEoHAs1t6byCBhHFA"
+  },
+  {
+    "name": "Solomon Islands",
+    "cca2": "SB",
+    "ccn3": "090",
+    "cca3": "SLB",
+    "cioc": "SOL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Honiara"],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-8, 159],
+    "landlocked": false,
+    "area": 28896,
+    "flag": "🇸🇧",
+    "population": 686878,
+    "gini": {
+      "2012": 37.1
+    },
+    "fifa": "SOL",
+    "capitalInfo": {
+      "latlng": [-9.43, 159.95]
+    },
+    "continent": "oceania",
+    "map": "JbPkx86Ywjv8C1n8A"
+  },
+  {
+    "name": "Uzbekistan",
+    "cca2": "UZ",
+    "ccn3": "860",
+    "cca3": "UZB",
+    "cioc": "UZB",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Tashkent"],
+    "region": "Asia",
+    "subregion": "Central",
+    "languages": {
+      "rus": "Russian",
+      "uzb": "Uzbek"
+    },
+    "latlng": [41, 64],
+    "landlocked": true,
+    "area": 447400,
+    "flag": "🇺🇿",
+    "population": 34232050,
+    "gini": {
+      "2003": 35.3
+    },
+    "fifa": "UZB",
+    "capitalInfo": {
+      "latlng": [41.32, 69.25]
+    },
+    "continent": "asia",
+    "map": "AJpo6MjMx23qSWCz8"
+  },
+  {
+    "name": "Mongolia",
+    "cca2": "MN",
+    "ccn3": "496",
+    "cca3": "MNG",
+    "cioc": "MGL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Ulan Bator"],
+    "region": "Asia",
+    "subregion": "Eastern",
+    "languages": {
+      "mon": "Mongolian"
+    },
+    "latlng": [46, 105],
+    "landlocked": true,
+    "area": 1564110,
+    "flag": "🇲🇳",
+    "population": 3278292,
+    "gini": {
+      "2018": 32.7
+    },
+    "fifa": "MNG",
+    "capitalInfo": {
+      "latlng": [47.92, 106.91]
+    },
+    "continent": "asia",
+    "map": "A1X7bMCKThBDNjzH6"
+  },
+  {
+    "name": "Guyana",
+    "cca2": "GY",
+    "ccn3": "328",
+    "cca3": "GUY",
+    "cioc": "GUY",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Georgetown"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [5, -59],
+    "landlocked": false,
+    "area": 214969,
+    "flag": "🇬🇾",
+    "population": 786559,
+    "gini": {
+      "1998": 45.1
+    },
+    "fifa": "GUY",
+    "capitalInfo": {
+      "latlng": [6.8, -58.15]
+    },
+    "continent": "south america",
+    "map": "DFsme2xEeugUAsCx5"
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "cca2": "BA",
+    "ccn3": "070",
+    "cca3": "BIH",
+    "cioc": "BIH",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Sarajevo"],
+    "region": "Europe",
+    "subregion": "Southeast",
+    "languages": {
+      "bos": "Bosnian",
+      "hrv": "Croatian",
+      "srp": "Serbian"
+    },
+    "latlng": [44, 18],
+    "landlocked": false,
+    "area": 51209,
+    "flag": "🇧🇦",
+    "population": 3280815,
+    "gini": {
+      "2011": 33
+    },
+    "fifa": "BIH",
+    "capitalInfo": {
+      "latlng": [43.87, 18.42]
+    },
+    "continent": "europe",
+    "map": "https://www.google.com/maps/place/Bosnia+and+Herzegovina"
+  },
+  {
+    "name": "Tonga",
+    "cca2": "TO",
+    "ccn3": "776",
+    "cca3": "TON",
+    "cioc": "TGA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Nuku'alofa"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "eng": "English",
+      "ton": "Tongan"
+    },
+    "latlng": [-20, -175],
+    "landlocked": false,
+    "area": 747,
+    "flag": "🇹🇴",
+    "population": 105697,
+    "gini": {
+      "2015": 37.6
+    },
+    "fifa": "TGA",
+    "capitalInfo": {
+      "latlng": [-21.13, -175.2]
+    },
+    "continent": "oceania",
+    "map": "p5YALBY2QdEzswRo7"
+  },
+  {
+    "name": "France",
+    "cca2": "FR",
+    "ccn3": "250",
+    "cca3": "FRA",
+    "cioc": "FRA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Paris"],
+    "region": "Europe",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [46, 2],
+    "landlocked": false,
+    "area": 551695,
+    "flag": "🇫🇷",
+    "population": 67391582,
+    "gini": {
+      "2018": 32.4
+    },
+    "fifa": "FRA",
+    "capitalInfo": {
+      "latlng": [48.87, 2.33]
+    },
+    "continent": "europe",
+    "map": "g7QxxSFsWyTPKuzd7"
+  },
+  {
+    "name": "Slovenia",
+    "cca2": "SI",
+    "ccn3": "705",
+    "cca3": "SVN",
+    "cioc": "SLO",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Ljubljana"],
+    "region": "Europe",
+    "subregion": "Central",
+    "languages": {
+      "slv": "Slovene"
+    },
+    "latlng": [46.11666666, 14.81666666],
+    "landlocked": false,
+    "area": 20273,
+    "flag": "🇸🇮",
+    "population": 2100126,
+    "gini": {
+      "2018": 24.6
+    },
+    "fifa": "SVN",
+    "capitalInfo": {
+      "latlng": [46.05, 14.52]
+    },
+    "continent": "europe",
+    "map": "7zgFmswcCJh5L5D49"
+  },
+  {
+    "name": "Rwanda",
+    "cca2": "RW",
+    "ccn3": "646",
+    "cca3": "RWA",
+    "cioc": "RWA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Kigali"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "kin": "Kinyarwanda"
+    },
+    "latlng": [-2, 30],
+    "landlocked": true,
+    "area": 26338,
+    "flag": "🇷🇼",
+    "population": 12952209,
+    "gini": {
+      "2016": 43.7
+    },
+    "fifa": "RWA",
+    "capitalInfo": {
+      "latlng": [-1.95, 30.05]
+    },
+    "continent": "africa",
+    "map": "j5xb5r7CLqjYbyP86"
+  },
+  {
+    "name": "Bulgaria",
+    "cca2": "BG",
+    "ccn3": "100",
+    "cca3": "BGR",
+    "cioc": "BUL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Sofia"],
+    "region": "Europe",
+    "subregion": "Southeast",
+    "languages": {
+      "bul": "Bulgarian"
+    },
+    "latlng": [43, 25],
+    "landlocked": false,
+    "area": 110879,
+    "flag": "🇧🇬",
+    "population": 6927288,
+    "gini": {
+      "2018": 41.3
+    },
+    "fifa": "BUL",
+    "capitalInfo": {
+      "latlng": [42.68, 23.32]
+    },
+    "continent": "europe",
+    "map": "F5uAhDGWzc3BrHfm9"
+  },
+  {
+    "name": "Timor-Leste",
+    "cca2": "TL",
+    "ccn3": "626",
+    "cca3": "TLS",
+    "cioc": "TLS",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Dili"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "por": "Portuguese",
+      "tet": "Tetum"
+    },
+    "latlng": [-8.83333333, 125.91666666],
+    "landlocked": false,
+    "area": 14874,
+    "flag": "🇹🇱",
+    "population": 1318442,
+    "gini": {
+      "2014": 28.7
+    },
+    "fifa": "TLS",
+    "capitalInfo": {
+      "latlng": [-8.58, 125.6]
+    },
+    "continent": "oceania",
+    "map": "sFqBC9zjgUXPR1iTA"
+  },
+  {
+    "name": "Nigeria",
+    "cca2": "NG",
+    "ccn3": "566",
+    "cca3": "NGA",
+    "cioc": "NGR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Abuja"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [10, 8],
+    "landlocked": false,
+    "area": 923768,
+    "flag": "🇳🇬",
+    "population": 206139587,
+    "gini": {
+      "2018": 35.1
+    },
+    "fifa": "NGA",
+    "capitalInfo": {
+      "latlng": [9.08, 7.53]
+    },
+    "continent": "africa",
+    "map": "LTn417qWwBPFszuV9"
+  },
+  {
+    "name": "South Georgia",
+    "cca2": "GS",
+    "ccn3": "239",
+    "cca3": "SGS",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["King Edward Point"],
+    "region": "Antarctic",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-54.5, -37],
+    "landlocked": false,
+    "area": 3903,
+    "flag": "🇬🇸",
+    "population": 30,
+    "capitalInfo": {
+      "latlng": [-54.28, -36.5]
+    },
+    "continent": "antarctica",
+    "map": "mJzdaBwKBbm2B81q9"
+  },
+  {
+    "name": "Nauru",
+    "cca2": "NR",
+    "ccn3": "520",
+    "cca3": "NRU",
+    "cioc": "NRU",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Yaren"],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": {
+      "eng": "English",
+      "nau": "Nauru"
+    },
+    "latlng": [-0.53333333, 166.91666666],
+    "landlocked": false,
+    "area": 21,
+    "flag": "🇳🇷",
+    "population": 10834,
+    "gini": {
+      "2012": 34.8
+    },
+    "capitalInfo": {
+      "latlng": [-0.55, 166.92]
+    },
+    "continent": "oceania",
+    "map": "kyAGw6XEJgjSMsTK7"
+  },
+  {
+    "name": "Faroe Islands",
+    "cca2": "FO",
+    "ccn3": "234",
+    "cca3": "FRO",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Tórshavn"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "dan": "Danish",
+      "fao": "Faroese"
+    },
+    "latlng": [62, -7],
+    "landlocked": false,
+    "area": 1393,
+    "flag": "🇫🇴",
+    "population": 48865,
+    "fifa": "FRO",
+    "capitalInfo": {
+      "latlng": [62.01, -6.77]
+    },
+    "continent": "europe",
+    "map": "6sTru4SmHdEVcNkM6"
+  },
+  {
+    "name": "American Samoa",
+    "cca2": "AS",
+    "ccn3": "016",
+    "cca3": "ASM",
+    "cioc": "ASA",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Pago Pago"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "eng": "English",
+      "smo": "Samoan"
+    },
+    "latlng": [-14.33333333, -170],
+    "landlocked": false,
+    "area": 199,
+    "flag": "🇦🇸",
+    "population": 55197,
+    "fifa": "ASA",
+    "capitalInfo": {
+      "latlng": [-14.27, -170.7]
+    },
+    "continent": "oceania",
+    "map": "Re9ePMjwP1sFCBFA6"
+  },
+  {
+    "name": "Lesotho",
+    "cca2": "LS",
+    "ccn3": "426",
+    "cca3": "LSO",
+    "cioc": "LES",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Maseru"],
+    "region": "Africa",
+    "subregion": "Southern",
+    "languages": {
+      "eng": "English",
+      "sot": "Sotho"
+    },
+    "latlng": [-29.5, 28.5],
+    "landlocked": true,
+    "area": 30355,
+    "flag": "🇱🇸",
+    "population": 2142252,
+    "gini": {
+      "2017": 44.9
+    },
+    "fifa": "LES",
+    "capitalInfo": {
+      "latlng": [-29.32, 27.48]
+    },
+    "continent": "africa",
+    "map": "H8gJi5mL4Cmd1SF28"
+  },
+  {
+    "name": "Montenegro",
+    "cca2": "ME",
+    "ccn3": "499",
+    "cca3": "MNE",
+    "cioc": "MNE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Podgorica"],
+    "region": "Europe",
+    "subregion": "Southeast",
+    "languages": {
+      "cnr": "Montenegrin"
+    },
+    "latlng": [42.5, 19.3],
+    "landlocked": false,
+    "area": 13812,
+    "flag": "🇲🇪",
+    "population": 621718,
+    "gini": {
+      "2016": 38.5
+    },
+    "fifa": "MNE",
+    "capitalInfo": {
+      "latlng": [42.43, 19.27]
+    },
+    "continent": "europe",
+    "map": "4THX1fM7WqANuPbB8"
+  },
+  {
+    "name": "Cape Verde",
+    "cca2": "CV",
+    "ccn3": "132",
+    "cca3": "CPV",
+    "cioc": "CPV",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Praia"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "por": "Portuguese"
+    },
+    "latlng": [16, -24],
+    "landlocked": false,
+    "area": 4033,
+    "flag": "🇨🇻",
+    "population": 555988,
+    "gini": {
+      "2015": 42.4
+    },
+    "fifa": "CPV",
+    "capitalInfo": {
+      "latlng": [14.92, -23.52]
+    },
+    "continent": "africa",
+    "map": "Kc9vy5ChjuiAgMfXA"
+  },
+  {
+    "name": "Cameroon",
+    "cca2": "CM",
+    "ccn3": "120",
+    "cca3": "CMR",
+    "cioc": "CMR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Yaoundé"],
+    "region": "Africa",
+    "subregion": "Middle",
+    "languages": {
+      "eng": "English",
+      "fra": "French"
+    },
+    "latlng": [6, 12],
+    "landlocked": false,
+    "area": 475442,
+    "flag": "🇨🇲",
+    "population": 26545864,
+    "gini": {
+      "2014": 46.6
+    },
+    "fifa": "CMR",
+    "capitalInfo": {
+      "latlng": [3.85, 11.5]
+    },
+    "continent": "africa",
+    "map": "JqiipHgFboG3rBJh9"
+  },
+  {
+    "name": "North Korea",
+    "cca2": "KP",
+    "ccn3": "408",
+    "cca3": "PRK",
+    "cioc": "PRK",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Pyongyang"],
+    "region": "Asia",
+    "subregion": "Eastern",
+    "languages": {
+      "kor": "Korean"
+    },
+    "latlng": [40, 127],
+    "landlocked": false,
+    "area": 120538,
+    "flag": "🇰🇵",
+    "population": 25778815,
+    "fifa": "PRK",
+    "capitalInfo": {
+      "latlng": [39.02, 125.75]
+    },
+    "continent": "asia",
+    "map": "9q5T2DMeH5JL7Tky6"
+  },
+  {
+    "name": "Cuba",
+    "cca2": "CU",
+    "ccn3": "192",
+    "cca3": "CUB",
+    "cioc": "CUB",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Havana"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [21.5, -80],
+    "landlocked": false,
+    "area": 109884,
+    "flag": "🇨🇺",
+    "population": 11326616,
+    "fifa": "CUB",
+    "capitalInfo": {
+      "latlng": [23.12, -82.35]
+    },
+    "continent": "north america",
+    "map": "1dDw1QfZspfMUTm99"
+  },
+  {
+    "name": "Suriname",
+    "cca2": "SR",
+    "ccn3": "740",
+    "cca3": "SUR",
+    "cioc": "SUR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Paramaribo"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "nld": "Dutch"
+    },
+    "latlng": [4, -56],
+    "landlocked": false,
+    "area": 163820,
+    "flag": "🇸🇷",
+    "population": 586634,
+    "gini": {
+      "1999": 57.9
+    },
+    "fifa": "SUR",
+    "capitalInfo": {
+      "latlng": [5.83, -55.17]
+    },
+    "continent": "south america",
+    "map": "iy7TuQLSi4qgoBoG7"
+  },
+  {
+    "name": "New Zealand",
+    "cca2": "NZ",
+    "ccn3": "554",
+    "cca3": "NZL",
+    "cioc": "NZL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Wellington"],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": {
+      "eng": "English",
+      "mri": "Māori",
+      "nzs": "New Zealand Sign Language"
+    },
+    "latlng": [-41, 174],
+    "landlocked": false,
+    "area": 270467,
+    "flag": "🇳🇿",
+    "population": 5084300,
+    "fifa": "NZL",
+    "capitalInfo": {
+      "latlng": [-41.3, 174.78]
+    },
+    "continent": "oceania",
+    "map": "xXiDQo65dwdpw9iu8"
+  },
+  {
+    "name": "Mexico",
+    "cca2": "MX",
+    "ccn3": "484",
+    "cca3": "MEX",
+    "cioc": "MEX",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Mexico City"],
+    "region": "Americas",
+    "subregion": "North",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [23, -102],
+    "landlocked": false,
+    "area": 1964375,
+    "flag": "🇲🇽",
+    "population": 128932753,
+    "gini": {
+      "2018": 45.4
+    },
+    "fifa": "MEX",
+    "capitalInfo": {
+      "latlng": [19.43, -99.13]
+    },
+    "continent": "north america",
+    "map": "s5g7imNPMDEePxzbA"
+  },
+  {
+    "name": "Marshall Islands",
+    "cca2": "MH",
+    "ccn3": "584",
+    "cca3": "MHL",
+    "cioc": "MHL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Majuro"],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": {
+      "eng": "English",
+      "mah": "Marshallese"
+    },
+    "latlng": [9, 168],
+    "landlocked": false,
+    "area": 181,
+    "flag": "🇲🇭",
+    "population": 59194,
+    "capitalInfo": {
+      "latlng": [7.1, 171.38]
+    },
+    "continent": "oceania",
+    "map": "A4xLi1XvcX88gi3W8"
+  },
+  {
+    "name": "Philippines",
+    "cca2": "PH",
+    "ccn3": "608",
+    "cca3": "PHL",
+    "cioc": "PHI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Manila"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "eng": "English",
+      "fil": "Filipino"
+    },
+    "latlng": [13, 122],
+    "landlocked": false,
+    "area": 342353,
+    "flag": "🇵🇭",
+    "population": 109581085,
+    "gini": {
+      "2018": 42.3
+    },
+    "fifa": "PHI",
+    "capitalInfo": {
+      "latlng": [14.6, 120.97]
+    },
+    "continent": "asia",
+    "map": "k8T2fb5VMUfsWFX6A"
+  },
+  {
+    "name": "Sweden",
+    "cca2": "SE",
+    "ccn3": "752",
+    "cca3": "SWE",
+    "cioc": "SWE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Stockholm"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "swe": "Swedish"
+    },
+    "latlng": [62, 15],
+    "landlocked": false,
+    "area": 450295,
+    "flag": "🇸🇪",
+    "population": 10353442,
+    "gini": {
+      "2018": 30
+    },
+    "fifa": "SWE",
+    "capitalInfo": {
+      "latlng": [59.33, 18.05]
+    },
+    "continent": "europe",
+    "map": "iqygE491ADVgnBW39"
+  },
+  {
+    "name": "Bouvet Island",
+    "cca2": "BV",
+    "ccn3": "074",
+    "cca3": "BVT",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "region": "Antarctic",
+    "languages": {
+      "nor": "Norwegian"
+    },
+    "latlng": [-54.43333333, 3.4],
+    "landlocked": false,
+    "area": 49,
+    "flag": "🇧🇻",
+    "population": 0,
+    "capitalInfo": {},
+    "continent": "antarctica",
+    "map": "7WRQAEKZb4uK36yi9"
+  },
+  {
+    "name": "Jamaica",
+    "cca2": "JM",
+    "ccn3": "388",
+    "cca3": "JAM",
+    "cioc": "JAM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Kingston"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English",
+      "jam": "Jamaican Patois"
+    },
+    "latlng": [18.25, -77.5],
+    "landlocked": false,
+    "area": 10991,
+    "flag": "🇯🇲",
+    "population": 2961161,
+    "gini": {
+      "2004": 45.5
+    },
+    "fifa": "JAM",
+    "capitalInfo": {
+      "latlng": [17.99702, -76.79358]
+    },
+    "continent": "north america",
+    "map": "Z8mQ6jxnRQKFwJy9A"
+  },
+  {
+    "name": "Venezuela",
+    "cca2": "VE",
+    "ccn3": "862",
+    "cca3": "VEN",
+    "cioc": "VEN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Caracas"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [8, -66],
+    "landlocked": false,
+    "area": 916445,
+    "flag": "🇻🇪",
+    "population": 28435943,
+    "gini": {
+      "2006": 44.8
+    },
+    "fifa": "VEN",
+    "capitalInfo": {
+      "latlng": [10.48, -66.87]
+    },
+    "continent": "south america",
+    "map": "KLCwDN8sec7z2kse9"
+  },
+  {
+    "name": "Jersey",
+    "cca2": "JE",
+    "ccn3": "832",
+    "cca3": "JEY",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Saint Helier"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "eng": "English",
+      "fra": "French",
+      "nrf": "Jèrriais"
+    },
+    "latlng": [49.25, -2.16666666],
+    "landlocked": false,
+    "area": 116,
+    "flag": "🇯🇪",
+    "population": 100800,
+    "capitalInfo": {
+      "latlng": [49.18, -2.1]
+    },
+    "continent": "europe",
+    "map": "rXG8GZZtsqK92kTCA"
+  },
+  {
+    "name": "Afghanistan",
+    "cca2": "AF",
+    "ccn3": "004",
+    "cca3": "AFG",
+    "cioc": "AFG",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Kabul"],
+    "region": "Asia",
+    "subregion": "Southern",
+    "languages": {
+      "prs": "Dari",
+      "pus": "Pashto",
+      "tuk": "Turkmen"
+    },
+    "latlng": [33, 65],
+    "landlocked": true,
+    "area": 652230,
+    "flag": "🇦🇫",
+    "population": 40218234,
+    "fifa": "AFG",
+    "capitalInfo": {
+      "latlng": [34.52, 69.18]
+    },
+    "continent": "asia",
+    "map": "BXBGw7yUUFknCfva9"
+  },
+  {
+    "name": "Macau",
+    "cca2": "MO",
+    "ccn3": "446",
+    "cca3": "MAC",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "region": "Asia",
+    "subregion": "Eastern",
+    "languages": {
+      "por": "Portuguese",
+      "zho": "Chinese"
+    },
+    "latlng": [22.16666666, 113.55],
+    "landlocked": false,
+    "area": 30,
+    "flag": "🇲🇴",
+    "population": 649342,
+    "fifa": "MAC",
+    "capitalInfo": {},
+    "continent": "asia",
+    "map": "whymRdk3dZFfAAs4A"
+  },
+  {
+    "name": "Åland Islands",
+    "cca2": "AX",
+    "ccn3": "248",
+    "cca3": "ALA",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Mariehamn"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "swe": "Swedish"
+    },
+    "latlng": [60.116667, 19.9],
+    "landlocked": false,
+    "area": 1580,
+    "flag": "🇦🇽",
+    "population": 29458,
+    "capitalInfo": {
+      "latlng": [60.12, 19.9]
+    },
+    "continent": "europe",
+    "map": "ewFb3vYsfUmVCoSb8"
+  },
+  {
+    "name": "Syria",
+    "cca2": "SY",
+    "ccn3": "760",
+    "cca3": "SYR",
+    "cioc": "SYR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Damascus"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [35, 38],
+    "landlocked": false,
+    "area": 185180,
+    "flag": "🇸🇾",
+    "population": 17500657,
+    "gini": {
+      "2003": 37.5
+    },
+    "fifa": "SYR",
+    "capitalInfo": {
+      "latlng": [33.5, 36.3]
+    },
+    "continent": "asia",
+    "map": "Xe3VnFbwdb4nv2SM9"
+  },
+  {
+    "name": "São Tomé and Príncipe",
+    "cca2": "ST",
+    "ccn3": "678",
+    "cca3": "STP",
+    "cioc": "STP",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["São Tomé"],
+    "region": "Africa",
+    "subregion": "Middle",
+    "languages": {
+      "por": "Portuguese"
+    },
+    "latlng": [1, 7],
+    "landlocked": false,
+    "area": 964,
+    "flag": "🇸🇹",
+    "population": 219161,
+    "gini": {
+      "2017": 56.3
+    },
+    "fifa": "STP",
+    "capitalInfo": {
+      "latlng": [0.34, 6.73]
+    },
+    "continent": "africa",
+    "map": "9EUppm13RtPX9oF46"
+  },
+  {
+    "name": "Switzerland",
+    "cca2": "CH",
+    "ccn3": "756",
+    "cca3": "CHE",
+    "cioc": "SUI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Bern"],
+    "region": "Europe",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French",
+      "gsw": "Swiss German",
+      "ita": "Italian",
+      "roh": "Romansh"
+    },
+    "latlng": [47, 8],
+    "landlocked": true,
+    "area": 41284,
+    "flag": "🇨🇭",
+    "population": 8654622,
+    "gini": {
+      "2018": 33.1
+    },
+    "fifa": "SUI",
+    "capitalInfo": {
+      "latlng": [46.92, 7.47]
+    },
+    "continent": "europe",
+    "map": "uVuZcXaxSx5jLyEC9"
+  },
+  {
+    "name": "San Marino",
+    "cca2": "SM",
+    "ccn3": "674",
+    "cca3": "SMR",
+    "cioc": "SMR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["City of San Marino"],
+    "region": "Europe",
+    "subregion": "Southern",
+    "languages": {
+      "ita": "Italian"
+    },
+    "latlng": [43.76666666, 12.41666666],
+    "landlocked": true,
+    "area": 61,
+    "flag": "🇸🇲",
+    "population": 33938,
+    "fifa": "SMR",
+    "capitalInfo": {
+      "latlng": [43.94, 12.45]
+    },
+    "continent": "europe",
+    "map": "rxCVJjm8dVY93RPY8"
+  },
+  {
+    "name": "Eswatini",
+    "cca2": "SZ",
+    "ccn3": "748",
+    "cca3": "SWZ",
+    "cioc": "SWZ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Mbabane"],
+    "region": "Africa",
+    "subregion": "Southern",
+    "languages": {
+      "eng": "English",
+      "ssw": "Swazi"
+    },
+    "latlng": [-26.5, 31.5],
+    "landlocked": true,
+    "area": 17364,
+    "flag": "🇸🇿",
+    "population": 1160164,
+    "gini": {
+      "2016": 54.6
+    },
+    "fifa": "SWZ",
+    "capitalInfo": {
+      "latlng": [-26.32, 31.13]
+    },
+    "continent": "africa",
+    "map": "cUY79eqQihFSE8hV6"
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "cca2": "VC",
+    "ccn3": "670",
+    "cca3": "VCT",
+    "cioc": "VIN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Kingstown"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [13.25, -61.2],
+    "landlocked": false,
+    "area": 389,
+    "flag": "🇻🇨",
+    "population": 110947,
+    "fifa": "VIN",
+    "capitalInfo": {
+      "latlng": [13.13, -61.22]
+    },
+    "continent": "north america",
+    "map": "wMbnMqjG37FMnrwf7"
+  },
+  {
+    "name": "Malaysia",
+    "cca2": "MY",
+    "ccn3": "458",
+    "cca3": "MYS",
+    "cioc": "MAS",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Kuala Lumpur"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "eng": "English",
+      "msa": "Malay"
+    },
+    "latlng": [2.5, 112.5],
+    "landlocked": false,
+    "area": 330803,
+    "flag": "🇲🇾",
+    "population": 32365998,
+    "gini": {
+      "2015": 41.1
+    },
+    "fifa": "MAS",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [3.17, 101.7]
+    },
+    "continent": "asia",
+    "map": "qrY1PNeUXGyXDcPy6"
+  },
+  {
+    "name": "Germany",
+    "cca2": "DE",
+    "ccn3": "276",
+    "cca3": "DEU",
+    "cioc": "GER",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Berlin"],
+    "region": "Europe",
+    "subregion": "Western",
+    "languages": {
+      "deu": "German"
+    },
+    "latlng": [51, 9],
+    "landlocked": false,
+    "area": 357114,
+    "flag": "🇩🇪",
+    "population": 83240525,
+    "gini": {
+      "2016": 31.9
+    },
+    "fifa": "GER",
+    "capitalInfo": {
+      "latlng": [52.52, 13.4]
+    },
+    "continent": "europe",
+    "map": "mD9FBMq1nvXUBrkv6"
+  },
+  {
+    "name": "Poland",
+    "cca2": "PL",
+    "ccn3": "616",
+    "cca3": "POL",
+    "cioc": "POL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Warsaw"],
+    "region": "Europe",
+    "subregion": "Central",
+    "languages": {
+      "pol": "Polish"
+    },
+    "latlng": [52, 20],
+    "landlocked": false,
+    "area": 312679,
+    "flag": "🇵🇱",
+    "population": 37950802,
+    "gini": {
+      "2018": 30.2
+    },
+    "fifa": "POL",
+    "capitalInfo": {
+      "latlng": [52.25, 21]
+    },
+    "continent": "europe",
+    "map": "gY9Xw4Sf4415P4949"
+  },
+  {
+    "name": "Grenada",
+    "cca2": "GD",
+    "ccn3": "308",
+    "cca3": "GRD",
+    "cioc": "GRN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["St. George's"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [12.11666666, -61.66666666],
+    "landlocked": false,
+    "area": 344,
+    "flag": "🇬🇩",
+    "population": 112519,
+    "fifa": "GRN",
+    "capitalInfo": {
+      "latlng": [32.38, -64.68]
+    },
+    "continent": "north america",
+    "map": "rqWyfUAt4xhvk1Zy9"
+  },
+  {
+    "name": "South Sudan",
+    "cca2": "SS",
+    "ccn3": "728",
+    "cca3": "SSD",
+    "cioc": "SSD",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Juba"],
+    "region": "Africa",
+    "subregion": "Middle",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [7, 30],
+    "landlocked": true,
+    "area": 619745,
+    "flag": "🇸🇸",
+    "population": 11193729,
+    "gini": {
+      "2016": 44.1
+    },
+    "fifa": "SSD",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [4.85, 31.62]
+    },
+    "continent": "africa",
+    "map": "Zm1AYCXb9HSNF1P27"
+  },
+  {
+    "name": "Belgium",
+    "cca2": "BE",
+    "ccn3": "056",
+    "cca3": "BEL",
+    "cioc": "BEL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Brussels"],
+    "region": "Europe",
+    "subregion": "Western",
+    "languages": {
+      "deu": "German",
+      "fra": "French",
+      "nld": "Dutch"
+    },
+    "latlng": [50.83333333, 4],
+    "landlocked": false,
+    "area": 30528,
+    "flag": "🇧🇪",
+    "population": 11555997,
+    "gini": {
+      "2018": 27.2
+    },
+    "fifa": "BEL",
+    "capitalInfo": {
+      "latlng": [50.83, 4.33]
+    },
+    "continent": "europe",
+    "map": "UQQzat85TCtPRXAL8"
+  },
+  {
+    "name": "Cambodia",
+    "cca2": "KH",
+    "ccn3": "116",
+    "cca3": "KHM",
+    "cioc": "CAM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Phnom Penh"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "khm": "Khmer"
+    },
+    "latlng": [13, 105],
+    "landlocked": false,
+    "area": 181035,
+    "flag": "🇰🇭",
+    "population": 16718971,
+    "fifa": "CAM",
+    "capitalInfo": {
+      "latlng": [11.55, 104.92]
+    },
+    "continent": "asia",
+    "map": "nztQtFSrUXZymJaW8"
+  },
+  {
+    "name": "Sri Lanka",
+    "cca2": "LK",
+    "ccn3": "144",
+    "cca3": "LKA",
+    "cioc": "SRI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Sri Jayawardenepura Kotte"],
+    "region": "Asia",
+    "subregion": "Southern",
+    "languages": {
+      "sin": "Sinhala",
+      "tam": "Tamil"
+    },
+    "latlng": [7, 81],
+    "landlocked": false,
+    "area": 65610,
+    "flag": "🇱🇰",
+    "population": 21919000,
+    "gini": {
+      "2016": 39.3
+    },
+    "fifa": "SRI",
+    "capitalInfo": {
+      "latlng": [6.89, 79.9]
+    },
+    "continent": "asia",
+    "map": "VkPHoeFSfgzRQCDv8"
+  },
+  {
+    "name": "Ivory Coast",
+    "cca2": "CI",
+    "ccn3": "384",
+    "cca3": "CIV",
+    "cioc": "CIV",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Yamoussoukro"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [8, -5],
+    "landlocked": false,
+    "area": 322463,
+    "flag": "🇨🇮",
+    "population": 26378275,
+    "gini": {
+      "2015": 41.5
+    },
+    "fifa": "CIV",
+    "capitalInfo": {
+      "latlng": [6.82, -5.27]
+    },
+    "continent": "africa",
+    "map": "wKsmN7f5qAeNtGjP6"
+  },
+  {
+    "name": "Ghana",
+    "cca2": "GH",
+    "ccn3": "288",
+    "cca3": "GHA",
+    "cioc": "GHA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Accra"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [8, -2],
+    "landlocked": false,
+    "area": 238533,
+    "flag": "🇬🇭",
+    "population": 31072945,
+    "gini": {
+      "2016": 43.5
+    },
+    "fifa": "GHA",
+    "capitalInfo": {
+      "latlng": [5.55, -0.22]
+    },
+    "continent": "africa",
+    "map": "Avy5RSmdsXFBaiXq8"
+  },
+  {
+    "name": "Eritrea",
+    "cca2": "ER",
+    "ccn3": "232",
+    "cca3": "ERI",
+    "cioc": "ERI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Asmara"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "ara": "Arabic",
+      "eng": "English",
+      "tir": "Tigrinya"
+    },
+    "latlng": [15, 39],
+    "landlocked": false,
+    "area": 117600,
+    "flag": "🇪🇷",
+    "population": 5352000,
+    "fifa": "ERI",
+    "capitalInfo": {
+      "latlng": [15.33, 38.93]
+    },
+    "continent": "africa",
+    "map": "HRyqUpnPwwG6jY5j6"
+  },
+  {
+    "name": "Belize",
+    "cca2": "BZ",
+    "ccn3": "084",
+    "cca3": "BLZ",
+    "cioc": "BIZ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Belmopan"],
+    "region": "Americas",
+    "subregion": "Central",
+    "languages": {
+      "bjz": "Belizean Creole",
+      "eng": "English",
+      "spa": "Spanish"
+    },
+    "latlng": [17.25, -88.75],
+    "landlocked": false,
+    "area": 22966,
+    "flag": "🇧🇿",
+    "population": 397621,
+    "gini": {
+      "1999": 53.3
+    },
+    "fifa": "BLZ",
+    "capitalInfo": {
+      "latlng": [17.25, -88.77]
+    },
+    "continent": "north america",
+    "map": "jdCccpdLodm1uTmo9"
+  },
+  {
+    "name": "Christmas Island",
+    "cca2": "CX",
+    "ccn3": "162",
+    "cca3": "CXR",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Flying Fish Cove"],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-10.5, 105.66666666],
+    "landlocked": false,
+    "area": 135,
+    "flag": "🇨🇽",
+    "population": 2072,
+    "capitalInfo": {
+      "latlng": [-10.42, 105.68]
+    },
+    "continent": "asia",
+    "map": "ZC17hHsQZpShN5wk9"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "cca2": "GQ",
+    "ccn3": "226",
+    "cca3": "GNQ",
+    "cioc": "GEQ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Malabo"],
+    "region": "Africa",
+    "subregion": "Middle",
+    "languages": {
+      "fra": "French",
+      "por": "Portuguese",
+      "spa": "Spanish"
+    },
+    "latlng": [2, 10],
+    "landlocked": false,
+    "area": 28051,
+    "flag": "🇬🇶",
+    "population": 1402985,
+    "fifa": "EQG",
+    "capitalInfo": {
+      "latlng": [3.75, 8.78]
+    },
+    "continent": "africa",
+    "map": "ucWfFd8aW1FbGMva9"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "cca2": "TT",
+    "ccn3": "780",
+    "cca3": "TTO",
+    "cioc": "TTO",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Port of Spain"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [11, -61],
+    "landlocked": false,
+    "area": 5130,
+    "flag": "🇹🇹",
+    "population": 1399491,
+    "gini": {
+      "1992": 40.3
+    },
+    "fifa": "TRI",
+    "capitalInfo": {
+      "latlng": [10.65, -61.52]
+    },
+    "continent": "north america",
+    "map": "NrRfDEWoG8FGZqWY7"
+  },
+  {
+    "name": "Cook Islands",
+    "cca2": "CK",
+    "ccn3": "184",
+    "cca3": "COK",
+    "cioc": "COK",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Avarua"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "eng": "English",
+      "rar": "Cook Islands Māori"
+    },
+    "latlng": [-21.23333333, -159.76666666],
+    "landlocked": false,
+    "area": 236,
+    "flag": "🇨🇰",
+    "population": 18100,
+    "fifa": "COK",
+    "capitalInfo": {
+      "latlng": [-21.2, -159.77]
+    },
+    "continent": "oceania",
+    "map": "nrGZrvWRGB4WHgDC9"
+  },
+  {
+    "name": "Mali",
+    "cca2": "ML",
+    "ccn3": "466",
+    "cca3": "MLI",
+    "cioc": "MLI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Bamako"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [17, -4],
+    "landlocked": true,
+    "area": 1240192,
+    "flag": "🇲🇱",
+    "population": 20250834,
+    "gini": {
+      "2009": 33
+    },
+    "fifa": "MLI",
+    "capitalInfo": {
+      "latlng": [12.65, -8]
+    },
+    "continent": "africa",
+    "map": "u9mYJkCB19wyuzh27"
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "cca2": "SH",
+    "ccn3": "654",
+    "cca3": "SHN",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Jamestown"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-15.95, -5.72],
+    "landlocked": false,
+    "area": 394,
+    "flag": "🇸🇭",
+    "population": 53192,
+    "capitalInfo": {
+      "latlng": [-15.93, -5.72]
+    },
+    "continent": "africa",
+    "map": "iv4VxnPzHkjLCJuc6"
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "cca2": "CC",
+    "ccn3": "166",
+    "cca3": "CCK",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["West Island"],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-12.5, 96.83333333],
+    "landlocked": false,
+    "area": 14,
+    "flag": "🇨🇨",
+    "population": 544,
+    "capitalInfo": {
+      "latlng": [-12.17, 96.83]
+    },
+    "continent": "asia",
+    "map": "3eCdKVpVfMcZyKcK6"
+  },
+  {
+    "name": "Mozambique",
+    "cca2": "MZ",
+    "ccn3": "508",
+    "cca3": "MOZ",
+    "cioc": "MOZ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Maputo"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "por": "Portuguese"
+    },
+    "latlng": [-18.25, 35],
+    "landlocked": false,
+    "area": 801590,
+    "flag": "🇲🇿",
+    "population": 31255435,
+    "gini": {
+      "2014": 54
+    },
+    "fifa": "MOZ",
+    "capitalInfo": {
+      "latlng": [-25.95, 32.58]
+    },
+    "continent": "africa",
+    "map": "xCLcY9fzU6x4Pueu5"
+  },
+  {
+    "name": "Iran",
+    "cca2": "IR",
+    "ccn3": "364",
+    "cca3": "IRN",
+    "cioc": "IRI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Tehran"],
+    "region": "Asia",
+    "subregion": "Southern",
+    "languages": {
+      "fas": "Persian (Farsi)"
+    },
+    "latlng": [32, 53],
+    "landlocked": false,
+    "area": 1648195,
+    "flag": "🇮🇷",
+    "population": 83992953,
+    "gini": {
+      "2018": 42
+    },
+    "fifa": "IRN",
+    "startOfWeek": "saturday",
+    "capitalInfo": {
+      "latlng": [35.7, 51.42]
+    },
+    "continent": "asia",
+    "map": "dMgEGuacBPGYQnjY7"
+  },
+  {
+    "name": "DR Congo",
+    "cca2": "CD",
+    "ccn3": "180",
+    "cca3": "COD",
+    "cioc": "COD",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Kinshasa"],
+    "region": "Africa",
+    "subregion": "Middle",
+    "languages": {
+      "fra": "French",
+      "kon": "Kikongo",
+      "lin": "Lingala",
+      "lua": "Tshiluba",
+      "swa": "Swahili"
+    },
+    "latlng": [0, 25],
+    "landlocked": false,
+    "area": 2344858,
+    "flag": "🇨🇩",
+    "population": 108407721,
+    "gini": {
+      "2012": 42.1
+    },
+    "fifa": "COD",
+    "capitalInfo": {
+      "latlng": [-4.32, 15.3]
+    },
+    "continent": "africa",
+    "map": "KfhNVn6VqdZXWu8n9"
+  },
+  {
+    "name": "Palau",
+    "cca2": "PW",
+    "ccn3": "585",
+    "cca3": "PLW",
+    "cioc": "PLW",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Ngerulmud"],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": {
+      "eng": "English",
+      "pau": "Palauan"
+    },
+    "latlng": [7.5, 134.5],
+    "landlocked": false,
+    "area": 459,
+    "flag": "🇵🇼",
+    "population": 18092,
+    "capitalInfo": {
+      "latlng": [7.5, 134.62]
+    },
+    "continent": "oceania",
+    "map": "MVasQBbUkQP7qQDR9"
+  },
+  {
+    "name": "Maldives",
+    "cca2": "MV",
+    "ccn3": "462",
+    "cca3": "MDV",
+    "cioc": "MDV",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Malé"],
+    "region": "Asia",
+    "subregion": "Southern",
+    "languages": {
+      "div": "Maldivian"
+    },
+    "latlng": [3.25, 73],
+    "landlocked": false,
+    "area": 300,
+    "flag": "🇲🇻",
+    "population": 540542,
+    "gini": {
+      "2016": 31.3
+    },
+    "fifa": "MDV",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [4.17, 73.51]
+    },
+    "continent": "asia",
+    "map": "MNAWGq9vEdbZ9vUV7"
+  },
+  {
+    "name": "Benin",
+    "cca2": "BJ",
+    "ccn3": "204",
+    "cca3": "BEN",
+    "cioc": "BEN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Porto-Novo"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [9.5, 2.25],
+    "landlocked": false,
+    "area": 112622,
+    "flag": "🇧🇯",
+    "population": 12123198,
+    "gini": {
+      "2015": 47.8
+    },
+    "fifa": "BEN",
+    "capitalInfo": {
+      "latlng": [6.48, 2.62]
+    },
+    "continent": "africa",
+    "map": "uMw1BsHEXQYgVFFu6"
+  },
+  {
+    "name": "Jordan",
+    "cca2": "JO",
+    "ccn3": "400",
+    "cca3": "JOR",
+    "cioc": "JOR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Amman"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [31, 36],
+    "landlocked": false,
+    "area": 89342,
+    "flag": "🇯🇴",
+    "population": 10203140,
+    "gini": {
+      "2010": 33.7
+    },
+    "fifa": "JOR",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [31.95, 35.93]
+    },
+    "continent": "asia",
+    "map": "ko1dzSDKg8Gsi9A98"
+  },
+  {
+    "name": "Monaco",
+    "cca2": "MC",
+    "ccn3": "492",
+    "cca3": "MCO",
+    "cioc": "MON",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Monaco"],
+    "region": "Europe",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [43.73333333, 7.4],
+    "landlocked": false,
+    "area": 2.02,
+    "flag": "🇲🇨",
+    "population": 39244,
+    "capitalInfo": {
+      "latlng": [43.73, 7.42]
+    },
+    "continent": "europe",
+    "map": "DGpndDot28bYdXYn7"
+  },
+  {
+    "name": "Mauritania",
+    "cca2": "MR",
+    "ccn3": "478",
+    "cca3": "MRT",
+    "cioc": "MTN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Nouakchott"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [20, -12],
+    "landlocked": false,
+    "area": 1030700,
+    "flag": "🇲🇷",
+    "population": 4649660,
+    "gini": {
+      "2014": 32.6
+    },
+    "fifa": "MTN",
+    "capitalInfo": {
+      "latlng": [18.07, -15.97]
+    },
+    "continent": "africa",
+    "map": "im2MmQ5jFjzxWBks5"
+  },
+  {
+    "name": "Czechia",
+    "cca2": "CZ",
+    "ccn3": "203",
+    "cca3": "CZE",
+    "cioc": "CZE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Prague"],
+    "region": "Europe",
+    "subregion": "Central",
+    "languages": {
+      "ces": "Czech",
+      "slk": "Slovak"
+    },
+    "latlng": [49.75, 15.5],
+    "landlocked": true,
+    "area": 78865,
+    "flag": "🇨🇿",
+    "population": 10698896,
+    "gini": {
+      "2018": 25
+    },
+    "fifa": "CZE",
+    "capitalInfo": {
+      "latlng": [50.08, 14.47]
+    },
+    "continent": "europe",
+    "map": "47dmgeXMZyhDHyQW8"
+  },
+  {
+    "name": "Belarus",
+    "cca2": "BY",
+    "ccn3": "112",
+    "cca3": "BLR",
+    "cioc": "BLR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Minsk"],
+    "region": "Europe",
+    "subregion": "Eastern",
+    "languages": {
+      "bel": "Belarusian",
+      "rus": "Russian"
+    },
+    "latlng": [53, 28],
+    "landlocked": true,
+    "area": 207600,
+    "flag": "🟥",
+    "population": 9398861,
+    "gini": {
+      "2019": 25.3
+    },
+    "fifa": "BLR",
+    "capitalInfo": {
+      "latlng": [53.9, 27.57]
+    },
+    "continent": "europe",
+    "map": "PJUDU3EBPSszCQcu6"
+  },
+  {
+    "name": "Albania",
+    "cca2": "AL",
+    "ccn3": "008",
+    "cca3": "ALB",
+    "cioc": "ALB",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Tirana"],
+    "region": "Europe",
+    "subregion": "Southeast",
+    "languages": {
+      "sqi": "Albanian"
+    },
+    "latlng": [41, 20],
+    "landlocked": false,
+    "area": 28748,
+    "flag": "🇦🇱",
+    "population": 2837743,
+    "gini": {
+      "2017": 33.2
+    },
+    "fifa": "ALB",
+    "capitalInfo": {
+      "latlng": [41.32, 19.82]
+    },
+    "continent": "europe",
+    "map": "BzN9cTuj68ZA8SyZ8"
+  },
+  {
+    "name": "Malawi",
+    "cca2": "MW",
+    "ccn3": "454",
+    "cca3": "MWI",
+    "cioc": "MAW",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Lilongwe"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "eng": "English",
+      "nya": "Chewa"
+    },
+    "latlng": [-13.5, 34],
+    "landlocked": true,
+    "area": 118484,
+    "flag": "🇲🇼",
+    "population": 19129955,
+    "gini": {
+      "2016": 44.7
+    },
+    "fifa": "MWI",
+    "capitalInfo": {
+      "latlng": [-13.97, 33.78]
+    },
+    "continent": "africa",
+    "map": "mc6z83pW9m98X2Ef6"
+  },
+  {
+    "name": "Somalia",
+    "cca2": "SO",
+    "ccn3": "706",
+    "cca3": "SOM",
+    "cioc": "SOM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Mogadishu"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "ara": "Arabic",
+      "som": "Somali"
+    },
+    "latlng": [10, 49],
+    "landlocked": false,
+    "area": 637657,
+    "flag": "🇸🇴",
+    "population": 15893219,
+    "gini": {
+      "2017": 36.8
+    },
+    "fifa": "SOM",
+    "capitalInfo": {
+      "latlng": [2.07, 45.33]
+    },
+    "continent": "africa",
+    "map": "8of8q7D1a8p7R6Fc9"
+  },
+  {
+    "name": "Serbia",
+    "cca2": "RS",
+    "ccn3": "688",
+    "cca3": "SRB",
+    "cioc": "SRB",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Belgrade"],
+    "region": "Europe",
+    "subregion": "Southeast",
+    "languages": {
+      "srp": "Serbian"
+    },
+    "latlng": [44, 21],
+    "landlocked": true,
+    "area": 88361,
+    "flag": "🇷🇸",
+    "population": 6908224,
+    "gini": {
+      "2017": 36.2
+    },
+    "fifa": "SRB",
+    "capitalInfo": {
+      "latlng": [44.83, 20.5]
+    },
+    "continent": "europe",
+    "map": "2Aqof7aV2Naq8YEK8"
+  },
+  {
+    "name": "Iceland",
+    "cca2": "IS",
+    "ccn3": "352",
+    "cca3": "ISL",
+    "cioc": "ISL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Reykjavik"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "isl": "Icelandic"
+    },
+    "latlng": [65, -18],
+    "landlocked": false,
+    "area": 103000,
+    "flag": "🇮🇸",
+    "population": 366425,
+    "gini": {
+      "2017": 26.1
+    },
+    "fifa": "ISL",
+    "capitalInfo": {
+      "latlng": [64.15, -21.95]
+    },
+    "continent": "europe",
+    "map": "WxFWSQuc3oamNxoE6"
+  },
+  {
+    "name": "Samoa",
+    "cca2": "WS",
+    "ccn3": "882",
+    "cca3": "WSM",
+    "cioc": "SAM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Apia"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "eng": "English",
+      "smo": "Samoan"
+    },
+    "latlng": [-13.58333333, -172.33333333],
+    "landlocked": false,
+    "area": 2842,
+    "flag": "🇼🇸",
+    "population": 198410,
+    "gini": {
+      "2013": 38.7
+    },
+    "fifa": "SAM",
+    "capitalInfo": {
+      "latlng": [-13.82, -171.77]
+    },
+    "continent": "oceania",
+    "map": "CFC9fEFP9cfkYUBF9"
+  },
+  {
+    "name": "Myanmar",
+    "cca2": "MM",
+    "ccn3": "104",
+    "cca3": "MMR",
+    "cioc": "MYA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Naypyidaw"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "mya": "Burmese"
+    },
+    "latlng": [22, 98],
+    "landlocked": false,
+    "area": 676578,
+    "flag": "🇲🇲",
+    "population": 54409794,
+    "gini": {
+      "2017": 30.7
+    },
+    "fifa": "MYA",
+    "capitalInfo": {
+      "latlng": [19.76, 96.07]
+    },
+    "continent": "asia",
+    "map": "4jrZyJkDERUfHyp26"
+  },
+  {
+    "name": "Thailand",
+    "cca2": "TH",
+    "ccn3": "764",
+    "cca3": "THA",
+    "cioc": "THA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Bangkok"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "tha": "Thai"
+    },
+    "latlng": [15, 100],
+    "landlocked": false,
+    "area": 513120,
+    "flag": "🇹🇭",
+    "population": 69799978,
+    "gini": {
+      "2019": 34.9
+    },
+    "fifa": "THA",
+    "capitalInfo": {
+      "latlng": [13.75, 100.52]
+    },
+    "continent": "asia",
+    "map": "qeU6uqsfW4nCCwzw9"
+  },
+  {
+    "name": "Lebanon",
+    "cca2": "LB",
+    "ccn3": "422",
+    "cca3": "LBN",
+    "cioc": "LBN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Beirut"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French"
+    },
+    "latlng": [33.83333333, 35.83333333],
+    "landlocked": false,
+    "area": 10452,
+    "flag": "🇱🇧",
+    "population": 6825442,
+    "gini": {
+      "2011": 31.8
+    },
+    "fifa": "LBN",
+    "capitalInfo": {
+      "latlng": [33.87, 35.5]
+    },
+    "continent": "asia",
+    "map": "Sz5VCU8UFBqMyTdc9"
+  },
+  {
+    "name": "Latvia",
+    "cca2": "LV",
+    "ccn3": "428",
+    "cca3": "LVA",
+    "cioc": "LAT",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Riga"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "lav": "Latvian"
+    },
+    "latlng": [57, 25],
+    "landlocked": false,
+    "area": 64559,
+    "flag": "🇱🇻",
+    "population": 1901548,
+    "gini": {
+      "2018": 35.1
+    },
+    "fifa": "LVA",
+    "capitalInfo": {
+      "latlng": [56.95, 24.1]
+    },
+    "continent": "europe",
+    "map": "iQpUkH7ghq31ZtXe9"
+  },
+  {
+    "name": "Kazakhstan",
+    "cca2": "KZ",
+    "ccn3": "398",
+    "cca3": "KAZ",
+    "cioc": "KAZ",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Nur-Sultan"],
+    "region": "Asia",
+    "subregion": "Central",
+    "languages": {
+      "kaz": "Kazakh",
+      "rus": "Russian"
+    },
+    "latlng": [48, 68],
+    "landlocked": true,
+    "area": 2724900,
+    "flag": "🇰🇿",
+    "population": 18754440,
+    "gini": {
+      "2018": 27.8
+    },
+    "fifa": "KAZ",
+    "capitalInfo": {
+      "latlng": [51.16, 71.45]
+    },
+    "continent": "asia",
+    "map": "8VohJGu7ShuzZYyeA"
+  },
+  {
+    "name": "Martinique",
+    "cca2": "MQ",
+    "ccn3": "474",
+    "cca3": "MTQ",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Fort-de-France"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [14.666667, -61],
+    "landlocked": false,
+    "area": 1128,
+    "flag": "🇲🇶",
+    "population": 378243,
+    "capitalInfo": {
+      "latlng": [14.6, -61.08]
+    },
+    "continent": "north america",
+    "map": "87ER7sDAFU7JjcvR6"
+  },
+  {
+    "name": "Pitcairn Islands",
+    "cca2": "PN",
+    "ccn3": "612",
+    "cca3": "PCN",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Adamstown"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [-25.06666666, -130.1],
+    "landlocked": false,
+    "area": 47,
+    "flag": "🇵🇳",
+    "population": 56,
+    "capitalInfo": {
+      "latlng": [-25.07, -130.08]
+    },
+    "continent": "oceania",
+    "map": "XGJMnMAigXjXcxSa7"
+  },
+  {
+    "name": "Tuvalu",
+    "cca2": "TV",
+    "ccn3": "798",
+    "cca3": "TUV",
+    "cioc": "TUV",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Funafuti"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "eng": "English",
+      "tvl": "Tuvaluan"
+    },
+    "latlng": [-8, 178],
+    "landlocked": false,
+    "area": 26,
+    "flag": "🇹🇻",
+    "population": 11792,
+    "gini": {
+      "2010": 39.1
+    },
+    "capitalInfo": {
+      "latlng": [-8.52, 179.22]
+    },
+    "continent": "oceania",
+    "map": "LbuUxtkgm1dfN1Pn6"
+  },
+  {
+    "name": "Hungary",
+    "cca2": "HU",
+    "ccn3": "348",
+    "cca3": "HUN",
+    "cioc": "HUN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Budapest"],
+    "region": "Europe",
+    "subregion": "Central",
+    "languages": {
+      "hun": "Hungarian"
+    },
+    "latlng": [47, 20],
+    "landlocked": true,
+    "area": 93028,
+    "flag": "🇭🇺",
+    "population": 9749763,
+    "gini": {
+      "2018": 29.6
+    },
+    "fifa": "HUN",
+    "capitalInfo": {
+      "latlng": [47.5, 19.08]
+    },
+    "continent": "europe",
+    "map": "9gfPupm5bffixiFJ6"
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "cca2": "SJ",
+    "ccn3": "744",
+    "cca3": "SJM",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Longyearbyen"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "nor": "Norwegian"
+    },
+    "latlng": [78, 20],
+    "landlocked": false,
+    "area": -1,
+    "flag": "🇸🇯",
+    "population": 2562,
+    "capitalInfo": {
+      "latlng": [78.22, 15.63]
+    },
+    "continent": "europe",
+    "map": "L2wyyn3cQ16PzQ5J8"
+  },
+  {
+    "name": "Comoros",
+    "cca2": "KM",
+    "ccn3": "174",
+    "cca3": "COM",
+    "cioc": "COM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Moroni"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French",
+      "zdj": "Comorian"
+    },
+    "latlng": [-12.16666666, 44.25],
+    "landlocked": false,
+    "area": 1862,
+    "flag": "🇰🇲",
+    "population": 869595,
+    "gini": {
+      "2014": 45.3
+    },
+    "fifa": "COM",
+    "capitalInfo": {
+      "latlng": [-11.7, 43.23]
+    },
+    "continent": "africa",
+    "map": "eas4GP28C1GyStnu6"
+  },
+  {
+    "name": "Israel",
+    "cca2": "IL",
+    "ccn3": "376",
+    "cca3": "ISR",
+    "cioc": "ISR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Jerusalem"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic",
+      "heb": "Hebrew"
+    },
+    "latlng": [31.47, 35.13],
+    "landlocked": false,
+    "area": 20770,
+    "flag": "🇮🇱",
+    "population": 9216900,
+    "gini": {
+      "2016": 39
+    },
+    "fifa": "ISR",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [31.77, 35.23]
+    },
+    "continent": "asia",
+    "map": "6UY1AH8XeafVwdC97"
+  },
+  {
+    "name": "Sudan",
+    "cca2": "SD",
+    "ccn3": "729",
+    "cca3": "SDN",
+    "cioc": "SUD",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Khartoum"],
+    "region": "Africa",
+    "subregion": "Northern",
+    "languages": {
+      "ara": "Arabic",
+      "eng": "English"
+    },
+    "latlng": [15, 30],
+    "landlocked": false,
+    "area": 1886068,
+    "flag": "🇸🇩",
+    "population": 43849269,
+    "gini": {
+      "2014": 34.2
+    },
+    "fifa": "SDN",
+    "capitalInfo": {
+      "latlng": [15.6, 32.53]
+    },
+    "continent": "africa",
+    "map": "bNW7YUJCaqR8zcXn7"
+  },
+  {
+    "name": "Armenia",
+    "cca2": "AM",
+    "ccn3": "051",
+    "cca3": "ARM",
+    "cioc": "ARM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Yerevan"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "hye": "Armenian"
+    },
+    "latlng": [40, 45],
+    "landlocked": true,
+    "area": 29743,
+    "flag": "🇦🇲",
+    "population": 2963234,
+    "gini": {
+      "2019": 29.9
+    },
+    "fifa": "ARM",
+    "capitalInfo": {
+      "latlng": [40.17, 44.5]
+    },
+    "continent": "asia",
+    "map": "azWUtK9bUQYEyccbA"
+  },
+  {
+    "name": "Uruguay",
+    "cca2": "UY",
+    "ccn3": "858",
+    "cca3": "URY",
+    "cioc": "URU",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Montevideo"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [-33, -56],
+    "landlocked": false,
+    "area": 181034,
+    "flag": "🇺🇾",
+    "population": 3473727,
+    "gini": {
+      "2019": 39.7
+    },
+    "fifa": "URU",
+    "capitalInfo": {
+      "latlng": [-34.85, -56.17]
+    },
+    "continent": "south america",
+    "map": "tiQ9Baekb1jQtDSD9"
+  },
+  {
+    "name": "British Virgin Islands",
+    "cca2": "VG",
+    "ccn3": "092",
+    "cca3": "VGB",
+    "cioc": "IVB",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Road Town"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [18.431383, -64.62305],
+    "landlocked": false,
+    "area": 151,
+    "flag": "🇻🇬",
+    "population": 30237,
+    "fifa": "VGB",
+    "capitalInfo": {
+      "latlng": [18.42, -64.62]
+    },
+    "continent": "north america",
+    "map": "49C9cSesNVAR9DQk8"
+  },
+  {
+    "name": "Saudi Arabia",
+    "cca2": "SA",
+    "ccn3": "682",
+    "cca3": "SAU",
+    "cioc": "KSA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Riyadh"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [25, 45],
+    "landlocked": false,
+    "area": 2149690,
+    "flag": "🇸🇦",
+    "population": 34813867,
+    "fifa": "KSA",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [24.65, 46.7]
+    },
+    "continent": "asia",
+    "map": "5PSjvdJ1AyaLFRrG9"
+  },
+  {
+    "name": "Dominica",
+    "cca2": "DM",
+    "ccn3": "212",
+    "cca3": "DMA",
+    "cioc": "DMA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Roseau"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [15.41666666, -61.33333333],
+    "landlocked": false,
+    "area": 751,
+    "flag": "🇩🇲",
+    "population": 71991,
+    "fifa": "DMA",
+    "capitalInfo": {
+      "latlng": [15.3, -61.4]
+    },
+    "continent": "north america",
+    "map": "HSKdHYpFC8oHHuyV7"
+  },
+  {
+    "name": "Tokelau",
+    "cca2": "TK",
+    "ccn3": "772",
+    "cca3": "TKL",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Fakaofo"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "eng": "English",
+      "smo": "Samoan",
+      "tkl": "Tokelauan"
+    },
+    "latlng": [-9, -172],
+    "landlocked": false,
+    "area": 12,
+    "flag": "🇹🇰",
+    "population": 1411,
+    "capitalInfo": {
+      "latlng": [-9.38, -171.22]
+    },
+    "continent": "oceania",
+    "map": "Ap5qN8qien6pT9UN6"
+  },
+  {
+    "name": "Burundi",
+    "cca2": "BI",
+    "ccn3": "108",
+    "cca3": "BDI",
+    "cioc": "BDI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Gitega"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "fra": "French",
+      "run": "Kirundi"
+    },
+    "latlng": [-3.5, 30],
+    "landlocked": true,
+    "area": 27834,
+    "flag": "🇧🇮",
+    "population": 11890781,
+    "gini": {
+      "2013": 38.6
+    },
+    "fifa": "BDI",
+    "capitalInfo": {
+      "latlng": [-3.43, 29.93]
+    },
+    "continent": "africa",
+    "map": "RXPWoRrB9tfrJpUG7"
+  },
+  {
+    "name": "Ukraine",
+    "cca2": "UA",
+    "ccn3": "804",
+    "cca3": "UKR",
+    "cioc": "UKR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Kyiv"],
+    "region": "Europe",
+    "subregion": "Eastern",
+    "languages": {
+      "ukr": "Ukrainian"
+    },
+    "latlng": [49, 32],
+    "landlocked": false,
+    "area": 603500,
+    "flag": "🇺🇦",
+    "population": 44134693,
+    "gini": {
+      "2019": 26.6
+    },
+    "fifa": "UKR",
+    "capitalInfo": {
+      "latlng": [50.43, 30.52]
+    },
+    "continent": "europe",
+    "map": "DvgJMiPJ7aozKFZv7"
+  },
+  {
+    "name": "Austria",
+    "cca2": "AT",
+    "ccn3": "040",
+    "cca3": "AUT",
+    "cioc": "AUT",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Vienna"],
+    "region": "Europe",
+    "subregion": "Central",
+    "languages": {
+      "bar": "Austro-Bavarian German"
+    },
+    "latlng": [47.33333333, 13.33333333],
+    "landlocked": true,
+    "area": 83871,
+    "flag": "🇦🇹",
+    "population": 8917205,
+    "gini": {
+      "2018": 30.8
+    },
+    "fifa": "AUT",
+    "capitalInfo": {
+      "latlng": [48.2, 16.37]
+    },
+    "continent": "europe",
+    "map": "pCWpWQhznHyRzQcu9"
+  },
+  {
+    "name": "Sierra Leone",
+    "cca2": "SL",
+    "ccn3": "694",
+    "cca3": "SLE",
+    "cioc": "SLE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Freetown"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [8.5, -11.5],
+    "landlocked": false,
+    "area": 71740,
+    "flag": "🇸🇱",
+    "population": 7976985,
+    "gini": {
+      "2018": 35.7
+    },
+    "fifa": "SLE",
+    "capitalInfo": {
+      "latlng": [8.48, -13.23]
+    },
+    "continent": "africa",
+    "map": "jhacar85oq9QaeKB7"
+  },
+  {
+    "name": "Bermuda",
+    "cca2": "BM",
+    "ccn3": "060",
+    "cca3": "BMU",
+    "cioc": "BER",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Hamilton"],
+    "region": "Americas",
+    "subregion": "North",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [32.33333333, -64.75],
+    "landlocked": false,
+    "area": 54,
+    "flag": "🇧🇲",
+    "population": 63903,
+    "fifa": "BER",
+    "capitalInfo": {
+      "latlng": [32.28, -64.78]
+    },
+    "continent": "north america",
+    "map": "NLsRGNjTzDghTtAJA"
+  },
+  {
+    "name": "Namibia",
+    "cca2": "NA",
+    "ccn3": "516",
+    "cca3": "NAM",
+    "cioc": "NAM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Windhoek"],
+    "region": "Africa",
+    "subregion": "Southern",
+    "languages": {
+      "afr": "Afrikaans",
+      "deu": "German",
+      "eng": "English",
+      "her": "Herero",
+      "hgm": "Khoekhoe",
+      "kwn": "Kwangali",
+      "loz": "Lozi",
+      "ndo": "Ndonga",
+      "tsn": "Tswana"
+    },
+    "latlng": [-22, 17],
+    "landlocked": false,
+    "area": 825615,
+    "flag": "🇳🇦",
+    "population": 2540916,
+    "gini": {
+      "2015": 59.1
+    },
+    "fifa": "NAM",
+    "capitalInfo": {
+      "latlng": [-22.57, 17.08]
+    },
+    "continent": "africa",
+    "map": "oR1i8BFEYX3EY83WA"
+  },
+  {
+    "name": "Netherlands",
+    "cca2": "NL",
+    "ccn3": "528",
+    "cca3": "NLD",
+    "cioc": "NED",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Amsterdam"],
+    "region": "Europe",
+    "subregion": "Western",
+    "languages": {
+      "nld": "Dutch"
+    },
+    "latlng": [52.5, 5.75],
+    "landlocked": false,
+    "area": 41850,
+    "flag": "🇳🇱",
+    "population": 16655799,
+    "gini": {
+      "2018": 28.1
+    },
+    "fifa": "NED",
+    "capitalInfo": {
+      "latlng": [52.35, 4.92]
+    },
+    "continent": "europe",
+    "map": "Hv6zQswGhFxoVVBm6"
+  },
+  {
+    "name": "Kosovo",
+    "cca2": "XK",
+    "cca3": "UNK",
+    "cioc": "KOS",
+    "status": "user-assigned",
+    "unMember": false,
+    "capital": ["Pristina"],
+    "region": "Europe",
+    "subregion": "Southeast",
+    "languages": {
+      "sqi": "Albanian",
+      "srp": "Serbian"
+    },
+    "latlng": [42.666667, 21.166667],
+    "landlocked": true,
+    "area": 10908,
+    "flag": "🇽🇰",
+    "population": 1775378,
+    "gini": {
+      "2017": 29
+    },
+    "fifa": "KVX",
+    "capitalInfo": {
+      "latlng": [42.67, 21.17]
+    },
+    "continent": "europe",
+    "map": "CSC4Yc8SWPgburuD9"
+  },
+  {
+    "name": "Haiti",
+    "cca2": "HT",
+    "ccn3": "332",
+    "cca3": "HTI",
+    "cioc": "HAI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Port-au-Prince"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "fra": "French",
+      "hat": "Haitian Creole"
+    },
+    "latlng": [19, -72.41666666],
+    "landlocked": false,
+    "area": 27750,
+    "flag": "🇭🇹",
+    "population": 11402533,
+    "gini": {
+      "2012": 41.1
+    },
+    "fifa": "HAI",
+    "capitalInfo": {
+      "latlng": [18.53, -72.33]
+    },
+    "continent": "north america",
+    "map": "9o13xtjuUdqFnHbn9"
+  },
+  {
+    "name": "Spain",
+    "cca2": "ES",
+    "ccn3": "724",
+    "cca3": "ESP",
+    "cioc": "ESP",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Madrid"],
+    "region": "Europe",
+    "subregion": "Southern",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [40, -4],
+    "landlocked": false,
+    "area": 505992,
+    "flag": "🇪🇸",
+    "population": 47351567,
+    "gini": {
+      "2018": 34.7
+    },
+    "fifa": "ESP",
+    "capitalInfo": {
+      "latlng": [40.4, -3.68]
+    },
+    "continent": "europe",
+    "map": "138JaXW8EZzRVitY9"
+  },
+  {
+    "name": "Ireland",
+    "cca2": "IE",
+    "ccn3": "372",
+    "cca3": "IRL",
+    "cioc": "IRL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Dublin"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "eng": "English",
+      "gle": "Irish"
+    },
+    "latlng": [53, -8],
+    "landlocked": false,
+    "area": 70273,
+    "flag": "🇮🇪",
+    "population": 4994724,
+    "gini": {
+      "2017": 31.4
+    },
+    "fifa": "IRL",
+    "capitalInfo": {
+      "latlng": [53.32, -6.23]
+    },
+    "continent": "europe",
+    "map": "hxd1BKxgpchStzQC6"
+  },
+  {
+    "name": "Libya",
+    "cca2": "LY",
+    "ccn3": "434",
+    "cca3": "LBY",
+    "cioc": "LBA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Tripoli"],
+    "region": "Africa",
+    "subregion": "Northern",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [25, 17],
+    "landlocked": false,
+    "area": 1759540,
+    "flag": "🇱🇾",
+    "population": 6871287,
+    "fifa": "LBY",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [32.88, 13.17]
+    },
+    "continent": "africa",
+    "map": "eLgGnaQWcJEdYRMy5"
+  },
+  {
+    "name": "Papua New Guinea",
+    "cca2": "PG",
+    "ccn3": "598",
+    "cca3": "PNG",
+    "cioc": "PNG",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Port Moresby"],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "languages": {
+      "eng": "English",
+      "hmo": "Hiri Motu",
+      "tpi": "Tok Pisin"
+    },
+    "latlng": [-6, 147],
+    "landlocked": false,
+    "area": 462840,
+    "flag": "🇵🇬",
+    "population": 8947027,
+    "gini": {
+      "2009": 41.9
+    },
+    "fifa": "PNG",
+    "capitalInfo": {
+      "latlng": [-9.45, 147.18]
+    },
+    "continent": "oceania",
+    "map": "ChGmzZBjZ3vnBwR2A"
+  },
+  {
+    "name": "Saint Lucia",
+    "cca2": "LC",
+    "ccn3": "662",
+    "cca3": "LCA",
+    "cioc": "LCA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Castries"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [13.88333333, -60.96666666],
+    "landlocked": false,
+    "area": 616,
+    "flag": "🇱🇨",
+    "population": 183629,
+    "gini": {
+      "2016": 51.2
+    },
+    "fifa": "LCA",
+    "capitalInfo": {
+      "latlng": [14, -61]
+    },
+    "continent": "north america",
+    "map": "4HhJ2jkPdSL9BPRcA"
+  },
+  {
+    "name": "Norfolk Island",
+    "cca2": "NF",
+    "ccn3": "574",
+    "cca3": "NFK",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Kingston"],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "languages": {
+      "eng": "English",
+      "pih": "Norfuk"
+    },
+    "latlng": [-29.03333333, 167.95],
+    "landlocked": false,
+    "area": 36,
+    "flag": "🇳🇫",
+    "population": 2302,
+    "capitalInfo": {
+      "latlng": [-29.05, 167.97]
+    },
+    "continent": "oceania",
+    "map": "pbvtm6XYd1iZbjky5"
+  },
+  {
+    "name": "Angola",
+    "cca2": "AO",
+    "ccn3": "024",
+    "cca3": "AGO",
+    "cioc": "ANG",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Luanda"],
+    "region": "Africa",
+    "subregion": "Middle",
+    "languages": {
+      "por": "Portuguese"
+    },
+    "latlng": [-12.5, 18.5],
+    "landlocked": false,
+    "area": 1246700,
+    "flag": "🇦🇴",
+    "population": 32866268,
+    "gini": {
+      "2018": 51.3
+    },
+    "fifa": "ANG",
+    "capitalInfo": {
+      "latlng": [-8.83, 13.22]
+    },
+    "continent": "africa",
+    "map": "q42Qbf1BmQL3fuZg9"
+  },
+  {
+    "name": "Indonesia",
+    "cca2": "cca3",
+    "ccn3": "360",
+    "cca3": "IDN",
+    "cioc": "INA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Jakarta"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "ind": "Indonesian"
+    },
+    "latlng": [-5, 120],
+    "landlocked": false,
+    "area": 1904569,
+    "flag": "🇮🇩",
+    "population": 273523621,
+    "gini": {
+      "2019": 38.2
+    },
+    "fifa": "IDN",
+    "capitalInfo": {
+      "latlng": [-6.17, 106.82]
+    },
+    "continent": "asia",
+    "map": "9gfPupm5bffixiFJ6"
+  },
+  {
+    "name": "Norway",
+    "cca2": "NO",
+    "ccn3": "578",
+    "cca3": "NOR",
+    "cioc": "NOR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Oslo"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "nno": "Norwegian Nynorsk",
+      "nob": "Norwegian Bokmål",
+      "smi": "Sami"
+    },
+    "latlng": [62, 10],
+    "landlocked": false,
+    "area": 323802,
+    "flag": "🇳🇴",
+    "population": 5379475,
+    "gini": {
+      "2018": 27.6
+    },
+    "fifa": "NOR",
+    "capitalInfo": {
+      "latlng": [59.92, 10.75]
+    },
+    "continent": "europe",
+    "map": "htWRrphA7vNgQNdSA"
+  },
+  {
+    "name": "Argentina",
+    "cca2": "AR",
+    "ccn3": "032",
+    "cca3": "ARG",
+    "cioc": "ARG",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Buenos Aires"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "grn": "Guaraní",
+      "spa": "Spanish"
+    },
+    "latlng": [-34, -64],
+    "landlocked": false,
+    "area": 2780400,
+    "flag": "🇦🇷",
+    "population": 45376763,
+    "gini": {
+      "2019": 42.9
+    },
+    "fifa": "ARG",
+    "capitalInfo": {
+      "latlng": [-34.58, -58.67]
+    },
+    "continent": "south america",
+    "map": "Z9DXNxhf2o93kvyc6"
+  },
+  {
+    "name": "Panama",
+    "cca2": "PA",
+    "ccn3": "591",
+    "cca3": "PAN",
+    "cioc": "PAN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Panama City"],
+    "region": "Americas",
+    "subregion": "Central",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [9, -80],
+    "landlocked": false,
+    "area": 75417,
+    "flag": "🇵🇦",
+    "population": 4314768,
+    "gini": {
+      "2019": 49.8
+    },
+    "fifa": "PAN",
+    "capitalInfo": {
+      "latlng": [8.97, -79.53]
+    },
+    "continent": "north america",
+    "map": "sEN7sKqeawa5oPNLA"
+  },
+  {
+    "name": "Japan",
+    "cca2": "JP",
+    "ccn3": "392",
+    "cca3": "JPN",
+    "cioc": "JPN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Tokyo"],
+    "region": "Asia",
+    "subregion": "Eastern",
+    "languages": {
+      "jpn": "Japanese"
+    },
+    "latlng": [36, 138],
+    "landlocked": false,
+    "area": 377930,
+    "flag": "🇯🇵",
+    "population": 125836021,
+    "gini": {
+      "2013": 32.9
+    },
+    "fifa": "JPN",
+    "capitalInfo": {
+      "latlng": [35.68, 139.75]
+    },
+    "continent": "asia",
+    "map": "NGTLSCSrA8bMrvnX9"
+  },
+  {
+    "name": "El Salvador",
+    "cca2": "SV",
+    "ccn3": "222",
+    "cca3": "SLV",
+    "cioc": "ESA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["San Salvador"],
+    "region": "Americas",
+    "subregion": "Central",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [13.83333333, -88.91666666],
+    "landlocked": false,
+    "area": 21041,
+    "flag": "🇸🇻",
+    "population": 6486201,
+    "gini": {
+      "2019": 38.8
+    },
+    "fifa": "SLV",
+    "capitalInfo": {
+      "latlng": [13.7, -89.2]
+    },
+    "continent": "north america",
+    "map": "cZnCEi5sEMQtKKcB7"
+  },
+  {
+    "name": "Andorra",
+    "cca2": "AD",
+    "ccn3": "020",
+    "cca3": "AND",
+    "cioc": "AND",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Andorra la Vella"],
+    "region": "Europe",
+    "subregion": "Southern",
+    "languages": {
+      "cat": "Catalan"
+    },
+    "latlng": [42.5, 1.5],
+    "landlocked": true,
+    "area": 468,
+    "flag": "🇦🇩",
+    "population": 77265,
+    "fifa": "AND",
+    "capitalInfo": {
+      "latlng": [42.5, 1.52]
+    },
+    "continent": "europe",
+    "map": "JqAnacWE2qEznKgw7"
+  },
+  {
+    "name": "Niger",
+    "cca2": "NE",
+    "ccn3": "562",
+    "cca3": "NER",
+    "cioc": "NIG",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Niamey"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [16, 8],
+    "landlocked": true,
+    "area": 1267000,
+    "flag": "🇳🇪",
+    "population": 24206636,
+    "gini": {
+      "2014": 34.3
+    },
+    "fifa": "NIG",
+    "capitalInfo": {
+      "latlng": [13.52, 2.12]
+    },
+    "continent": "africa",
+    "map": "VKNU2TLsZcgxM49c8"
+  },
+  {
+    "name": "Nicaragua",
+    "cca2": "NI",
+    "ccn3": "558",
+    "cca3": "NIC",
+    "cioc": "NCA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Managua"],
+    "region": "Americas",
+    "subregion": "Central",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [13, -85],
+    "landlocked": false,
+    "area": 130373,
+    "flag": "🇳🇮",
+    "population": 6624554,
+    "gini": {
+      "2014": 46.2
+    },
+    "fifa": "NCA",
+    "capitalInfo": {
+      "latlng": [12.13, -86.25]
+    },
+    "continent": "north america",
+    "map": "P77LaEVkKJKXneRC6"
+  },
+  {
+    "name": "Wallis and Futuna",
+    "cca2": "WF",
+    "ccn3": "876",
+    "cca3": "WLF",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Mata-Utu"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [-13.3, -176.2],
+    "landlocked": false,
+    "area": 142,
+    "flag": "🇼🇫",
+    "population": 11750,
+    "capitalInfo": {
+      "latlng": [-13.95, -171.93]
+    },
+    "continent": "oceania",
+    "map": "CzVqK74QYtbHv65r5"
+  },
+  {
+    "name": "Italy",
+    "cca2": "IT",
+    "ccn3": "380",
+    "cca3": "ITA",
+    "cioc": "ITA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Rome"],
+    "region": "Europe",
+    "subregion": "Southern",
+    "languages": {
+      "ita": "Italian"
+    },
+    "latlng": [42.83333333, 12.83333333],
+    "landlocked": false,
+    "area": 301336,
+    "flag": "🇮🇹",
+    "population": 59554023,
+    "gini": {
+      "2017": 35.9
+    },
+    "fifa": "ITA",
+    "capitalInfo": {
+      "latlng": [41.9, 12.48]
+    },
+    "continent": "europe",
+    "map": "8M1K27TDj7StTRTq8"
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "cca2": "PM",
+    "ccn3": "666",
+    "cca3": "SPM",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Saint-Pierre"],
+    "region": "Americas",
+    "subregion": "North",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [46.83333333, -56.33333333],
+    "landlocked": false,
+    "area": 242,
+    "flag": "🇵🇲",
+    "population": 6069,
+    "capitalInfo": {
+      "latlng": [46.77, -56.18]
+    },
+    "continent": "north america",
+    "map": "bUM8Yc8pA8ghyhmt6"
+  },
+  {
+    "name": "Guinea-Bissau",
+    "cca2": "GW",
+    "ccn3": "624",
+    "cca3": "GNB",
+    "cioc": "GBS",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Bissau"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "por": "Portuguese",
+      "pov": "Upper Guinea Creole"
+    },
+    "latlng": [12, -15],
+    "landlocked": false,
+    "area": 36125,
+    "flag": "🇬🇼",
+    "population": 1967998,
+    "gini": {
+      "2010": 50.7
+    },
+    "fifa": "GNB",
+    "capitalInfo": {
+      "latlng": [11.85, -15.58]
+    },
+    "continent": "africa",
+    "map": "5Wyaz17miUc1zLc67"
+  },
+  {
+    "name": "Tanzania",
+    "cca2": "TZ",
+    "ccn3": "834",
+    "cca3": "TZA",
+    "cioc": "TAN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Dodoma"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "eng": "English",
+      "swa": "Swahili"
+    },
+    "latlng": [-6, 35],
+    "landlocked": false,
+    "area": 945087,
+    "flag": "🇹🇿",
+    "population": 59734213,
+    "gini": {
+      "2017": 40.5
+    },
+    "fifa": "TAN",
+    "capitalInfo": {
+      "latlng": [-6.16, 35.75]
+    },
+    "continent": "africa",
+    "map": "NWYMqZYXte4zGZ2Q8"
+  },
+  {
+    "name": "Slovakia",
+    "cca2": "SK",
+    "ccn3": "703",
+    "cca3": "SVK",
+    "cioc": "SVK",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Bratislava"],
+    "region": "Europe",
+    "subregion": "Central",
+    "languages": {
+      "slk": "Slovak"
+    },
+    "latlng": [48.66666666, 19.5],
+    "landlocked": true,
+    "area": 49037,
+    "flag": "🇸🇰",
+    "population": 5458827,
+    "gini": {
+      "2018": 25
+    },
+    "fifa": "SVK",
+    "capitalInfo": {
+      "latlng": [48.15, 17.12]
+    },
+    "continent": "europe",
+    "map": "uNSH2wW4bLoZVYJj7"
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "cca2": "TF",
+    "ccn3": "260",
+    "cca3": "ATF",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Port-aux-Français"],
+    "region": "Antarctic",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [-49.25, 69.167],
+    "landlocked": false,
+    "area": 7747,
+    "flag": "🇹🇫",
+    "population": 400,
+    "capitalInfo": {
+      "latlng": [48.81, -1.4]
+    },
+    "continent": "antarctica",
+    "map": "6ua6CX1m4w1xF2Em7"
+  },
+  {
+    "name": "Finland",
+    "cca2": "FI",
+    "ccn3": "246",
+    "cca3": "FIN",
+    "cioc": "FIN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Helsinki"],
+    "region": "Europe",
+    "subregion": "Northern",
+    "languages": {
+      "fin": "Finnish",
+      "swe": "Swedish"
+    },
+    "latlng": [64, 26],
+    "landlocked": false,
+    "area": 338424,
+    "flag": "🇫🇮",
+    "population": 5530719,
+    "gini": {
+      "2018": 27.3
+    },
+    "fifa": "FIN",
+    "capitalInfo": {
+      "latlng": [60.17, 24.93]
+    },
+    "continent": "europe",
+    "map": "HjgWDCNKRAYHrkMn8"
+  },
+  {
+    "name": "Liechtenstein",
+    "cca2": "LI",
+    "ccn3": "438",
+    "cca3": "LIE",
+    "cioc": "LIE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Vaduz"],
+    "region": "Europe",
+    "subregion": "Western",
+    "languages": {
+      "deu": "German"
+    },
+    "latlng": [47.26666666, 9.53333333],
+    "landlocked": true,
+    "area": 160,
+    "flag": "🇱🇮",
+    "population": 38137,
+    "fifa": "LIE",
+    "capitalInfo": {
+      "latlng": [47.13, 9.52]
+    },
+    "continent": "europe",
+    "map": "KNuHeiJzAPodwM7y6"
+  },
+  {
+    "name": "Tajikistan",
+    "cca2": "TJ",
+    "ccn3": "762",
+    "cca3": "TJK",
+    "cioc": "TJK",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Dushanbe"],
+    "region": "Asia",
+    "subregion": "Central",
+    "languages": {
+      "rus": "Russian",
+      "tgk": "Tajik"
+    },
+    "latlng": [39, 71],
+    "landlocked": true,
+    "area": 143100,
+    "flag": "🇹🇯",
+    "population": 9537642,
+    "gini": {
+      "2015": 34
+    },
+    "fifa": "TJK",
+    "capitalInfo": {
+      "latlng": [38.55, 68.77]
+    },
+    "continent": "asia",
+    "map": "8rQgW88jEXijhVb58"
+  },
+  {
+    "name": "Guatemala",
+    "cca2": "GT",
+    "ccn3": "320",
+    "cca3": "GTM",
+    "cioc": "GUA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Guatemala City"],
+    "region": "Americas",
+    "subregion": "Central",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [15.5, -90.25],
+    "landlocked": false,
+    "area": 108889,
+    "flag": "🇬🇹",
+    "population": 16858333,
+    "gini": {
+      "2014": 48.3
+    },
+    "fifa": "GUA",
+    "capitalInfo": {
+      "latlng": [14.62, -90.52]
+    },
+    "continent": "north america",
+    "map": "JoRAbem4Hxb9FYbVA"
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "cca2": "TC",
+    "ccn3": "796",
+    "cca3": "TCA",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Cockburn Town"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [21.75, -71.58333333],
+    "landlocked": false,
+    "area": 948,
+    "flag": "🇹🇨",
+    "population": 38718,
+    "fifa": "TCA",
+    "capitalInfo": {
+      "latlng": [21.46, -71.14]
+    },
+    "continent": "north america",
+    "map": "R8VUDQfwZiFtvmyn8"
+  },
+  {
+    "name": "Antarctica",
+    "cca2": "AQ",
+    "ccn3": "010",
+    "cca3": "ATA",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "region": "Antarctic",
+    "latlng": [-90, 0],
+    "landlocked": false,
+    "area": 14000000,
+    "flag": "🇦🇶",
+    "population": 1000,
+    "capitalInfo": {},
+    "continent": "antarctica",
+    "map": "kyBuJriu4itiXank7"
+  },
+  {
+    "name": "Bahrain",
+    "cca2": "BH",
+    "ccn3": "048",
+    "cca3": "BHR",
+    "cioc": "BRN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Manama"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [26, 50.55],
+    "landlocked": false,
+    "area": 765,
+    "flag": "🇧🇭",
+    "population": 1701583,
+    "fifa": "BHR",
+    "capitalInfo": {
+      "latlng": [26.23, 50.57]
+    },
+    "continent": "asia",
+    "map": "5Zue99Zc6vFBHxzJ7"
+  },
+  {
+    "name": "Madagascar",
+    "cca2": "MG",
+    "ccn3": "450",
+    "cca3": "MDG",
+    "cioc": "MAD",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Antananarivo"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "fra": "French",
+      "mlg": "Malagasy"
+    },
+    "latlng": [-20, 47],
+    "landlocked": false,
+    "area": 587041,
+    "flag": "🇲🇬",
+    "population": 27691019,
+    "gini": {
+      "2012": 42.6
+    },
+    "fifa": "MAD",
+    "capitalInfo": {
+      "latlng": [-18.92, 47.52]
+    },
+    "continent": "africa",
+    "map": "AHQh2ABBaFW6Ngj26"
+  },
+  {
+    "name": "Western Sahara",
+    "cca2": "EH",
+    "ccn3": "732",
+    "cca3": "ESH",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["El Aaiún"],
+    "region": "Africa",
+    "subregion": "Northern",
+    "languages": {
+      "ber": "Berber",
+      "mey": "Hassaniya",
+      "spa": "Spanish"
+    },
+    "latlng": [24.5, -13],
+    "landlocked": false,
+    "area": 266000,
+    "flag": "🇪🇭",
+    "population": 510713,
+    "capitalInfo": {
+      "latlng": [-13.28, 27.14]
+    },
+    "continent": "africa",
+    "map": "7nU3mB69vP6zQp7A8"
+  },
+  {
+    "name": "Micronesia",
+    "cca2": "FM",
+    "ccn3": "583",
+    "cca3": "FSM",
+    "cioc": "FSM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Palikir"],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [6.91666666, 158.25],
+    "landlocked": false,
+    "area": 702,
+    "flag": "🇫🇲",
+    "population": 115021,
+    "gini": {
+      "2013": 40.1
+    },
+    "capitalInfo": {
+      "latlng": [6.92, 158.15]
+    },
+    "continent": "oceania",
+    "map": "LLcnofC5LxZsJXTo8"
+  },
+  {
+    "name": "South",
+    "cca2": "ZA",
+    "ccn3": "710",
+    "cca3": "ZAF",
+    "cioc": "RSA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Pretoria", "Bloemfontein", "Cape Town"],
+    "region": "Africa",
+    "subregion": "Southern",
+    "languages": {
+      "afr": "Afrikaans",
+      "eng": "English",
+      "nbl": "Southern Ndebele",
+      "nso": "Northern Sotho",
+      "sot": "Southern Sotho",
+      "ssw": "Swazi",
+      "tsn": "Tswana",
+      "tso": "Tsonga",
+      "ven": "Venda",
+      "xho": "Xhosa",
+      "zul": "Zulu"
+    },
+    "latlng": [-29, 24],
+    "landlocked": false,
+    "area": 1221037,
+    "flag": "🇿🇦",
+    "population": 59308690,
+    "gini": {
+      "2014": 63
+    },
+    "fifa": "RSA",
+    "capitalInfo": {
+      "latlng": [-25.7, 28.22]
+    },
+    "continent": "africa",
+    "map": "CLCZ1R8Uz1KpYhRv6"
+  },
+  {
+    "name": "Caribbean Netherlands",
+    "cca2": "BQ",
+    "ccn3": "535",
+    "cca3": "BES",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Kralendijk"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English",
+      "nld": "Dutch",
+      "pap": "Papiamento"
+    },
+    "latlng": [12.18, -68.25],
+    "landlocked": false,
+    "area": 328,
+    "flag": "🇧🇶",
+    "population": 25987,
+    "capitalInfo": {
+      "latlng": [12.14, -68.27]
+    },
+    "continent": "north america",
+    "map": "4XVes1P6uEDTz77WA"
+  },
+  {
+    "name": "Djibouti",
+    "cca2": "DJ",
+    "ccn3": "262",
+    "cca3": "DJI",
+    "cioc": "DJI",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Djibouti"],
+    "region": "Africa",
+    "subregion": "Eastern",
+    "languages": {
+      "ara": "Arabic",
+      "fra": "French"
+    },
+    "latlng": [11.5, 43],
+    "landlocked": false,
+    "area": 23200,
+    "flag": "🇩🇯",
+    "population": 988002,
+    "gini": {
+      "2017": 41.6
+    },
+    "fifa": "DJI",
+    "capitalInfo": {
+      "latlng": [11.58, 43.15]
+    },
+    "continent": "africa",
+    "map": "V1HWfzN3bS1kwf4C6"
+  },
+  {
+    "name": "Senegal",
+    "cca2": "SN",
+    "ccn3": "686",
+    "cca3": "SEN",
+    "cioc": "SEN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Dakar"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [14, -14],
+    "landlocked": false,
+    "area": 196722,
+    "flag": "🇸🇳",
+    "population": 16743930,
+    "gini": {
+      "2011": 40.3
+    },
+    "fifa": "SEN",
+    "capitalInfo": {
+      "latlng": [14.73, -17.63]
+    },
+    "continent": "africa",
+    "map": "o5f1uD5nyihCL3HCA"
+  },
+  {
+    "name": "Gambia",
+    "cca2": "GM",
+    "ccn3": "270",
+    "cca3": "GMB",
+    "cioc": "GAM",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Banjul"],
+    "region": "Africa",
+    "subregion": "Western",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [13.46666666, -16.56666666],
+    "landlocked": false,
+    "area": 10689,
+    "flag": "🇬🇲",
+    "population": 2416664,
+    "gini": {
+      "2015": 35.9
+    },
+    "fifa": "GAM",
+    "capitalInfo": {
+      "latlng": [13.45, -16.57]
+    },
+    "continent": "africa",
+    "map": "bbGBCxxtfD2A9Z4m6"
+  },
+  {
+    "name": "Botswana",
+    "cca2": "BW",
+    "ccn3": "072",
+    "cca3": "BWA",
+    "cioc": "BOT",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Gaborone"],
+    "region": "Africa",
+    "subregion": "Southern",
+    "languages": {
+      "eng": "English",
+      "tsn": "Tswana"
+    },
+    "latlng": [-22, 24],
+    "landlocked": true,
+    "area": 582000,
+    "flag": "🇧🇼",
+    "population": 2351625,
+    "gini": {
+      "2015": 53.3
+    },
+    "fifa": "BOT",
+    "capitalInfo": {
+      "latlng": [-24.63, 25.9]
+    },
+    "continent": "africa",
+    "map": "E364KeLy6N4JwxwQ8"
+  },
+  {
+    "name": "French Guiana",
+    "cca2": "GF",
+    "ccn3": "254",
+    "cca3": "GUF",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Cayenne"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "fra": "French"
+    },
+    "latlng": [4, -53],
+    "landlocked": false,
+    "area": 83534,
+    "flag": "🇬🇫",
+    "population": 254541,
+    "capitalInfo": {
+      "latlng": [4.94, -52.33]
+    },
+    "continent": "south america",
+    "map": "NJawFwMzG7YtCrVP7"
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "cca2": "KN",
+    "ccn3": "659",
+    "cca3": "KNA",
+    "cioc": "SKN",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Basseterre"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [17.33333333, -62.75],
+    "landlocked": false,
+    "area": 261,
+    "flag": "🇰🇳",
+    "population": 53192,
+    "fifa": "SKN",
+    "capitalInfo": {
+      "latlng": [17.3, -62.72]
+    },
+    "continent": "north america",
+    "map": "qiaVwcLVTXX3eoTNA"
+  },
+  {
+    "name": "Turkey",
+    "cca2": "TR",
+    "ccn3": "792",
+    "cca3": "TUR",
+    "cioc": "TUR",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Ankara"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "tur": "Turkish"
+    },
+    "latlng": [39, 35],
+    "landlocked": false,
+    "area": 783562,
+    "flag": "🇹🇷",
+    "population": 84339067,
+    "gini": {
+      "2019": 41.9
+    },
+    "fifa": "TUR",
+    "capitalInfo": {
+      "latlng": [39.93, 32.87]
+    },
+    "continent": "asia",
+    "map": "dXFFraiUDfcB6Quk6"
+  },
+  {
+    "name": "Azerbaijan",
+    "cca2": "AZ",
+    "ccn3": "031",
+    "cca3": "AZE",
+    "cioc": "AZE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Baku"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "aze": "Azerbaijani",
+      "rus": "Russian"
+    },
+    "latlng": [40.5, 47.5],
+    "landlocked": true,
+    "area": 86600,
+    "flag": "🇦🇿",
+    "population": 10110116,
+    "gini": {
+      "2005": 26.6
+    },
+    "fifa": "AZE",
+    "capitalInfo": {
+      "latlng": [40.38, 49.87]
+    },
+    "continent": "asia",
+    "map": "az3Zz7ar2aoB9AUc6"
+  },
+  {
+    "name": "Costa Rica",
+    "cca2": "CR",
+    "ccn3": "188",
+    "cca3": "CRI",
+    "cioc": "CRC",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["San José"],
+    "region": "Americas",
+    "subregion": "Central",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [10, -84],
+    "landlocked": false,
+    "area": 51100,
+    "flag": "🇨🇷",
+    "population": 5094114,
+    "gini": {
+      "2019": 48.2
+    },
+    "fifa": "CRC",
+    "capitalInfo": {
+      "latlng": [9.93, -84.09]
+    },
+    "continent": "north america",
+    "map": "RFiwytjvNrpfKN7k6"
+  },
+  {
+    "name": "Curaçao",
+    "cca2": "CW",
+    "ccn3": "531",
+    "cca3": "CUW",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Willemstad"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English",
+      "nld": "Dutch",
+      "pap": "Papiamento"
+    },
+    "latlng": [12.116667, -68.933333],
+    "landlocked": false,
+    "area": 444,
+    "flag": "🇨🇼",
+    "population": 155014,
+    "fifa": "CUW",
+    "capitalInfo": {
+      "latlng": [12.1, -68.92]
+    },
+    "continent": "north america",
+    "map": "9D3hTeA3qKaRT7S16"
+  },
+  {
+    "name": "Vietnam",
+    "cca2": "VN",
+    "ccn3": "704",
+    "cca3": "VNM",
+    "cioc": "VIE",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Hanoi"],
+    "region": "Asia",
+    "subregion": "South-Eastern",
+    "languages": {
+      "vie": "Vietnamese"
+    },
+    "latlng": [16.16666666, 107.83333333],
+    "landlocked": false,
+    "area": 331212,
+    "flag": "🇻🇳",
+    "population": 97338583,
+    "gini": {
+      "2018": 35.7
+    },
+    "fifa": "VIE",
+    "capitalInfo": {
+      "latlng": [21.03, 105.85]
+    },
+    "continent": "asia",
+    "map": "PCpVt9WzdJ9A9nEZ9"
+  },
+  {
+    "name": "Croatia",
+    "cca2": "HR",
+    "ccn3": "191",
+    "cca3": "HRV",
+    "cioc": "CRO",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Zagreb"],
+    "region": "Europe",
+    "subregion": "Southeast",
+    "languages": {
+      "hrv": "Croatian"
+    },
+    "latlng": [45.16666666, 15.5],
+    "landlocked": false,
+    "area": 56594,
+    "flag": "🇭🇷",
+    "population": 4047200,
+    "gini": {
+      "2018": 29.7
+    },
+    "fifa": "CRO",
+    "capitalInfo": {
+      "latlng": [45.8, 16]
+    },
+    "continent": "europe",
+    "map": "qSG6xTKUmrYpwmGQ6"
+  },
+  {
+    "name": "Niue",
+    "cca2": "NU",
+    "ccn3": "570",
+    "cca3": "NIU",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["Alofi"],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "languages": {
+      "eng": "English",
+      "niu": "Niuean"
+    },
+    "latlng": [-19.03333333, -169.86666666],
+    "landlocked": false,
+    "area": 260,
+    "flag": "🇳🇺",
+    "population": 1470,
+    "capitalInfo": {
+      "latlng": [-19.02, -169.92]
+    },
+    "continent": "oceania",
+    "map": "xFgdzs3E55Rk1y8P9"
+  },
+  {
+    "name": "Anguilla",
+    "cca2": "AI",
+    "ccn3": "660",
+    "cca3": "AIA",
+    "independent": false,
+    "status": "officially-assigned",
+    "unMember": false,
+    "capital": ["The Valley"],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "languages": {
+      "eng": "English"
+    },
+    "latlng": [18.25, -63.16666666],
+    "landlocked": false,
+    "area": 91,
+    "flag": "🇦🇮",
+    "population": 13452,
+    "fifa": "AIA",
+    "capitalInfo": {
+      "latlng": [18.22, -63.05]
+    },
+    "continent": "north america",
+    "map": "3KgLnEyN7amdno2p9"
+  },
+  {
+    "name": "Qatar",
+    "cca2": "QA",
+    "ccn3": "634",
+    "cca3": "QAT",
+    "cioc": "QAT",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Doha"],
+    "region": "Asia",
+    "subregion": "Western",
+    "languages": {
+      "ara": "Arabic"
+    },
+    "latlng": [25.5, 51.25],
+    "landlocked": false,
+    "area": 11586,
+    "flag": "🇶🇦",
+    "population": 2881060,
+    "fifa": "QAT",
+    "startOfWeek": "sunday",
+    "capitalInfo": {
+      "latlng": [25.28, 51.53]
+    },
+    "continent": "asia",
+    "map": "ZV76Y49z7LLUZ2KQ6"
+  },
+  {
+    "name": "Colombia",
+    "cca2": "CO",
+    "ccn3": "170",
+    "cca3": "COL",
+    "cioc": "COL",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "capital": ["Bogotá"],
+    "region": "Americas",
+    "subregion": "South",
+    "languages": {
+      "spa": "Spanish"
+    },
+    "latlng": [4, -72],
+    "landlocked": false,
+    "area": 1141748,
+    "flag": "🇨🇴",
+    "population": 50882884,
+    "gini": {
+      "2019": 51.3
+    },
+    "fifa": "COL",
+    "capitalInfo": {
+      "latlng": [4.71, -74.07]
+    },
+    "continent": "south america",
+    "map": "RdwTG8e7gPwS62oR6"
+  }
+]

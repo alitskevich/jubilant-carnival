@@ -1,0 +1,20 @@
+{
+  "name": "countries-app",
+  "version": "1.1.0",
+  "description": "Countries on Arrmatura",
+  "author": "alitskevich",
+  "license": "MIT",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "rm -fdr dist && parcel build --no-scope-hoist",
+    "deploy": "firebase deploy --project 998906531698 --only hosting"
+  },
+  "dependencies": {
+    "arrmatura-web": "workspace:^6.2.0",
+    "arrmatura-ui": "workspace:^1.0.1",
+    "ultimus": "workspace:^2.0.1"
+  },
+  "devDependencies": {}
+}

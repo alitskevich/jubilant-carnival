@@ -1,0 +1,167 @@
+<components>
+
+  <component id="App">
+    <ToastService ref="toaster" />
+    <StoredData name="state" data="@state" defaults="@@defaultState" action="-> @state" />
+    <QuizService ref="quiz" state="@state" quiz="@@quiz" />
+    <MainPage />
+    <ToastList />
+  </component>
+
+  <component id="MainPage">
+    <Connector data="<- quiz@step" change="-> @step" />
+    <Container class="flex flex-col h-screen">
+      <div class="flex flex-col flex-1">
+        <StepsList step="@step" showHint="@showHint" item="<- quiz@current" if="@step > -1" />
+      </div>
+      <div class="flex flex-col flex-1">
+        <Congrats if="@step == -1" />
+      </div>
+
+      <div class="w-full flex flex-row justify-center my-5">
+        <div touch="-> @dragging=data|log:'drop'">
+          <Btn title="@@strings.confirm" mode="primary" />
+        </div>
+      </div>
+
+    </Container>
+  </component>
+
+  <component id=" MainPage2">
+    <Connector data="<- quiz@step" change="-> @step" />
+    <main class="flex flex-col">
+      <div class="h-10 flex flex-row justify-between items-center">
+        <Nav step="@step" />
+        <AppTitle step="@step" />
+        <div class="h-8 w-28 flex flex-row items-center">
+          <Btn title="Stop" class="bg-red-700" action="-> quiz.onStop()" if="@step > -1" />
+          <Btn title="Restart" class="bg-green-700" action="-> quiz.onRestart()" if="@step == -1" />
+          <Help if="@step > -1" />
+        </div>
+      </div>
+      <div class="flex flex-col flex-1">
+        <StepsList step="@step" showHint="@showHint" item="<- quiz@current" if="@step > -1" />
+        <Congrats if="@step == -1" />
+      </div>
+    </main>
+  </component>
+
+  <component id="StepsList">
+    <Progress step="@step" />
+    <div class="flex flex-col flex-1 op" style="position: relative;">
+      <QuizItem (...)="@item" />
+    </div>
+    <div class="m-4 p-2 flex flex-row centroid">
+
+    </div>
+  </component>
+
+  <component id="QuizItem">
+    <div class="p-2 flex flex-col flex-1 quiz revealed">
+      <h5 class="hidden text-bold mt-2 p-4 bg-emerald-800 rounded-md" id="explanation" if="@explanation">
+        <b>💡</b><span class="ml-2">{@explanation}</span>
+      </h5>
+      <h5 class="text-bold mt-2"><b>{@symbol ?? '⚪'} {@slug}</b><span class="ml-2">{@question}</span>
+      </h5>
+      <h5 class="text-normal mt-2 flex-1 overflow-y-auto question-body" innerHtml="{@body}"></h5>
+      <div class="mt-2 flex flex-col centroid items-stretch">
+        <Dynamic as="Input.{@questionType | capitalize}" id="@id" value="@value" disabled="@confirmed"
+          options="@options" isCorrect="@isCorrect" isWrong="@isCorrect#not && @confirmed"
+          changed="-> quiz.onAnswer()" />
+      </div>
+    </div>
+  </component>
+
+  <component id="Input">
+    <div class="flex flex-col m-2 centroid">
+      <div class="flex flex-row w100 my-2">
+        <div class="flex flex-col m-2 flex-1" style="align-items:center;">
+          <input class="p-1 md:p-2 border-2 
+          text-center  rounded-md bg-slate-600 border-slate-300
+          {@value && @isCorrect ? '!bg-emerald-700'} 
+          {@value && @isWrong ? '!bg-red-600'} 
+          {@disabled ? 'disabled'}
+          " data-key="@id" change="@changed" disabled="@disabled" value="@value" />
+          <p class="mt-2">{title}</p>
+        </div>
+      </div>
+    </div>
+  </component>
+
+  <component id="Input.Select">
+    <div class="flex flex-row gap-3 flex-wrap">
+      <div class="flex flex-row flex-1 min-w-fit" each="option of @options">
+        <div class="flex flex-row flex-1 p-1 md:p-2 border-2 
+          text-center  rounded-md bg-slate-600 border-slate-300
+          {@value == @option.id ? '!border-amber-500'} 
+          {@value == @option.id && @isCorrect ? '!bg-emerald-700'} 
+          {@value == @option.id && @isWrong ? '!bg-red-600'} 
+          {@disabled ? 'disabled'}" data-key="@id" data-value="@option.id" click="@changed">
+          <p class="flex-1" title="{option.id|plus:1}"> {@option.name}</p>
+        </div>
+      </div>
+    </div>
+  </component>
+
+  <component id="ResultsReport">
+    <div class="flex flex-col gap-2 max-w-fit">
+      <div class="flex flex-row flex-1 min-w-fit justify-center" each="option of @data">
+        <div class="flex flex-row flex-1 p-1 md:p-2
+              text-center
+              " data-key="@id" data-value="@option.id" click="@changed">
+          <p class="flex-1" title="{option.id|plus:1}"> <b class="capitalize">{@option.id} </b><span>:
+              {@option.name}</span></p>
+        </div>
+      </div>
+    </div>
+  </component>
+
+  <component id="Congrats">
+    <TgWebAppService ref="tg" buttonText="@@strings.congratButtonTitle" data="<- quiz@submitData"
+      submitQueryUrl="@@submitQueryUrl" />
+
+    <div class="flex flex-col centroid flex-1">
+      <div class="flex flex-col centroid flex-1 revealed">
+        <img src="@@assets.thumbsup" />
+        <h3 class="my-2 text-center">{@@strings.congratTitle}</h3>
+        <hr class="w-full h-1 border-1 border-zinc-400" />
+        <ResultsReport data="<- quiz@report" />
+      </div>
+      <div class="m-4 p-2 flex flex-row centroid" if="<- tg@isMocked">
+        <Btn title="@@strings.congratButtonTitle" mode="primary" large action="-> tg.onSubmit()" busy="<- tg@busy" />
+      </div>
+    </div>
+  </component>
+
+  <component id="AppTitle">
+    <div class="flex flex-row centroid gap-2 h-8">
+      <img src="@@assets.football" style="transform: rotate({@step|multiply:180}deg); transition: transform 1s;" />
+      <div>{@@name}</div>
+    </div>
+  </component>
+
+  <component id="Nav">
+    <div class="h-8 w-28 flex flex-row items-center">
+      <Fragment if="@step > -1">
+        <img class="icon" src="@@assets.back" click="-> quiz.onBack()" />
+        <div class="progess-caption">{@step|plus:1} / {@@quiz.length}</div>
+        <img class="icon rotate-180" src="@@assets.back" click="-> quiz.onNext()" />
+      </Fragment>
+    </div>
+  </component>
+
+  <component id="Help">
+    <div class="h-8 mx-2 flex flex-row justify-between items-center" toggleClass="hidden in explanation">
+      <img class="h-6 w-6" src="@@assets.info" />
+    </div>
+  </component>
+
+  <component id="Progress">
+    <div class="h-4 flex flex-row justify-between  items-center gap-0 md:gap-2">
+      <div class=" flex-1
+       bg-{@item.color}-{@item.order == @step ? '300' : '600'} 
+      {@item.order == @step ? 'h-3' : 'h-1'}" each="item of <-quiz@progress" />
+    </div>
+  </component>
+
+</components>

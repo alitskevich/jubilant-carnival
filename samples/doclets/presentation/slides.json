@@ -1,0 +1,338 @@
+{
+  "slides": [
+    {
+      "type": "slide",
+      "background": {
+        "url": "https://www.maxpixel.net/static/photo/1x/Fantasy-Green-Energy-Background-Dark-Wallpaper-545053.jpg"
+      },
+      "layout": "title",
+      "children": [
+        {
+          "type": "Shape",
+          "transform": {
+            "scaleX": 2,
+            "translateX": 279,
+            "scaleY": 0,
+            "translateY": 110
+          },
+          "className": "textBox",
+          "text": {
+            "value": "THIS IS EXAMPLE!",
+            "style": {
+              "backgroundColor": "#00000000",
+              "fontFamily": "Impact",
+              "fontSize": 48,
+              "fontWeight": 400,
+              "color": "accent2",
+              "bold": false,
+              "italic": false,
+              "smallCaps": false,
+              "strikethrough": false,
+              "underline": false,
+              "textAlignment": "center"
+            }
+          }
+        },
+        {
+          "type": "Shape",
+          "transform": {
+            "scaleX": 1,
+            "translateX": 400,
+            "scaleY": 0,
+            "translateY": 275
+          },
+          "className": "textBox",
+          "text": {
+            "value": "Very draft",
+            "style": {
+              "backgroundColor": "#00000000",
+              "fontFamily": "Lato",
+              "fontSize": 13,
+              "fontWeight": 400,
+              "color": "light1",
+              "bold": false,
+              "italic": false,
+              "smallCaps": false,
+              "strikethrough": false,
+              "underline": false,
+              "textAlignment": "start"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "slide",
+      "layout": "bigNumber",
+      "children": [
+        {
+          "type": "Shape",
+          "transform": {
+            "scaleX": 2,
+            "translateX": 65,
+            "scaleY": 0,
+            "translateY": 90
+          },
+          "className": "textBox",
+          "text": {
+            "value": "$232 424",
+            "style": {
+              "backgroundColor": "#00000000",
+              "fontFamily": "Impact",
+              "fontSize": 48,
+              "fontWeight": 400,
+              "color": "accent6",
+              "bold": false,
+              "italic": false,
+              "smallCaps": false,
+              "strikethrough": false,
+              "underline": false,
+              "textAlignment": "center"
+            }
+          }
+        },
+        {
+          "type": "video",
+          "transform": {
+            "scaleX": 295,
+            "translateX": 366,
+            "scaleY": 268,
+            "translateY": 41
+          },
+          "title": "Demo Background Sample Video",
+          "srcType": "YOUTUBE",
+          "src": "http://www.youtube.com/watch?v=K4TOrB7at0Y",
+          "poster": "https://lh4.googleusercontent.com/_wYCGlnIPoWhvkXAlFJl2JAw-y2xpcqwum14Yc74vgmbM5NzKLidVZQ4GwKPHUdxzzftKVV6TT9OgnBxZ7vqTcl95nH45KpvscOIz6DxcPbhiDIKkMo_2yuDM0YcW9VhhBAYqIy_WSMPJBy4y7N22q8TUVHHcX-cSSgdMf-pyrgjYRMNUDOFOHSUYCA-jqQmdzmD1g=nw"
+        }
+      ]
+    },
+    {
+      "type": "slide",
+      "layout": "mainPoint",
+      "children": [
+        {
+          "type": "Shape",
+          "transform": {
+            "scaleX": 1,
+            "translateX": 249,
+            "scaleY": 0,
+            "translateY": 143
+          },
+          "className": "snip2DiagonalRectangle",
+          "fill": {
+            "alpha": 1,
+            "color": "#00FF00"
+          },
+          "text": {
+            "value": "JOIN NOW",
+            "style": {
+              "backgroundColor": "#00FF00",
+              "italic": false,
+              "smallCaps": false,
+              "strikethrough": false,
+              "underline": false,
+              "textAlignment": "center",
+              "fontFamily": "Roboto Mono",
+              "fontSize": 18,
+              "fontWeight": 700,
+              "color": "accent3",
+              "bold": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "slide",
+      "layout": "captionOnly",
+      "children": [
+        {
+          "type": "table",
+          "transform": {
+            "scaleX": 1,
+            "translateX": 52,
+            "scaleY": 1,
+            "translateY": 88
+          },
+          "rows": [
+            {
+              "cols": [
+                {
+                  "text": {
+                    "values": [
+                      {
+                        "value": "Nemo enim ipsam voluptatem quia volupas sit aspernatur aut odit aut f",
+                        "style": {
+                          "backgroundColor": "#00000000",
+                          "fontFamily": "Roboto",
+                          "fontSize": 11,
+                          "fontWeight": 300,
+                          "color": "white",
+                          "bold": false,
+                          "italic": false,
+                          "smallCaps": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "textAlignment": "start"
+                        }
+                      },
+                      {
+                        "value": "ugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet",
+                        "style": {
+                          "backgroundColor": "#00000000",
+                          "fontFamily": "Roboto",
+                          "fontSize": 11,
+                          "fontWeight": 700,
+                          "color": "white",
+                          "bold": true,
+                          "italic": false,
+                          "smallCaps": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "textAlignment": "start"
+                        }
+                      }
+                    ],
+                    "style": {
+                      "backgroundColor": "#00000000",
+                      "italic": false,
+                      "smallCaps": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "textAlignment": "start"
+                    }
+                  }
+                },
+                {
+                  "columnSpan": 3,
+                  "rowSpan": 1,
+                  "text": {
+                    "values": [
+                      {
+                        "value": "Sed ut perspiciatis",
+                        "style": {
+                          "backgroundColor": "#00000000",
+                          "fontFamily": "Roboto",
+                          "fontSize": 11,
+                          "fontWeight": 700,
+                          "color": "#FF0000",
+                          "bold": true,
+                          "italic": false,
+                          "smallCaps": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "textAlignment": "start"
+                        }
+                      },
+                      {
+                        "value": "unde omnis iste",
+                        "style": {
+                          "backgroundColor": "#00000000",
+                          "fontFamily": "Roboto",
+                          "fontSize": 11,
+                          "fontWeight": 700,
+                          "color": "white",
+                          "bold": true,
+                          "italic": false,
+                          "smallCaps": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "textAlignment": "start"
+                        }
+                      },
+                      {
+                        "value": "natus error sit voluptatem",
+                        "style": {
+                          "backgroundColor": "#00000000",
+                          "fontFamily": "Roboto",
+                          "fontSize": 11,
+                          "fontWeight": 700,
+                          "color": "#FFF2CC",
+                          "bold": true,
+                          "italic": false,
+                          "smallCaps": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "textAlignment": "start"
+                        }
+                      },
+                      {
+                        "value": "accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+                        "style": {
+                          "backgroundColor": "#00000000",
+                          "fontFamily": "Roboto",
+                          "fontSize": 11,
+                          "fontWeight": 300,
+                          "color": "white",
+                          "bold": false,
+                          "italic": false,
+                          "smallCaps": false,
+                          "strikethrough": false,
+                          "underline": false,
+                          "textAlignment": "start"
+                        }
+                      }
+                    ],
+                    "style": {
+                      "backgroundColor": "#00000000",
+                      "fontFamily": "Roboto",
+                      "fontSize": 11,
+                      "italic": false,
+                      "smallCaps": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "textAlignment": "start"
+                    }
+                  }
+                },
+                {
+                  "mergeState": "MERGED"
+                },
+                {
+                  "mergeState": "MERGED"
+                }
+              ]
+            },
+            {
+              "cols": [
+                {
+                  "columnSpan": 2,
+                  "rowSpan": 1,
+                  "text": {
+                    "value": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet",
+                    "style": {
+                      "backgroundColor": "#00000000",
+                      "fontFamily": "Roboto",
+                      "fontSize": 11,
+                      "color": "white",
+                      "italic": false,
+                      "smallCaps": false,
+                      "strikethrough": false,
+                      "underline": false,
+                      "textAlignment": "start",
+                      "fontWeight": 700,
+                      "bold": true
+                    }
+                  }
+                },
+                {
+                  "mergeState": "MERGED"
+                },
+                {
+                  "columnSpan": 2,
+                  "rowSpan": 1
+                },
+                {
+                  "mergeState": "MERGED"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "name": "SAMPLE",
+  "pageHeight": 360,
+  "pageWidth": 720
+}

@@ -1,0 +1,51 @@
+{
+  "name": "axoid-server",
+  "version": "1.0.2",
+  "description": "NodeJS Server on AXOID",
+  "keywords": [
+    "node.js",
+    "framework",
+    "reactive",
+    "declarative",
+    "asynchronous",
+    "coffeescript"
+  ],
+  "author": {
+    "name": "Aliaksandr Litskevich",
+    "url": "http://google.com/+Alex.Litskevich"
+  },
+  "license": {
+    "type": "APACHE20",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "default": "gulp",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alitskevich/axoid-server.git"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "axoid": "^3.1.0",
+    "coffee-script": "^1.8.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.9",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-util": "*",
+    "gulp-plumber": "*",
+    "gulp-concat": "*",
+    "gulp-coffee": "*",
+    "gulp-uglify": "*",
+    "gulp-jshint": "*",
+    "gulp-cached": "*",
+    "gulp-remember": "*"
+  },
+  "main": "./index.js"
+}

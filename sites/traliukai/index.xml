@@ -1,0 +1,196 @@
+<components>
+
+  <component id="App">
+    <ToastService ref="toaster" />
+    <AuthService ref="auth" authUrl="@@apiUrl" persistence="local" afterSignedOut="-> nav.reload()" />
+    <NavigationService ref="nav" title="@@name" />
+    <Connector data="<- nav@route" change="-> @route" />
+
+    <ApiEndpoint ref="api" url="@@apiUrl" token="<- auth@token" />
+    <UserService ref="user" persistence="local" submit="<- api@postSigned" />
+    <DbCollection ref="db" kind="tasks" persistence="local" submit="<- api@post" />
+    <ItemCollectionController ref="items" data="<- db@items|activeContent:@route.params.tabId:@@params.id"
+      labelsFields="status" />
+    <PageRouter (...)="@route" />
+    <UserProfileModal data="<- user@info" if="<- user@showProfile" />
+    <ToastList />
+  </component>
+
+  <component id="MainPage">
+
+    <Connector data="<- items@info" change="-> ..." />
+    <Connector data-tabId="@newTabId" change="-> nav@params" if="@newTabId" />
+
+    <div class="w-full h-screen overflow-y-auto" scrolledDown="-> items@showMore"
+      scroll="-> @showScrollToTopButton = data.value > 120">
+
+      <Navbar caption="@@name" logo="@@assets.logo" id="top">
+        <Badge class="" value="@countsInfo" />
+        <Navbar:right>
+          <DbLoadingIndicator isLoading="<- db@isLoading" action="-> db.sync()" />
+          <UserBar info="<- user@info" />
+        </Navbar:right>
+      </Navbar>
+
+      <Container class="px-4 py-2 flex flex-wrap sm:flex-no-wrap justify-between items-center gap-2">
+        <ItemsFilter data="<- items@searchedData" meta="@@listFilter" initialFields="origCity,destCity"
+          class="flex-1 min-w-0" onChange="-> items@filterBySignature" value="<- items@filterBySignature" />
+      </Container>
+
+      <Container class="flex-col">
+        <AsyncLoader isLoading="<- items@isLoading" title="Loading data" subtitle="🚀 initial dataset"
+          error="<- db@error" onError="-> nav.reload()">
+          <div class="flex flex-col md:gap-4 w-full">
+            <Tabs items="@@listTabs" change="-> @newTabId" value="@params.tabId ?? 'ask'">
+              <ListSortBy options="@@enums.sortBy" value="@sortBy" dir="@sortDir" onChange="-> items@sortBy"
+                onChangeDir="-> items@sortDir" if="@@enums.sortBy.length && @data.length" />
+            </Tabs>
+            <Stub title="No data" if="@data.length | not">
+              <Else>
+                <TasksListItem (...)="@item" item="@item" sortBy="@sortBy" each="item of @data" />
+                <div class="h-48"></div>
+              </Else>
+            </Stub>
+          </div>
+        </AsyncLoader>
+      </Container>
+
+    </div>
+
+    <ScrollToTopButton if="@showScrollToTopButton" side="left" />
+
+    <NewItemFacility if="@params.tabId == 'my'" />
+  </component>
+
+  <component id="TasksListItemPopover">
+    <Popover icon="info">
+      <h3 class="font-semibold text-gray-900 dark:text-white">{@title}</h3>
+      <div class="flex" if="@userId">
+        <b class="font-bold">User</b>
+        <a href=" tg://user?id={@userId}" target="tg_{@userId}" class="ml-2 flex-1">{@userName ?? @userId}</a>
+      </div>
+      <div class="flex" if="@phone">
+        <b class="font-bold">Phone</b>
+        <a class="ml-2 flex-1" href="tel:{@phone}" target="tel_{@phone}">{@phone}</a>
+      </div>
+      <div class="flex">
+        <b class="font-bold">Last updated date</b>
+        <span class="ml-2 flex-1">{@ts ?? @date | date}</span>
+      </div>
+    </Popover>
+  </component>
+
+  <component id="CityCaption">
+    <Connector data="@@enums.country | find:@country" change="-> @countryElt" />
+    <Connector data="@@enums.city | find:@city" change="-> @cityElt" />
+    <span class="@class">{@countryElt.symbol ?? @country} { @cityElt.name ?? @city ?? @countryElt.name}</span>
+  </component>
+
+  <component id="TasksListItem">
+    <li class="list-item" title="{@title}">
+      <div class="flex items-center space-x-4">
+
+        <div class="flex-shrink-0">
+          <Avatar src2="@@assets.person1" initials="@userName ?? @userId | abbreviate"
+            status="@status == 'open' ? 'bg-green-500' :'bg-red-500'"
+            statusSymbol="{@@enums.kind | find:@kind | dot:symbol ?? '.'}" alt="{@title}" />
+        </div>
+
+        <div class="flex-1 min-w-0 text-gray-900 dark:text-white">
+
+          <a href="#/task?itemId={@id}"
+            class="text-normal font-medium {@status == 'open' ? '' : 'text-gray-500 dark:text-gray-500'} flex items-center gap-3">
+            <CityCaption country="@origCountry" city="@origCity" />
+            <Icon type="arrowUp" size="4" class="rotate-90" />
+            <CityCaption country="@destCountry" city="@destCity" />
+          </a>
+          <p class="text-sm text-gray-400 truncate uppercase dark:text-gray-300">
+            <!-- <span>{@@enums.status | find:@status | dot:name ?? ''}</span> -->
+            <span class="ml-2" if="@status == 'open'">{@startDate} - {@datePeriod ?? '1'} d.</span>
+          </p>
+          <p class="text text-gray-500 truncate dark:text-gray-300" if="@sortByValue">{@sortByValue}</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400 break-words">
+            <span>{@subject | slice:0:80}</span>
+            <a href="{@link}" target="_{@id}" if="@link"
+              class="flex items-center font-medium text-blue-600 dark:text-blue-500 dark:hover:text-blue-600 hover:text-blue-700">
+              <span>{@link | slice:0:20}</span>
+              <Icon type="chevron" />
+            </a>
+          </p>
+
+        </div>
+
+        <div class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+          <TasksListItemPopover (...)="@item" />
+        </div>
+
+      </div>
+    </li>
+  </component>
+
+  <component id="TaskHeading">
+    <BackButton href="#/main" />
+    <div class="" if="@item.status">
+      <Avatar src2="@@assets.person1" initials="@item.title | abbreviate"
+        status="@item.status == 'open' ? 'bg-green-500' :'bg-red-500'" alt="{@item.title}" />
+    </div>
+    <div class="flex-1 min-w-0 ml-2" if="@item.status">
+      <div>
+        <a href="#/task?itemId={@itemId}" class="
+            block text-normal font-medium text-gray-100 truncate dark:text-white">
+          <span>{@item.status} {@item.startDate} - {@item.datePeriod ?? '1'} d.</span>
+        </a>
+      </div>
+      <div>
+        <CityCaption country="@item.origCountry" city="@item.origCity" />
+        <Icon type="arrowUp" size="4" class="inline-flex rotate-90" />
+        <CityCaption country="@item.destCountry" city="@item.destCity" />
+      </div>
+    </div>
+    <div class="w-10">
+      <DbLoadingIndicator isLoading="<- db@busy" action="-> db@item" data-id="@itemId" />
+    </div>
+  </component>
+
+  <component id="TaskPage">
+    <Connector data="<- db@items" change="-> @items" />
+    <ItemController ref="controller" itemId="@itemId" all="@items" upsert="-> db@upsert" />
+    <Connector data="<- controller@item" change="-> @item" />
+    <Connector data="@items|matchedItems:@item" change="-> @matchedItems" />
+    <Connector data="<- user@info" change="-> @user" />
+    <Connector data="@user.id == @item.userId" change="-> @editable" />
+
+    <div class="flex flex-col h-screen overflow-y-auto">
+      <header class="nav sticky top-0 inset-x-0 py-2" title="{@title}">
+        <Container class="flex-no-wrap items-center min-w-0 gap-1">
+          <TaskHeading item="@item" itemId="@itemId" />
+        </Container>
+      </header>
+
+      <main class="mx-auto flex-1 flex flex-col w-full max-w-4xl">
+        <Forma meta="@@forms.item" data="@item" change="-> controller@change" tabs="@@itemForm.tabs"
+          groups="@@itemForm.groups" disabled="@editable#not" />
+        <div class="p-2" if="@matchedItems.length">Matched items:</div>
+        <TasksListItem (...)="@item" item="@item" each="item of @matchedItems" />
+        <div class="h-16"></div>
+      </main>
+
+      <footer class="nav fixed bottom-0 inset-x-0 py-2">
+        <Container class="items-center">
+          <div class="flex-1 flex gap-1 items-center">
+            <NavListCursor {...<-controller@itemNavInfo} href="#/task?itemId=" />
+          </div>
+          <Fragment if="@editable">
+            <Btn title="Close" data-id="status" data-value="closed" action="-> controller@saveField" busy="<- db@busy"
+              if="@item.status == 'open'" />
+            <Btn title="Open" data-id="status" data-value="open" action="-> controller@saveField" busy="<- db@busy"
+              if="@item.status == 'closed'" />
+            <Btn icon="upload" title="Submit" mode="primary" action="-> controller@save" busy="<- db@busy"
+              disabled="<- controller@touched | not" />
+          </Fragment>
+        </Container>
+      </footer>
+    </div>
+  </component>
+
+</components>

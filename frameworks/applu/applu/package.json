@@ -1,0 +1,39 @@
+{
+  "name": "applu",
+  "version": "4.0.2",
+  "description": "Simple Application/Plugins architecture",
+  "keywords": [
+    "applu",
+    "es6"
+  ],
+  "author": {
+    "name": "Alex Litskevich",
+    "url": "https://github.com/alitskevich"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alitskevich/applu.git"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "dependencies": {
+    "function-flow": "git://github.com/alitskevich/function-flow.git"
+  },
+  "devDependencies": {
+    "babel-register": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "main": "./index.es6",
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ],
+    "only": "**/*.es6"
+  }
+}

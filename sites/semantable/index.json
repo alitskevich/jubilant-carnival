@@ -1,0 +1,2405 @@
+[
+  {
+    "key": "intellect, think, ",
+    "ns": "intellect",
+    "id": "MIND#0",
+    "domain": "MIND",
+    "entries": ["Smart/Mediocre/Stupid", "clever, wise, quick-witted, prudent, prodigy, profound"]
+  },
+  {
+    "key": "Idea, Thought",
+    "ns": "intellect",
+    "id": "MIND#1",
+    "domain": "MIND",
+    "entries": ["Statement, utterance", "Concept", "Point, opinion, mention", "thesis"]
+  },
+  {
+    "key": "Know",
+    "ns": "intellect",
+    "id": "MIND#2",
+    "domain": "MIND",
+    "entries": ["Vision, Reality", "Narrative, domain", "Faith,Dogm", "Paradigm", "Knowledge", "understand"]
+  },
+  {
+    "key": "Respect, Consider, deem",
+    "ns": "intellect",
+    "id": "MIND#3",
+    "domain": "MIND",
+    "entries": [
+      "Best,Better,Good/Bad,Worse,Worst",
+      "Beauty,Pretty,Nice/Ugly,nasty, disgust",
+      "Excellent, Great, Fine, Well",
+      "Significant, worthy, Important, crucial,",
+      "Truth/False",
+      "verily/fake"
+    ]
+  },
+  {
+    "key": "Concern",
+    "ns": "intellect",
+    "id": "MIND#4",
+    "domain": "MIND",
+    "entries": ["Afraid,worry, anxious", "wonder, astonish, miracle", "confuse, perplex,baffle, embarrassment"]
+  },
+  {
+    "key": "Suspect, Confidence",
+    "ns": "intellect",
+    "id": "MIND#5",
+    "domain": "MIND",
+    "entries": ["Certain,Sure/Hesitate, Doubt", "Assert, Check", "Prove, Proof", "Test, examine", "Try,Trial"]
+  },
+  {
+    "key": "Critisize, Complain",
+    "ns": "intellect",
+    "id": "MIND#6",
+    "domain": "MIND",
+    "entries": ["Consistent/Discrepancy", "Gaps", "Contadict", "Redundancy"]
+  },
+  {
+    "key": "Language",
+    "ns": "intellect",
+    "id": "MIND#7",
+    "domain": "MIND",
+    "entries": ["word, term, name", "phrase, expression, clause", "Epic, text", "code, sign", "recognize", "imply"]
+  },
+  {
+    "key": "Formalize",
+    "ns": "intellect",
+    "id": "MIND#8",
+    "domain": "MIND",
+    "entries": [
+      "Rule, Grammar, Axiom",
+      "Form, Formula, Theory",
+      "semantic, Meaning",
+      "Model, interpretation",
+      "induction/deduction",
+      "Determine, define"
+    ]
+  },
+  {
+    "key": "Imagine, Intuition",
+    "ns": "intellect",
+    "id": "MIND#9",
+    "domain": "MIND",
+    "entries": ["Guess", "Insight", "Invent", "Fantasy", "Innovate"]
+  },
+  {
+    "key": "Inspect, Attention",
+    "ns": "intellect",
+    "id": "MIND#10",
+    "domain": "MIND",
+    "entries": [
+      "Looking, observe, watch",
+      "Image, illusion",
+      "zoom_in, focus, scope, viewpoint",
+      "lucid",
+      "contrast/vague",
+      "vigilance, alert, scrutiny"
+    ]
+  },
+  {
+    "key": "Information",
+    "ns": "intellect",
+    "id": "MIND#11",
+    "domain": "MIND",
+    "entries": ["Message", "Sense", "Entrophy", "Noise", "Data"]
+  },
+  {
+    "key": "Memorize",
+    "ns": "intellect",
+    "id": "MIND#12",
+    "domain": "MIND",
+    "entries": ["Remember/forget", "Record", "remind", "New", "recall"]
+  },
+  {
+    "key": "Impression",
+    "ns": "intellect",
+    "id": "MIND#13",
+    "domain": "MIND",
+    "entries": [
+      "Feelings, Emotion",
+      "admire,amazed, splendid,fascinated",
+      "irritate, excite, vexed, bother, annoy",
+      "attract/distract",
+      "angry, fury, wrath",
+      "thrill, dread, Fobia, fear, fright, scare"
+    ]
+  },
+  {
+    "key": "Introspect",
+    "ns": "intellect",
+    "id": "MIND#14",
+    "domain": "MIND",
+    "entries": [
+      "Seek, scan, search, Find",
+      "Evidence, apparent, notice, symptom, indicator, flag, mark",
+      "secret, hidden"
+    ]
+  },
+  {
+    "key": "Expect",
+    "ns": "intellect",
+    "id": "MIND#15",
+    "domain": "MIND",
+    "entries": [
+      "Maybe, Possible, Probably, inevitable",
+      " suppose, Seem",
+      "anticipate, predict, prophet",
+      "Assumption",
+      "Believe, Hope",
+      "Estimation"
+    ]
+  },
+  {
+    "key": "Reckon",
+    "ns": "intellect",
+    "id": "MIND#16",
+    "domain": "MIND",
+    "entries": ["calculate, compute"]
+  },
+  {
+    "key": "Research",
+    "ns": "intellect",
+    "id": "MIND#17",
+    "domain": "MIND",
+    "entries": ["discover, explore, Reveal", "Question", "Analyze/synthesize"]
+  },
+  {
+    "key": "Reasoning, Conclude",
+    "ns": "intellect",
+    "id": "MIND#18",
+    "domain": "MIND",
+    "entries": [
+      "judge, justify,Logic, inference",
+      "Cause/Consequence",
+      "Reason, Ground, foundation",
+      "Premise/Conclusion",
+      "Correct/fallacy, wrong",
+      "rational/absurd",
+      "Factor",
+      "confuse/trivial",
+      "Absolute/Conditional"
+    ]
+  },
+  {
+    "key": "Explain",
+    "ns": "intellect",
+    "id": "MIND#19",
+    "domain": "MIND",
+    "entries": ["Describe", "Report", "emphasis, highlight", "magic"]
+  },
+  {
+    "key": "Learn, Training",
+    "ns": "intellect",
+    "id": "MIND#20",
+    "domain": "MIND",
+    "entries": ["Open-Minded", "Skill", "Experience, expertise, Competence", "Self-reliant"]
+  },
+  {
+    "key": "Curiosity",
+    "ns": "WAY",
+    "id": "MIND#21",
+    "domain": "MIND",
+    "entries": [
+      "passionate, exuberant/ calm, patient, placid",
+      "brave, courageous",
+      "dare/timid",
+      "Adventurous",
+      "hero/coward",
+      "optimistic/pessimistic"
+    ]
+  },
+  {
+    "key": "Motivation, Inspiration",
+    "ns": "WAY",
+    "id": "MIND#22",
+    "domain": "MIND",
+    "entries": [
+      "Crave, Intent, tend, yearn",
+      "obsession, mania, idea-fix",
+      "Want, Wish,desire",
+      "Mission, Aim",
+      "destiny, fate",
+      "enthusiastic",
+      "Dream"
+    ]
+  },
+  {
+    "key": "Will",
+    "ns": "WAY",
+    "id": "MIND#23",
+    "domain": "MIND",
+    "entries": ["Target, objectives", "Feasibility", "Persue, urge, strive"]
+  },
+  {
+    "key": "Behavior",
+    "ns": "WAY",
+    "id": "MIND#24",
+    "domain": "MIND",
+    "entries": ["Usual/Strange,odd,Weird", "Habits", "Biases", "Discipline", "Method, Approach, Strategy"]
+  },
+  {
+    "key": "Traits",
+    "ns": "WAY",
+    "id": "MIND#25",
+    "domain": "MIND",
+    "entries": [
+      "Diligent, conscientious",
+      "Proactive",
+      "delicate,gently/brutal",
+      "neat, scruple, discreet",
+      "zeal/reluctant",
+      "Poised/mad"
+    ]
+  },
+  {
+    "key": "Context, Environment, Case",
+    "ns": "WAY",
+    "id": "MIND#26",
+    "domain": "MIND",
+    "entries": [
+      "Channel, pipe, Bus, media",
+      "configuration",
+      "Scene, Stage, frame",
+      "Bounds, Limit, margin",
+      "Framework",
+      "Situation",
+      "circumstances"
+    ]
+  },
+  {
+    "key": "Resources, facility, means",
+    "ns": "WAY",
+    "id": "MIND#27",
+    "domain": "MIND",
+    "entries": [
+      "purpose",
+      "demand/supply",
+      "Dedicate, Provide/consume",
+      "Need, Necessary",
+      "Apply",
+      "Source",
+      "Use",
+      "Available/scarce/missing",
+      "spent,allotted",
+      "dumped",
+      "trash,rubbish"
+    ]
+  },
+  {
+    "key": "Challenge, Risks",
+    "ns": "WAY",
+    "id": "MIND#28",
+    "domain": "MIND",
+    "entries": [
+      "Obstackle, Issue, Trouble, Problem",
+      "failure, mistake, blunder, error",
+      "burden",
+      "Resolve,Dissolve,Absolve,Solve",
+      "trap"
+    ]
+  },
+  {
+    "key": "Involve, Busy",
+    "ns": "WAY",
+    "id": "MIND#29",
+    "domain": "MIND",
+    "entries": ["duty, work,", "Committed", "engage/elude", "attempt"]
+  },
+  {
+    "key": "Workflow, Procedure",
+    "ns": "WAY",
+    "id": "MIND#30",
+    "domain": "MIND",
+    "entries": [
+      "Prepare, ready, enroll",
+      "Setup, Establish, Init",
+      "Practice, proceed, perform, execute, exercise, doing, function, Operate",
+      "Cancel",
+      "Done",
+      "Complete, fulfil",
+      "Remain"
+    ]
+  },
+  {
+    "key": "Effort, struggle",
+    "ns": "WAY",
+    "id": "MIND#31",
+    "domain": "MIND",
+    "entries": [
+      "difficult, heavy, hard/Easy",
+      "exert/relax",
+      "force",
+      "hard-working, tough",
+      "lazy",
+      "convenient/inconvenient"
+    ]
+  },
+  {
+    "key": "Way",
+    "ns": "WAY",
+    "id": "MIND#32",
+    "domain": "MIND",
+    "entries": ["Course", "Track, path", "Pass", "Follow", "adhere", "navigate/stray"]
+  },
+  {
+    "key": "Manage",
+    "ns": "WAY",
+    "id": "MIND#33",
+    "domain": "MIND",
+    "entries": ["Drive", "Command", "Control", "Cope", "Prevent ", "Mitigate", "deliberate/Spontaneous"]
+  },
+  {
+    "key": "Guide, Instruction, Program",
+    "ns": "",
+    "id": "MIND#34",
+    "domain": "MIND",
+    "entries": ["Interface, Protocol, Policy, contract"]
+  },
+  {
+    "key": "Plan",
+    "ns": "WAY",
+    "id": "MIND#35",
+    "domain": "MIND",
+    "entries": ["Requisition, Goal", "Schedule", "Task"]
+  },
+  {
+    "key": "Decision",
+    "ns": "WAY",
+    "id": "MIND#36",
+    "domain": "MIND",
+    "entries": [
+      "prefer, prone",
+      "Choice, options",
+      "Pick, select/reject, favor",
+      "switch",
+      "Pros/Cons",
+      "Benefit/Objections",
+      "severity"
+    ]
+  },
+  {
+    "key": "Control",
+    "ns": "WAY",
+    "id": "MIND#37",
+    "domain": "MIND",
+    "entries": [
+      "Allow/deny, grant/forbidden,",
+      "ignore, Accept, admit/refuse",
+      "stimulate",
+      "Approve, Confirm, endorse",
+      "permit/prohibit, veto,taboo",
+      "Open/Closed",
+      "Eligible",
+      "Let",
+      "mandatory, compulsory"
+    ]
+  },
+  {
+    "key": "Effectiveness",
+    "ns": "WAY",
+    "id": "MIND#38",
+    "domain": "MIND",
+    "entries": ["Result, Effect", "Reach, achieve", "earn, yield, harvest"]
+  },
+  {
+    "key": "Efficiency",
+    "ns": "WAY",
+    "id": "MIND#39",
+    "domain": "MIND",
+    "entries": ["Performance", "cost:expensive/cheap", "Gain/Loses", "profit/vain", "thrifty"]
+  },
+  {
+    "key": "Fullfilment",
+    "ns": "WAY",
+    "id": "MIND#40",
+    "domain": "MIND",
+    "entries": ["Success/Fail", "Satisfied, Happy, Enjoy, Exult", "upset, sad, frustrate, disappoint"]
+  },
+  {
+    "key": "Improve, Adopt",
+    "ns": "WAY",
+    "id": "MIND#41",
+    "domain": "MIND",
+    "entries": [
+      "Perfect, Immaculate/neglect",
+      "Develop/Degradation",
+      "progress/regression",
+      "augment",
+      "Feedback",
+      "optimize"
+    ]
+  },
+  {
+    "key": "Being",
+    "ns": "BEING",
+    "id": "THING#0",
+    "domain": "THING",
+    "entries": ["Nothing/Something", "Exist/void", "Entity", "object", "thing", "instance, sample"]
+  },
+  {
+    "key": "Manifest, fenomena",
+    "ns": "BEING",
+    "id": "THING#1",
+    "domain": "THING",
+    "entries": [
+      "appear/eliminate",
+      "Present/Absent",
+      "Show,exhibite, expose",
+      "View, Render,Draw",
+      "bold/bland",
+      "guise",
+      "Pretend",
+      "Prospective",
+      "Emerge/vanish",
+      "blank",
+      "aspect"
+    ]
+  },
+  {
+    "key": "Stuff",
+    "ns": "BEING",
+    "id": "THING#2",
+    "domain": "THING",
+    "entries": ["Matter", "Physical", "Natural"]
+  },
+  {
+    "key": "Whole/Part",
+    "ns": "RELY",
+    "id": "THING#3",
+    "domain": "THING",
+    "entries": ["Entire/Piece", "Integrate/Divide", "Section", "merge/split", "Rest", "consist", "atom"]
+  },
+  {
+    "key": "Unit",
+    "ns": "RELY",
+    "id": "THING#4",
+    "domain": "THING",
+    "entries": ["All/None", "Belong/Include", "cluster", "Set, bulk, bundle", "Group", "join/leave", "gather", "couple"]
+  },
+  {
+    "key": "Assotiation",
+    "ns": "RELY",
+    "id": "THING#5",
+    "domain": "THING",
+    "entries": ["Together/Apart", "assemble", "tie, bind", "connect/isolate", "link", "clutch", "touch"]
+  },
+  {
+    "key": "Relevance",
+    "ns": "RELY",
+    "id": "THING#6",
+    "domain": "THING",
+    "entries": ["index, reference", "cast", "regard", "Correlations, Relations", "depend, hang", "reflect"]
+  },
+  {
+    "key": "Opposition",
+    "ns": "RELY",
+    "id": "THING#7",
+    "domain": "THING",
+    "entries": ["antagonist", "contrary", "positive/negative", "annihilated", "Against", "pole"]
+  },
+  {
+    "key": "Concrete/Abstract",
+    "ns": "TYPE",
+    "id": "THING#8",
+    "domain": "THING",
+    "entries": ["Essense/nuisance", "scheme", "feature, detail", "Category"]
+  },
+  {
+    "key": "Common/Particular",
+    "ns": "TYPE",
+    "id": "THING#9",
+    "domain": "THING",
+    "entries": ["Generalize", "Kind/Example", "Identify"]
+  },
+  {
+    "key": "Comprehensive/Specific",
+    "ns": "TYPE",
+    "id": "THING#10",
+    "domain": "THING",
+    "entries": ["Various, diversity", "distinct/umbiquitous", "exotic, unique, peculiar"]
+  },
+  {
+    "key": "Inheritance",
+    "ns": "TYPE",
+    "id": "THING#11",
+    "domain": "THING",
+    "entries": ["origin, ancestor", "general/basic", "Extension, enhanced", "legacy", "Authentic/derived", "version"]
+  },
+  {
+    "key": "type",
+    "ns": "TYPE",
+    "id": "THING#12",
+    "domain": "THING",
+    "entries": ["Standard", "Sort", "Class", "Exception", "analogy", "Isomorfic"]
+  },
+  {
+    "key": "measure",
+    "ns": "MEASURE",
+    "id": "THING#13",
+    "domain": "THING",
+    "entries": ["dimension, axis", "precise:exact/rough", "Almost", "Very, exaggerate", "Quite"]
+  },
+  {
+    "key": "compare",
+    "ns": "MEASURE",
+    "id": "THING#14",
+    "domain": "THING",
+    "entries": ["vantage:More/Less, prevail", "Equal", "similar/differ", "Matching", "paragon"]
+  },
+  {
+    "key": "Evaluate",
+    "ns": "MEASURE",
+    "id": "THING#15",
+    "domain": "THING",
+    "entries": [
+      "scale, etalon, meter",
+      "score, rate, Value",
+      "degree, range",
+      "avery, norma, median",
+      "maximal/minimal",
+      "extreme",
+      "most/least"
+    ]
+  },
+  {
+    "key": "Weight",
+    "ns": "MEASURE",
+    "id": "THING#16",
+    "domain": "THING",
+    "entries": ["Major/Minor", "Main", "Serious", "supreme", "slight", "weigh"]
+  },
+  {
+    "key": "Quantity",
+    "ns": "MEASURE",
+    "id": "THING#17",
+    "domain": "THING",
+    "entries": [
+      "Single/Multiple",
+      "Number",
+      "amount, count",
+      "Increase/Reduce",
+      "Non-countable",
+      "total",
+      "sums",
+      "Infinity, Countless",
+      "plenty_of, abundant"
+    ]
+  },
+  {
+    "key": "Capacity",
+    "ns": "MEASURE",
+    "id": "THING#18",
+    "domain": "THING",
+    "entries": [
+      "Full/Empty",
+      "Enough/Lack of/Over",
+      "Fill",
+      "utter",
+      "Immensive",
+      "volume",
+      "exhausted",
+      "add/remove",
+      "plus",
+      "excesses"
+    ]
+  },
+  {
+    "key": "Potention, energy, power",
+    "ns": "MEASURE",
+    "id": "THING#19",
+    "domain": "THING",
+    "entries": ["strong/weak", "charge/wane", "endurance", "tired, tedious"]
+  },
+  {
+    "key": "Structure",
+    "ns": "STRUC",
+    "id": "THING#20",
+    "domain": "THING",
+    "entries": ["Element", "Complex/Simple/Trivial", "bundle", "entanglement", "Create/Destroy"]
+  },
+  {
+    "key": "Pack, contain",
+    "ns": "STRUC",
+    "id": "THING#21",
+    "domain": "THING",
+    "entries": ["inner,internal, intrinsic,Inside/outer,external,extrintic,Outside", "Enter/Exit", "Put"]
+  },
+  {
+    "key": "Composition",
+    "ns": "STRUC",
+    "id": "THING#22",
+    "domain": "THING",
+    "entries": ["compose, combine", "Appropriate, pertinent, proper, Adequate", "suit", "fit", "Compatibility"]
+  },
+  {
+    "key": "Order, priority",
+    "ns": "STRUC",
+    "id": "THING#23",
+    "domain": "THING",
+    "entries": [
+      "First/Last, Prior/next",
+      "Second/Third/fourth/fifth/sixth/seventh/eighth/nineth/tenth",
+      "Ultimate",
+      "mess",
+      "shuffle"
+    ]
+  },
+  {
+    "key": "Sequence",
+    "ns": "STRUC",
+    "id": "THING#24",
+    "domain": "THING",
+    "entries": ["Before/After", "Prev/Current/Next"]
+  },
+  {
+    "key": "Influence",
+    "ns": "STRUC",
+    "id": "THING#25",
+    "domain": "THING",
+    "entries": ["mutate,alter", "Transformation, Become"]
+  },
+  {
+    "key": "topology",
+    "ns": "STRUC",
+    "id": "THING#26",
+    "domain": "THING",
+    "entries": [
+      "Hierarchy, cascade",
+      "heap, pile",
+      "chain, queue, stack",
+      "net, mesh",
+      "array,list::item",
+      "tangle",
+      "table,row,column"
+    ]
+  },
+  {
+    "key": "Resilience",
+    "ns": "STRUC",
+    "id": "THING#27",
+    "domain": "THING",
+    "entries": [
+      "balance",
+      "suffer, threat",
+      "broke,ruin, damage, devastate",
+      "Corruption",
+      "crisis",
+      "lean",
+      "fixture, Recovery, Regeneration"
+    ]
+  },
+  {
+    "key": "Shape",
+    "ns": "Shape",
+    "id": "THING#28",
+    "domain": "THING",
+    "entries": ["Dot", "line", "Cross/Parallel", "circle", "horde"]
+  },
+  {
+    "key": "Size, extent",
+    "ns": "Shape",
+    "id": "THING#29",
+    "domain": "THING",
+    "entries": [
+      "Big/Small",
+      "High/Medium/Low",
+      "Wide/narrow",
+      "Large, vast/Little",
+      "Huge/tiny",
+      "Long/Short",
+      "thick/thin",
+      "grand",
+      "massive",
+      "Tremendous"
+    ]
+  },
+  {
+    "key": "angle",
+    "ns": "Shape",
+    "id": "THING#30",
+    "domain": "THING",
+    "entries": ["sharp/blunt", "curl/straight", "Smooth", "Edge, verge", "round", "wedge"]
+  },
+  {
+    "key": "figure",
+    "ns": "Shape",
+    "id": "THING#31",
+    "domain": "THING",
+    "entries": ["Corpus", "Core", "Limbs", "Head/Tail", "shell", "Cover", "envelope", "hollow"]
+  },
+  {
+    "key": "shape:2d:linear",
+    "ns": "Shape",
+    "id": "THING#32",
+    "domain": "THING",
+    "entries": ["arch", "crook", "dash", "steep", "vault"]
+  },
+  {
+    "key": "shape:3d:",
+    "ns": "Shape",
+    "id": "THING#33",
+    "domain": "THING",
+    "entries": [
+      "ball",
+      "board",
+      "bulbs",
+      "cubicle",
+      "cylinder",
+      "disk",
+      "funnel",
+      "pipe",
+      "string, tape, ribbon, streak",
+      "trump",
+      "orbs"
+    ]
+  },
+  {
+    "key": "rigid",
+    "ns": "Shape",
+    "id": "THING#34",
+    "domain": "THING",
+    "entries": ["cruel", "harsh", "robust", "rugged", "stern", "fragile", "Flexibility", "solid"]
+  },
+  {
+    "key": "Deformation",
+    "ns": "Shape",
+    "id": "THING#35",
+    "domain": "THING",
+    "entries": ["squeeze", "stretch", "warp", "bend", "spree", "shift"]
+  },
+  {
+    "key": "Cut",
+    "ns": "Shape",
+    "id": "THING#36",
+    "domain": "THING",
+    "entries": ["carve", "crop", "hack", "sect", "shred", "slice", "trim", "stab"]
+  },
+  {
+    "key": "Impact",
+    "ns": "Shape",
+    "id": "THING#37",
+    "domain": "THING",
+    "entries": [
+      "hit, pulse, struck,",
+      "push, shove",
+      "poke, click",
+      "press, wring",
+      "cling",
+      "pinch",
+      "grind,smash",
+      "thump, punch, knock",
+      "beat"
+    ]
+  },
+  {
+    "key": "Affect",
+    "ns": "Shape",
+    "id": "THING#38",
+    "domain": "THING",
+    "entries": ["slam", "tore", "pluck", "patch", "shock"]
+  },
+  {
+    "key": "Surface",
+    "ns": "surface",
+    "id": "THING#39",
+    "domain": "THING",
+    "entries": ["Spot, speck", "tick", "brim", "corner", "ledge"]
+  },
+  {
+    "key": "shape:soft",
+    "ns": "surface",
+    "id": "THING#40",
+    "domain": "THING",
+    "entries": ["balm", "mellow", "mild", "soft", "crisp", "flat", "gloss", "wrinkle"]
+  },
+  {
+    "key": "inset:partof",
+    "ns": "surface",
+    "id": "THING#41",
+    "domain": "THING",
+    "entries": ["bore", "furrow", "groove", "gutter", "hole", "scratch", "crack"]
+  },
+  {
+    "key": "outset:partof",
+    "ns": "surface",
+    "id": "THING#42",
+    "domain": "THING",
+    "entries": ["bulged", "hump", "peak", "ridge", "spout", "thorn", "tip"]
+  },
+  {
+    "key": "surface:[affect]",
+    "ns": "surface",
+    "id": "THING#43",
+    "domain": "THING",
+    "entries": ["drill", "slash", "rub", "sweep", "pierce", "dig", "print", "strip"]
+  },
+  {
+    "key": "Space",
+    "ns": "SPATIAL",
+    "id": "THING#44",
+    "domain": "THING",
+    "entries": ["Nowhere", "Field, Area", "Position", "Location", "point", "Prevalence"]
+  },
+  {
+    "key": "Place",
+    "ns": "SPATIAL",
+    "id": "THING#45",
+    "domain": "THING",
+    "entries": ["occupy", "escape, evacuation", "Come/Leave/Return"]
+  },
+  {
+    "key": "distance",
+    "ns": "SPATIAL",
+    "id": "THING#46",
+    "domain": "THING",
+    "entries": ["Far/Near", "closer", "Density, concentration, firm, tight", "depth:deep/superficial"]
+  },
+  {
+    "key": "Side",
+    "ns": "SPATIAL",
+    "id": "THING#47",
+    "domain": "THING",
+    "entries": ["flank:Left/Right", "course: front/rear", "Center"]
+  },
+  {
+    "key": "Direction",
+    "ns": "SPATIAL",
+    "id": "THING#48",
+    "domain": "THING",
+    "entries": ["narrate:Toward/Away", "arrow", "Throughout", "Onto", "forward/Back", "About"]
+  },
+  {
+    "key": "Vertical",
+    "ns": "SPATIAL",
+    "id": "THING#49",
+    "domain": "THING",
+    "entries": ["Top/Bottom", "Up/Down", "inclined, slanted", "rise, climb", "fall", "lift", "Raise"]
+  },
+  {
+    "key": "Layout",
+    "ns": "SPATIAL",
+    "id": "THING#50",
+    "domain": "THING",
+    "entries": [
+      "Align",
+      "Above",
+      "Behind",
+      "Between",
+      "Among",
+      "Middle",
+      "Under",
+      "Beyond",
+      "clash",
+      "collect/distribute"
+    ]
+  },
+  {
+    "key": "Dislocation",
+    "ns": "SPATIAL",
+    "id": "THING#51",
+    "domain": "THING",
+    "entries": ["Stand", "Hang", "Sit", "Seat", "lay", "tumble", "revolve, rotate", "roll"]
+  },
+  {
+    "key": "Redirect",
+    "ns": "SPATIAL",
+    "id": "THING#52",
+    "domain": "THING",
+    "entries": ["Turn", "kink", "Return", "bounce", "Around", "Across", "Through", "vector"]
+  },
+  {
+    "key": "Vibrate",
+    "ns": "SPATIAL",
+    "id": "THING#53",
+    "domain": "THING",
+    "entries": ["shake", "swing", "twist", "vibrant", "wave", "wriggle", "scurried"]
+  },
+  {
+    "key": "Relocate",
+    "ns": "SPATIAL",
+    "id": "THING#54",
+    "domain": "THING",
+    "entries": ["pull, haul", "drag, drudge", "rush", "thrust", "transit", "port", "dart", "fling"]
+  },
+  {
+    "key": "Assets",
+    "ns": "ASSETS",
+    "id": "THING#55",
+    "domain": "THING",
+    "entries": ["Property, Fund, realm", "have, possess, own", "Access", "host"]
+  },
+  {
+    "key": "obtain, Get",
+    "ns": "ASSETS",
+    "id": "THING#56",
+    "domain": "THING",
+    "entries": ["bear, grab, grasp, seize", "fetch", "Catch", "load", "wrest"]
+  },
+  {
+    "key": "retain, Keep",
+    "ns": "ASSETS",
+    "id": "THING#57",
+    "domain": "THING",
+    "entries": ["detain", "Save", "hold", "Keep", "charge", "reserve", "bounty,generous/greed", "attach/detach"]
+  },
+  {
+    "key": "Release, Dispose",
+    "ns": "ASSETS",
+    "id": "THING#58",
+    "domain": "THING",
+    "entries": ["Throw", "Clear", "Free", "lose", "Avoid"]
+  },
+  {
+    "key": "Deliver",
+    "ns": "ASSETS",
+    "id": "THING#59",
+    "domain": "THING",
+    "entries": ["transfer, Carry, ship", "Send/Receive", "Drop", "Bring", "post", "convey"]
+  },
+  {
+    "key": "Exchange",
+    "ns": "ASSETS",
+    "id": "THING#60",
+    "domain": "THING",
+    "entries": [
+      "Take/Give, Share",
+      "Lend/Borrow/Owe",
+      "Instead, Substitute, replace",
+      "debt",
+      "borrow",
+      "owe",
+      "book, reserve",
+      "Steal"
+    ]
+  },
+  {
+    "key": "State",
+    "ns": "ACT",
+    "id": "THING#61",
+    "domain": "THING",
+    "entries": [
+      "Change",
+      "Stable/Volatile ",
+      "vary",
+      "persistent/transient",
+      "Dynamic",
+      "verbatim",
+      "actual/obsolete, Former"
+    ]
+  },
+  {
+    "key": "Time",
+    "ns": "ACT",
+    "id": "THING#62",
+    "domain": "THING",
+    "entries": ["Past", "Now", "Future", "Eternity"]
+  },
+  {
+    "key": "Event",
+    "ns": "ACT",
+    "id": "THING#63",
+    "domain": "THING",
+    "entries": ["Fact, Impulse, Issue", "Episode", "Stream", "Flow"]
+  },
+  {
+    "key": "Happen",
+    "ns": "ACT",
+    "id": "THING#64",
+    "domain": "THING",
+    "entries": [
+      "Ever/Never",
+      "Upon a time",
+      "AT TIME AGO",
+      "ALREADY",
+      "JUST Recently",
+      "NOW",
+      "Yet",
+      "Always",
+      "Soon",
+      "Still",
+      "USE TO"
+    ]
+  },
+  {
+    "key": "Run",
+    "ns": "ACT",
+    "id": "THING#65",
+    "domain": "THING",
+    "entries": ["Step", "Go", "Jump", "pattering", "prowl, furtive", "trudged", "Walking", "crawl", "pitch"]
+  },
+  {
+    "key": "Occur",
+    "ns": "ACT",
+    "id": "THING#66",
+    "domain": "THING",
+    "entries": ["frequent", "cycle", "everyday, every year", "random", "rhyme", "pattern"]
+  },
+  {
+    "key": "Repeat",
+    "ns": "ACT",
+    "id": "THING#67",
+    "domain": "THING",
+    "entries": ["Once", "Again", "Often/seldom,rare", "Sudden", "refrain", "Rythm", "loop", "Series", "regular"]
+  },
+  {
+    "key": "Velocity",
+    "ns": "ACT",
+    "id": "THING#68",
+    "domain": "THING",
+    "entries": ["pace, speed", "frost", "hastily/calm", "Quick/Patient", "Acceleration", "rapid,fast/slow"]
+  },
+  {
+    "key": "Capability, Aptitude",
+    "ns": "ACT",
+    "id": "THING#69",
+    "domain": "THING",
+    "entries": [": able/unable", "enabled/disabled", "Chance", "Valid", "Opportunity"]
+  },
+  {
+    "key": "Style",
+    "ns": "ACT",
+    "id": "THING#70",
+    "domain": "THING",
+    "entries": ["agile, elegant", "straightforward/tricky"]
+  },
+  {
+    "key": "duration",
+    "ns": "ACT",
+    "id": "THING#71",
+    "domain": "THING",
+    "entries": ["Stay", "permanent", "brief", "continuously/rupture", "Period", "lapse"]
+  },
+  {
+    "key": "Activity",
+    "ns": "ACT",
+    "id": "THING#72",
+    "domain": "THING",
+    "entries": ["begin", "Start", "Break/Restore", "Pause/Resume", "stop", "Continue", "End", "Finish"]
+  },
+  {
+    "key": "phase",
+    "ns": "ACT",
+    "id": "THING#73",
+    "domain": "THING",
+    "entries": ["preliminary", "initial, inception", "culminated", "skip", "commenced", "final"]
+  },
+  {
+    "key": "Synchronization",
+    "ns": "ACT",
+    "id": "THING#74",
+    "domain": "THING",
+    "entries": [
+      "Wait",
+      "Defer,linger",
+      "Until",
+      "While",
+      "Since",
+      "Later",
+      "Late",
+      "Early",
+      "Delayed",
+      "In a hurry",
+      "hustle"
+    ]
+  },
+  {
+    "key": "Trend",
+    "ns": "ACT",
+    "id": "THING#75",
+    "domain": "THING",
+    "entries": ["Growth, Grow"]
+  },
+  {
+    "key": "World",
+    "ns": "NATURE",
+    "id": "NATURE#0",
+    "domain": "NATURE",
+    "entries": [
+      "sky",
+      "Star",
+      "earth",
+      "moon",
+      "star",
+      "sun",
+      "universe",
+      "galaxy",
+      "Vacuum",
+      "celestial, Cosmos",
+      "globe"
+    ]
+  },
+  {
+    "key": "Daypart",
+    "ns": "NATURE",
+    "id": "NATURE#1",
+    "domain": "NATURE",
+    "entries": ["Morning", "Night", "Evening", "Tonight", "dawn", "day", "downs", "dusk", "morning", "night", "noon"]
+  },
+  {
+    "key": "Calendar",
+    "ns": "NATURE",
+    "id": "NATURE#2",
+    "domain": "NATURE",
+    "entries": ["Minute", "Hour", "Day", "Week", "Month", "Year", "Decade", "Century", "Today", "chronic", "Date"]
+  },
+  {
+    "key": "Season",
+    "ns": "NATURE",
+    "id": "NATURE#3",
+    "domain": "NATURE",
+    "entries": ["autumn", "spring", "summer", "winter"]
+  },
+  {
+    "key": "Orients",
+    "ns": "NATURE",
+    "id": "NATURE#4",
+    "domain": "NATURE",
+    "entries": ["east", "north", "south", "west"]
+  },
+  {
+    "key": "Landscape",
+    "ns": "NATURE",
+    "id": "NATURE#5",
+    "domain": "NATURE",
+    "entries": ["land", "field", "forest", "desert", "swamp", "valley", "grove"]
+  },
+  {
+    "key": "Landscape:hill",
+    "ns": "NATURE",
+    "id": "NATURE#6",
+    "domain": "NATURE",
+    "entries": ["mountain", "bellow", "cave", "cliff", "cove", "crag", "crest", "gorge", "hill", "rock"]
+  },
+  {
+    "key": "landscape:marine",
+    "ns": "NATURE",
+    "id": "NATURE#7",
+    "domain": "NATURE",
+    "entries": ["sea", "river", "lake", "coast", "beach", "island", "tide", "wade", "reef", "shore", "ditch, strait"]
+  },
+  {
+    "key": "Wheather",
+    "ns": "NATURE",
+    "id": "NATURE#8",
+    "domain": "NATURE",
+    "entries": ["wind, breeze", "cloud", "dewy", "fog", "haze", "mist", "rain", "snow", "squall", "storm", "thunder"]
+  },
+  {
+    "key": "Material",
+    "ns": "Substance",
+    "id": "NATURE#9",
+    "domain": "NATURE",
+    "entries": ["chaff", "fibre", "flakes", "foam", "powder", "dust", "disaster"]
+  },
+  {
+    "key": "Purity",
+    "ns": "Substance",
+    "id": "NATURE#10",
+    "domain": "NATURE",
+    "entries": ["clear", "pure/dirty", "filter", "mix", "muddle", "pollute", "wash", "wipe"]
+  },
+  {
+    "key": "temperature",
+    "ns": "Substance",
+    "id": "NATURE#11",
+    "domain": "NATURE",
+    "entries": ["hot/cold", "warm/freeze"]
+  },
+  {
+    "key": "Metal",
+    "ns": "Substance",
+    "id": "NATURE#12",
+    "domain": "NATURE",
+    "entries": ["bronze", "gold", "iron", "silver"]
+  },
+  {
+    "key": "stone",
+    "ns": "Substance",
+    "id": "NATURE#13",
+    "domain": "NATURE",
+    "entries": ["boulder", "clump", "crumb", "stone", "pebble", "sand", "rust"]
+  },
+  {
+    "key": "Minerals",
+    "ns": "Substance",
+    "id": "NATURE#14",
+    "domain": "NATURE",
+    "entries": ["gems", "crystal", "glass", "marble", "pearl", "ruby", "salt"]
+  },
+  {
+    "key": "Water",
+    "ns": "Substance",
+    "id": "NATURE#15",
+    "domain": "NATURE",
+    "entries": ["float", "drown", "immerse", "plunge", "swim", "gush", "soar", "glide", "drift", "surge"]
+  },
+  {
+    "key": "water",
+    "ns": "Substance",
+    "id": "NATURE#16",
+    "domain": "NATURE",
+    "entries": ["flush", "mingle", "moor", "pour", "spill", "splash", "boil", "ice", "melt", "steam"]
+  },
+  {
+    "key": "waterish:wet:",
+    "ns": "Substance",
+    "id": "NATURE#17",
+    "domain": "NATURE",
+    "entries": ["crude", "damp", "dipped", "dry", "moist", "parched", "soak", "wetted"]
+  },
+  {
+    "key": "Air",
+    "ns": "Substance",
+    "id": "NATURE#18",
+    "domain": "NATURE",
+    "entries": ["Fly, hover"]
+  },
+  {
+    "key": "Fire",
+    "ns": "Substance",
+    "id": "NATURE#19",
+    "domain": "NATURE",
+    "entries": ["fuel", "ash", "qualm", "smoke", "flame", "spark", "bang", "blaze", "burn", "burst", "fervor"]
+  },
+  {
+    "key": "Origins",
+    "ns": "life",
+    "id": "NATURE#20",
+    "domain": "NATURE",
+    "entries": ["Animal, mammals", "reptile", "fish", "Mushroom", "Bacterios", "virus", "worm"]
+  },
+  {
+    "key": "tame",
+    "ns": "life",
+    "id": "NATURE#21",
+    "domain": "NATURE",
+    "entries": ["cow", "dog", "horse", "lamb", "swine", "pig", "cat"]
+  },
+  {
+    "key": "wild, beast",
+    "ns": "life",
+    "id": "NATURE#22",
+    "domain": "NATURE",
+    "entries": ["predator, wolf", "Bear", "elk", "hog", "deer", "foxes", "goat", "hare", "mice", "trot", "whale"]
+  },
+  {
+    "key": "bird",
+    "ns": "life",
+    "id": "NATURE#23",
+    "domain": "NATURE",
+    "entries": ["chicken", "crow", "dove", "eagle", "goose", "hans", "hawk", "swan", "nest", "peck"]
+  },
+  {
+    "key": "creature:bee:kindof",
+    "ns": "life",
+    "id": "NATURE#24",
+    "domain": "NATURE",
+    "entries": ["ante", "Bee, beetle", "louse", "shark", "frog", "snake", "turtle"]
+  },
+  {
+    "key": "flora:kindof",
+    "ns": "life",
+    "id": "NATURE#25",
+    "domain": "NATURE",
+    "entries": ["bloom", "bush", "flower", "grain", "herb", "rose", "seed", "swell", "vegetable", "weed"]
+  },
+  {
+    "key": "grouping",
+    "ns": "life",
+    "id": "NATURE#26",
+    "domain": "NATURE",
+    "entries": ["flock", "herd", "swarm"]
+  },
+  {
+    "key": "Tree",
+    "ns": "life",
+    "id": "NATURE#27",
+    "domain": "NATURE",
+    "entries": [
+      "bark (of a tree)",
+      "branch",
+      "bunch",
+      "leaf",
+      "peel",
+      "root",
+      "stem",
+      "trunk",
+      "birch",
+      "oaken",
+      "pine"
+    ]
+  },
+  {
+    "key": "fruit",
+    "ns": "life",
+    "id": "NATURE#28",
+    "domain": "NATURE",
+    "entries": ["potato", "beet", "carrots", "cabbage"]
+  },
+  {
+    "key": "vegetables",
+    "ns": "life",
+    "id": "NATURE#29",
+    "domain": "NATURE",
+    "entries": ["apple", "bean, peas", "berry: cherry", "grape", "rice", "nuts", "verdure"]
+  },
+  {
+    "key": "BODY",
+    "ns": "BODY",
+    "id": "BODY#0",
+    "domain": "BODY",
+    "entries": ["comfort", "grace/awkward", "slender/stoop", "freeze,numb/relax", "stout/subtle", "toll/stunted"]
+  },
+  {
+    "key": "brain",
+    "ns": "BODY",
+    "id": "BODY#1",
+    "domain": "BODY",
+    "entries": ["wake/swoon", "sleep, nap", "meditate"]
+  },
+  {
+    "key": "body",
+    "ns": "BODY",
+    "id": "BODY#2",
+    "domain": "BODY",
+    "entries": ["Head", "ass, tail", "back", "breast", "chest", "limb", "neck"]
+  },
+  {
+    "key": "Face",
+    "ns": "BODY",
+    "id": "BODY#3",
+    "domain": "BODY",
+    "entries": ["brow", "cheek", "ear", "Eye", "lashes", "mouth", "nose", "skull", "lips", "tongue (organ)"]
+  },
+  {
+    "key": "Hand",
+    "ns": "BODY",
+    "id": "BODY#4",
+    "domain": "BODY",
+    "entries": ["Shoulder", "elbow", "wrist", "finger", "thumb", "fingernail", "fist", "Arm"]
+  },
+  {
+    "key": "Leg",
+    "ns": "BODY",
+    "id": "BODY#5",
+    "domain": "BODY",
+    "entries": ["Foot", "toe", "thigh", "hips", "knee", "limp"]
+  },
+  {
+    "key": "organ",
+    "ns": "BODY",
+    "id": "BODY#6",
+    "domain": "BODY",
+    "entries": [
+      "bone: ribs",
+      "muscle",
+      "skin: blush",
+      "Heart",
+      "lung",
+      "egg",
+      "nerve",
+      "vein",
+      "belly, guts, liver, bowels"
+    ]
+  },
+  {
+    "key": "Hair",
+    "ns": "BODY",
+    "id": "BODY#7",
+    "domain": "BODY",
+    "entries": ["beard", "bald", "shave", "bare", "naked"]
+  },
+  {
+    "key": "parts:liquid",
+    "ns": "BODY",
+    "id": "BODY#8",
+    "domain": "BODY",
+    "entries": ["Blood", "sweat", "slim", "tears", "shit"]
+  },
+  {
+    "key": "parts",
+    "ns": "BODY",
+    "id": "BODY#9",
+    "domain": "BODY",
+    "entries": ["claw", "feather", "horn", "nibble", "paws", "sting", "wing", "wool", "rudiments"]
+  },
+  {
+    "key": "breath",
+    "ns": "BODY",
+    "id": "BODY#10",
+    "domain": "BODY",
+    "entries": ["blow", "sigh", "stifle", "sneeze, snort"]
+  },
+  {
+    "key": "Gestures",
+    "ns": "BODY",
+    "id": "BODY#11",
+    "domain": "BODY",
+    "entries": ["applaud", "clap", "droop", "flip", "node", "shiver", "shudder", "tremble", "twitch", "chuck"]
+  },
+  {
+    "key": "mimic, grimace",
+    "ns": "BODY",
+    "id": "BODY#12",
+    "domain": "BODY",
+    "entries": ["Laugh, smile", "cry, weep", "wink", "yawn", "grim, frown, sullen", "kiss", "spit"]
+  },
+  {
+    "key": "voice",
+    "ns": "BODY",
+    "id": "BODY#13",
+    "domain": "BODY",
+    "entries": [
+      "scream, shout, roar",
+      "mourn",
+      "mutter",
+      "howl, whimper, nagging",
+      "stammered",
+      "wail",
+      "shrill",
+      "hoarse",
+      "tacit"
+    ]
+  },
+  {
+    "key": "Listen",
+    "ns": "BODY",
+    "id": "BODY#14",
+    "domain": "BODY",
+    "entries": ["dumb", "hear"]
+  },
+  {
+    "key": "Health, wellness",
+    "ns": "BODY",
+    "id": "BODY#15",
+    "domain": "BODY",
+    "entries": ["disease", "pain", "faint", "wound, injuiry, cripple", "sane", "poison", "chilling", "fever"]
+  },
+  {
+    "key": "Life",
+    "ns": "BODY",
+    "id": "BODY#16",
+    "domain": "BODY",
+    "entries": ["Live", "birth", "fertile", "pregnant", "age: youth, Young/Old", "growth"]
+  },
+  {
+    "key": "Death",
+    "ns": "BODY",
+    "id": "BODY#17",
+    "domain": "BODY",
+    "entries": ["Dead", "die", "kill", "perish", "tragic"]
+  },
+  {
+    "key": "visual",
+    "ns": "percept",
+    "id": "BODY#18",
+    "domain": "BODY",
+    "entries": ["sight/blind", "glance", "bright/shade", "gleam"]
+  },
+  {
+    "key": "color",
+    "ns": "percept",
+    "id": "BODY#19",
+    "domain": "BODY",
+    "entries": [
+      "Black/Gray/White",
+      "Red/Green/Blue",
+      "Dark/Light",
+      "tone, tinge",
+      "saturate/pale",
+      "pink",
+      "purple",
+      "brown",
+      "yellow"
+    ]
+  },
+  {
+    "key": "blink",
+    "ns": "percept",
+    "id": "BODY#20",
+    "domain": "BODY",
+    "entries": ["flash, glimpse", "shine, glow", "lustre, glare, glint, luminous", "gloom, diminished"]
+  },
+  {
+    "key": "sound",
+    "ns": "percept",
+    "id": "BODY#21",
+    "domain": "BODY",
+    "entries": ["silence", "loud/quiet,hush", "jingle", "rumble", "rustle", "whistle", "clang", "creak"]
+  },
+  {
+    "key": "odor",
+    "ns": "percept",
+    "id": "BODY#22",
+    "domain": "BODY",
+    "entries": ["fumes", "sniff", "smell, scent"]
+  },
+  {
+    "key": "taste",
+    "ns": "percept",
+    "id": "BODY#23",
+    "domain": "BODY",
+    "entries": ["bitterness", "salty", "smack", "sweet", "fresh/stale", "rotten", "ripe", "dainty"]
+  },
+  {
+    "key": "tactile",
+    "ns": "percept",
+    "id": "BODY#24",
+    "domain": "BODY",
+    "entries": ["fumbled", "grope", "tickle", "tingle"]
+  },
+  {
+    "key": "Food",
+    "ns": "EAT",
+    "id": "BODY#25",
+    "domain": "BODY",
+    "entries": ["bake", "cook", "sustenance", "lunch"]
+  },
+  {
+    "key": "Eat",
+    "ns": "EAT",
+    "id": "BODY#26",
+    "domain": "BODY",
+    "entries": [
+      "hungry, starve, thirst",
+      "drunken/sober",
+      "ingest",
+      "feed",
+      "vomit",
+      "chew",
+      "bite, gnaw",
+      "gulp",
+      "lick"
+    ]
+  },
+  {
+    "key": "drink",
+    "ns": "EAT",
+    "id": "BODY#27",
+    "domain": "BODY",
+    "entries": ["tea", "juice", "brew", "milk", "vine"]
+  },
+  {
+    "key": "meal",
+    "ns": "EAT",
+    "id": "BODY#28",
+    "domain": "BODY",
+    "entries": ["sausage", "bread", "honey", "cheese", "butter", "Jam", "Snacks", "cake", "candy", "fowl"]
+  },
+  {
+    "key": "meat",
+    "ns": "EAT",
+    "id": "BODY#29",
+    "domain": "BODY",
+    "entries": ["Beef", "Ham", "steak", "pate", "fat,greasy/skim"]
+  },
+  {
+    "key": "human",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#0",
+    "domain": "SOCIAL",
+    "entries": ["man (human being)", "people", "person", "Individual"]
+  },
+  {
+    "key": "Subject",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#1",
+    "domain": "SOCIAL",
+    "entries": ["Self, Ego", "Awareness", "Dignity", "Self-esteem", "Conscious", "Creed", "TheValues"]
+  },
+  {
+    "key": "Community",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#2",
+    "domain": "SOCIAL",
+    "entries": ["Public/Private", "alien", "crowd", "company", "gregarious"]
+  },
+  {
+    "key": "Person",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#3",
+    "domain": "SOCIAL",
+    "entries": [
+      "Gender:Man/Woman, male/female",
+      "Guy/Girl",
+      "Boy/Girl",
+      "Age:Adult/Child/Kid/Baby",
+      "Origin",
+      "SocialStatus"
+    ]
+  },
+  {
+    "key": "Family",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#4",
+    "domain": "SOCIAL",
+    "entries": [
+      "Parent:(Father|Mother)",
+      "Child:(Son|Daughter)",
+      "Brother/Sister",
+      "relatives",
+      "uncle/aunt",
+      "nephew/niece",
+      "cousin"
+    ]
+  },
+  {
+    "key": "Marriage",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#5",
+    "domain": "SOCIAL",
+    "entries": ["married/single", "Husband/Wife", "wedding:groom/bride", "widow"]
+  },
+  {
+    "key": "Affairs",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#6",
+    "domain": "SOCIAL",
+    "entries": ["flirt", "girlfriend", "intimate", "lust", "sexual", "wooed", "charm", "romantic", "molest"]
+  },
+  {
+    "key": "Empathy",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#7",
+    "domain": "SOCIAL",
+    "entries": ["sympathy", "Friend", "adore, fond", "Love", "affectionate", "amiable", "compassionate"]
+  },
+  {
+    "key": "malice",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#8",
+    "domain": "SOCIAL",
+    "entries": ["Hate", "fierce, savage", "scorn"]
+  },
+  {
+    "key": "resentiment",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#9",
+    "domain": "SOCIAL",
+    "entries": ["Envy"]
+  },
+  {
+    "key": "amuse",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#10",
+    "domain": "SOCIAL",
+    "entries": ["funny,Fancy", "joke", "Cheerful", "humor", "Joy"]
+  },
+  {
+    "key": "mood, Temper",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#11",
+    "domain": "SOCIAL",
+    "entries": ["hysterics/ prostration, dazed", "dismal", "wistful, anguish, dreary, sorrow", "panic"]
+  },
+  {
+    "key": "Trust",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#12",
+    "domain": "SOCIAL",
+    "entries": ["Reliable", "Faithful", "promise, swear,pledge, vow", "betray", "Honest, sincere, fair, frank, candid"]
+  },
+  {
+    "key": "Tolerate",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#13",
+    "domain": "SOCIAL",
+    "entries": ["indulged", "forgive", "apology/mercy"]
+  },
+  {
+    "key": "Reputation",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#14",
+    "domain": "SOCIAL",
+    "entries": [
+      "decent",
+      "proud, glad",
+      "honor, esteem, virtue, valor",
+      "glory, ambition",
+      "prestige",
+      "elite",
+      "noble",
+      "venerable",
+      "veteran",
+      "arrogance",
+      "breed"
+    ]
+  },
+  {
+    "key": "Game",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#15",
+    "domain": "SOCIAL",
+    "entries": ["Play", "Role", "Peer, member", "system", "Network", "mutual, reciprocal"]
+  },
+  {
+    "key": "Communication",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#16",
+    "domain": "SOCIAL",
+    "entries": ["neutral", "loyal", "Attitude"]
+  },
+  {
+    "key": "Meeting",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#17",
+    "domain": "SOCIAL",
+    "entries": [
+      "Meet",
+      "session",
+      "Call, invoke",
+      "Visit",
+      "Conference",
+      "guest",
+      "opponent",
+      "farewell",
+      "Attend/quit",
+      "salute"
+    ]
+  },
+  {
+    "key": "Conversation",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#18",
+    "domain": "SOCIAL",
+    "entries": [
+      "Discuss,Discourse",
+      "Speak",
+      "Tell",
+      "Listening",
+      "Talk",
+      "Mention",
+      "say",
+      "announced",
+      "echoed",
+      "elicit"
+    ]
+  },
+  {
+    "key": "Interview",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#19",
+    "domain": "SOCIAL",
+    "entries": ["Question", "Ask/Answer", "Response", "quizzical", "interrogate"]
+  },
+  {
+    "key": "Negotiate",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#20",
+    "domain": "SOCIAL",
+    "entries": ["Claim", "insist/resist", "affront", "Agree", "quarry", "scandal", "argue, cuss"]
+  },
+  {
+    "key": "Convince",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#21",
+    "domain": "SOCIAL",
+    "entries": ["Persuade", "Suggest", "Ensure", "Argue", "compliment", "exhort", "praise", "Assured"]
+  },
+  {
+    "key": "appeal, evoke",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#22",
+    "domain": "SOCIAL",
+    "entries": ["please", "pray", "begging", "welcome"]
+  },
+  {
+    "key": "Appreciate",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#23",
+    "domain": "SOCIAL",
+    "entries": ["Gratitude, Thank", "greeting ", "congratulated"]
+  },
+  {
+    "key": "Propose",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#24",
+    "domain": "SOCIAL",
+    "entries": ["Advice", "Offer, bid", "hint", "Bless", "curse", "bet", "boast"]
+  },
+  {
+    "key": "title",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#25",
+    "domain": "SOCIAL",
+    "entries": ["dear", "lady", "Mr.", "Ms.", "name/surname/middlename"]
+  },
+  {
+    "key": "Etic",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#26",
+    "domain": "SOCIAL",
+    "entries": ["polite, affable, courteous", "pleasant/nasty", "vulgar", "wretch"]
+  },
+  {
+    "key": "Moral",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#27",
+    "domain": "SOCIAL",
+    "entries": ["shame", "sin, obscene", "Guilty", "pity", "Shy", "sensitive"]
+  },
+  {
+    "key": "Collaborative",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#28",
+    "domain": "SOCIAL",
+    "entries": [
+      "Elaborate",
+      "Contribute",
+      "team, alies, partner, satellite",
+      "coherence, synergy, harmony",
+      "Deal",
+      "constructive/destuctive",
+      "Coordination"
+    ]
+  },
+  {
+    "key": "Competition",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#29",
+    "domain": "SOCIAL",
+    "entries": ["Race", "Win/concede,concession", "Prize, trophy", "Compromise", "settle"]
+  },
+  {
+    "key": "Lead",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#30",
+    "domain": "SOCIAL",
+    "entries": [
+      "Supervise/Subordinate",
+      "entitle, authorize, empower, accredit",
+      "Responsible, liable",
+      "Delegate",
+      "assign/dismiss"
+    ]
+  },
+  {
+    "key": "Dominate",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#31",
+    "domain": "SOCIAL",
+    "entries": [
+      "dominion,Priviledge",
+      "Charismatic",
+      "master/slave",
+      "dictate,oblige, compel",
+      "free/block",
+      "obey/defiance"
+    ]
+  },
+  {
+    "key": "Subordinate",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#32",
+    "domain": "SOCIAL",
+    "entries": ["humble"]
+  },
+  {
+    "key": "Confront",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#33",
+    "domain": "SOCIAL",
+    "entries": [
+      "Attack, assault, Aggression",
+      "Fight,",
+      "Defeat/Defense",
+      "violence",
+      "enemy",
+      "sinister",
+      "terrible",
+      "hunt, haunt",
+      "repel"
+    ]
+  },
+  {
+    "key": "Offense, grieve, grudge",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#34",
+    "domain": "SOCIAL",
+    "entries": ["impudence", "harass", "vengeful", "condemned", "deprivate", "looting, rope"]
+  },
+  {
+    "key": "Care",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#35",
+    "domain": "SOCIAL",
+    "entries": [
+      "careful, apprehension",
+      "guard, secure",
+      "caution, Warning, danger",
+      "rescue, save",
+      "cure, custody",
+      "Sacrifice"
+    ]
+  },
+  {
+    "key": "serve",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#36",
+    "domain": "SOCIAL",
+    "entries": ["Support/undermine", "client", "relief", "Maintain", "Helping, aid"]
+  },
+  {
+    "key": "Cheat",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#37",
+    "domain": "SOCIAL",
+    "entries": ["Lie, liar", "fraud, delude", "fiend, rascal", "trick", "bluff, deceptive", "beguiled", "rumor"]
+  },
+  {
+    "key": "Abuse",
+    "ns": "SOCIAL",
+    "id": "SOCIAL#38",
+    "domain": "SOCIAL",
+    "entries": ["Blaming", "slander", "taunt, ridicule, sneer", "snub", "selfish, disdainful"]
+  },
+  {
+    "key": "CIVIL",
+    "ns": "CIVIL",
+    "id": "CIVIL#0",
+    "domain": "CIVIL",
+    "entries": ["Country", "Economy", "Culture", "Industry", "Lifestyle", "Infra", "Science", "Math"]
+  },
+  {
+    "key": "Country",
+    "ns": "CIVIL",
+    "id": "CIVIL#1",
+    "domain": "CIVIL",
+    "entries": [
+      "Population, capital-of",
+      "Constitution",
+      "Congress, Government, minister",
+      "President, Administration",
+      "Authority, Official",
+      "Security",
+      "Military"
+    ]
+  },
+  {
+    "key": "Justice",
+    "ns": "CIVIL",
+    "id": "CIVIL#2",
+    "domain": "CIVIL",
+    "entries": [
+      "Court",
+      "Law",
+      "Police",
+      "Crime, gang",
+      "Bill, warrant",
+      "Legal",
+      "license",
+      "punish, penalty, confiscated",
+      "prison, arrest",
+      "guilt"
+    ]
+  },
+  {
+    "key": "Politics",
+    "ns": "CIVIL",
+    "id": "CIVIL#3",
+    "domain": "CIVIL",
+    "entries": ["Party", "Election", "Republic", "Democracy", "Federal", "tiran, dictator", "riot"]
+  },
+  {
+    "key": "Humanity",
+    "ns": "CIVIL",
+    "id": "CIVIL#4",
+    "domain": "CIVIL",
+    "entries": ["Rights", "Freedom", "Progress", "Peace"]
+  },
+  {
+    "key": "International",
+    "ns": "CIVIL",
+    "id": "CIVIL#5",
+    "domain": "CIVIL",
+    "entries": ["Global/National", "Domestic/Foreign", "migration, refugee", "War, warrior"]
+  },
+  {
+    "key": "Wealth, prosperity",
+    "ns": "CIVIL",
+    "id": "CIVIL#6",
+    "domain": "CIVIL",
+    "entries": ["ascetic", "charity", "luxury", "thrive", "rich/Poor"]
+  },
+  {
+    "key": "Market",
+    "ns": "CIVIL",
+    "id": "CIVIL#7",
+    "domain": "CIVIL",
+    "entries": ["Money", "Cost", "Price", "Buy/Sell", "sale/Pay", "steal", "rent"]
+  },
+  {
+    "key": "Economy",
+    "ns": "CIVIL",
+    "id": "CIVIL#8",
+    "domain": "CIVIL",
+    "entries": ["Trade", "Finance", "Banking", "Stock", "Tax", "Estate"]
+  },
+  {
+    "key": "Industry",
+    "ns": "CIVIL",
+    "id": "CIVIL#9",
+    "domain": "CIVIL",
+    "entries": ["Plant", "Service", "Store, shop, retail", "mail", "farm", "miner", "nurse"]
+  },
+  {
+    "key": "Product",
+    "ns": "CIVIL",
+    "id": "CIVIL#10",
+    "domain": "CIVIL",
+    "entries": ["Produce", "Build", "artificially", "construction", "make", "Generate", "implement"]
+  },
+  {
+    "key": "craft",
+    "ns": "CIVIL",
+    "id": "CIVIL#11",
+    "domain": "CIVIL",
+    "entries": ["mason", "sewed", "weave", "forge, smith"]
+  },
+  {
+    "key": "Business",
+    "ns": "CIVIL",
+    "id": "CIVIL#12",
+    "domain": "CIVIL",
+    "entries": ["entrepreneur", "Part owner", "discipline", "bargain", "Boss,chief,Director/Subordinate"]
+  },
+  {
+    "key": "staff",
+    "ns": "CIVIL",
+    "id": "CIVIL#13",
+    "domain": "CIVIL",
+    "entries": ["Job", "Career", "colleague, coworker", "Employee", "hire", "labor", "recruits", "salary"]
+  },
+  {
+    "key": "Urban",
+    "ns": "CIVIL",
+    "id": "CIVIL#14",
+    "domain": "CIVIL",
+    "entries": ["Street", "Town", "Local, Home", "Region", "City", "vicinity", "neighbor", "village", "lane", "square"]
+  },
+  {
+    "key": "Venue",
+    "ns": "CIVIL",
+    "id": "CIVIL#15",
+    "domain": "CIVIL",
+    "entries": ["hedge", "park", "pave", "plot", "wells", "yard"]
+  },
+  {
+    "key": "Transportation",
+    "ns": "CIVIL",
+    "id": "CIVIL#16",
+    "domain": "CIVIL",
+    "entries": [
+      "rail",
+      "road, driver",
+      "Station",
+      "bridge",
+      "gate",
+      "Depart/Arrive",
+      "Travel, trip",
+      "baggage",
+      "ride",
+      "ticket"
+    ]
+  },
+  {
+    "key": "Institution",
+    "ns": "CIVIL",
+    "id": "CIVIL#17",
+    "domain": "CIVIL",
+    "entries": ["Organization", "Office", "Agency", "Company"]
+  },
+  {
+    "key": "Medical",
+    "ns": "CIVIL",
+    "id": "CIVIL#18",
+    "domain": "CIVIL",
+    "entries": ["Patient", "Doctor", "Hospital", "Ecology", "Treat", "Protect", "Diagnose", "Profilactic", "heal"]
+  },
+  {
+    "key": "Culture",
+    "ns": "CIVIL",
+    "id": "CIVIL#19",
+    "domain": "CIVIL",
+    "entries": ["Art", "Lyrics", "Music", "History, ancient", "Religion", "paint", "Song", "poet", "fiction"]
+  },
+  {
+    "key": "Traditions",
+    "ns": "CIVIL",
+    "id": "CIVIL#20",
+    "domain": "CIVIL",
+    "entries": [
+      "legacy",
+      "celebrate, solemn",
+      "custom",
+      "feast",
+      "funeral",
+      "holy",
+      "relict",
+      "rite",
+      "shrine",
+      "tomb",
+      "wedding"
+    ]
+  },
+  {
+    "key": "Education",
+    "ns": "CIVIL",
+    "id": "CIVIL#21",
+    "domain": "CIVIL",
+    "entries": [
+      "School",
+      "Study",
+      "Student",
+      "Professor",
+      "Teach",
+      "Science",
+      "lecture",
+      "lesson",
+      "tutor",
+      "coach",
+      "student"
+    ]
+  },
+  {
+    "key": "Lifestyle",
+    "ns": "CIVIL",
+    "id": "CIVIL#22",
+    "domain": "CIVIL",
+    "entries": [
+      "Routine, errand",
+      "Leisure",
+      "Fashion",
+      "Sport",
+      "Pop-Music",
+      "Television, Radio",
+      "Movies, Shows",
+      "SocialMedia"
+    ]
+  },
+  {
+    "key": "House",
+    "ns": "Building",
+    "id": "CIVIL#23",
+    "domain": "CIVIL",
+    "entries": ["room", "ceiling", "cell", "floor", "roof", "stage", "stage", "chamber"]
+  },
+  {
+    "key": ":typeof",
+    "ns": "Building",
+    "id": "CIVIL#24",
+    "domain": "CIVIL",
+    "entries": ["apartments", "camp", "castle", "dwell", "house", "huts", "lodge", "loft", "tower", "booth"]
+  },
+  {
+    "key": ":blocks",
+    "ns": "Building",
+    "id": "CIVIL#25",
+    "domain": "CIVIL",
+    "entries": ["brick", "slab, stove, slate, tile", "beam", "plank", "plaster", "panel"]
+  },
+  {
+    "key": "interior",
+    "ns": "Building",
+    "id": "CIVIL#26",
+    "domain": "CIVIL",
+    "entries": ["door", "fence", "scene", "stair", "wall", "window", "stave", "rack"]
+  },
+  {
+    "key": "Room",
+    "ns": "Building",
+    "id": "CIVIL#27",
+    "domain": "CIVIL",
+    "entries": ["Bathroom, Bedroom, Kitchen", ", dining", "corridor", "hall", "lounge", "porch"]
+  },
+  {
+    "key": "Amenities",
+    "ns": "AMENITY",
+    "id": "CIVIL#28",
+    "domain": "CIVIL",
+    "entries": ["Kitchen", "Dress"]
+  },
+  {
+    "key": "furniture",
+    "ns": "AMENITY",
+    "id": "CIVIL#29",
+    "domain": "CIVIL",
+    "entries": ["wardrobe", "Bed", "bench", "Chair", "cradle", "desk", "table", "shelf", "sink"]
+  },
+  {
+    "key": "elemof",
+    "ns": "AMENITY",
+    "id": "CIVIL#30",
+    "domain": "CIVIL",
+    "entries": ["cushion", "pillow", "quilt", "curtain", "towel", "carpet"]
+  },
+  {
+    "key": "decorum",
+    "ns": "AMENITY",
+    "id": "CIVIL#31",
+    "domain": "CIVIL",
+    "entries": ["mirror", "torch", "lamp", "candle", "clock", "wreath"]
+  },
+  {
+    "key": "clothes, outfit, dress",
+    "ns": "AMENITY",
+    "id": "CIVIL#32",
+    "domain": "CIVIL",
+    "entries": ["cloak", "jumper", "Blouse", "jacket", "apron", "coat", "costume", "frock", "pants", "robe", "shirt"]
+  },
+  {
+    "key": "wearing",
+    "ns": "AMENITY",
+    "id": "CIVIL#33",
+    "domain": "CIVIL",
+    "entries": ["collar", "pocket", "belt", "buckle", "heel", "sleeve", "crown", "glove", "helm", "socks", "tie"]
+  },
+  {
+    "key": "shoes",
+    "ns": "AMENITY",
+    "id": "CIVIL#34",
+    "domain": "CIVIL",
+    "entries": ["sandals", "boot", "slippers"]
+  },
+  {
+    "key": "container",
+    "ns": "AMENITY",
+    "id": "CIVIL#35",
+    "domain": "CIVIL",
+    "entries": ["tray, Box", "basket", "buck", "cage", "cask", "parcel", "sack", "tank"]
+  },
+  {
+    "key": "dish",
+    "ns": "AMENITY",
+    "id": "CIVIL#36",
+    "domain": "CIVIL",
+    "entries": ["mug, cup,bowl", "kettle", "bottle, corkscrew", "pan", "plate", "pot", "spoon", "fork"]
+  },
+  {
+    "key": "trifle",
+    "ns": "AMENITY",
+    "id": "CIVIL#37",
+    "domain": "CIVIL",
+    "entries": ["clasp", "rope, thread", "sponge", "brace", "crape", "nail"]
+  },
+  {
+    "key": "Technology",
+    "ns": "TECHNO",
+    "id": "CIVIL#38",
+    "domain": "CIVIL",
+    "entries": ["Internet", "Logistic", "Transport", "Instruments", "Engineering"]
+  },
+  {
+    "key": "Design",
+    "ns": "TECHNO",
+    "id": "CIVIL#39",
+    "domain": "CIVIL",
+    "entries": ["Purpose", "Architecture", "Definitions", "Requirement", "Specification"]
+  },
+  {
+    "key": "mechanism",
+    "ns": "TECHNO",
+    "id": "CIVIL#40",
+    "domain": "CIVIL",
+    "entries": ["machine", "electric", "device", "gadget", "engine", "rig", "launch/shut_down"]
+  },
+  {
+    "key": "electronic",
+    "ns": "TECHNO",
+    "id": "CIVIL#41",
+    "domain": "CIVIL",
+    "entries": ["Computer", "phone", "Camera", "battery", "screen", "socket", "wire", "cable", "turn_on/off"]
+  },
+  {
+    "key": "vehicle",
+    "ns": "TECHNO",
+    "id": "CIVIL#42",
+    "domain": "CIVIL",
+    "entries": ["lore", "sledge", "Car", "steer", "wheel, rim", "motor", "brake"]
+  },
+  {
+    "key": "armour",
+    "ns": "TECHNO",
+    "id": "CIVIL#43",
+    "domain": "CIVIL",
+    "entries": ["guns", "shield", "weapon", "bullet", "Shoot", "whip", "sword", "spear", "bolt"]
+  },
+  {
+    "key": "commodity",
+    "ns": "TECHNO",
+    "id": "CIVIL#44",
+    "domain": "CIVIL",
+    "entries": ["Wood, timber", "Oil", "Paper", "silk", "wax", "cement"]
+  },
+  {
+    "key": "spare_parts",
+    "ns": "TECHNO",
+    "id": "CIVIL#45",
+    "domain": "CIVIL",
+    "entries": ["button, trigger", "crane", "plug", "hatch", "hood", "valve", "strut", "hoops"]
+  },
+  {
+    "key": "instrument",
+    "ns": "TECHNO",
+    "id": "CIVIL#46",
+    "domain": "CIVIL",
+    "entries": ["knife, blade, razor", "stick, scrap", "hammer", "lever", "spade", "rake", "staple"]
+  },
+  {
+    "key": "tool",
+    "ns": "TECHNO",
+    "id": "CIVIL#47",
+    "domain": "CIVIL",
+    "entries": ["pencil", "brush", "needle", "tongs", "screwdriver"]
+  },
+  {
+    "key": "ship",
+    "ns": "TECHNO",
+    "id": "CIVIL#48",
+    "domain": "CIVIL",
+    "entries": ["parts:anchor\tdeck\tsail", "kindof:barge,boat,raft", "assemble:fleet, armada", "host:dock"]
+  },
+  {
+    "key": "device",
+    "ns": "TECHNO",
+    "id": "CIVIL#49",
+    "domain": "CIVIL",
+    "entries": ["plow", "bell", "loom", "pomp"]
+  },
+  {
+    "key": "Author",
+    "ns": "TEXT",
+    "id": "CIVIL#50",
+    "domain": "CIVIL",
+    "entries": ["Write", "Read", "editor", "translator", "scripture", "syllable", "verbal"]
+  },
+  {
+    "key": "Book",
+    "ns": "TEXT",
+    "id": "CIVIL#51",
+    "domain": "CIVIL",
+    "entries": ["Page", "article", "label", "quote"]
+  },
+  {
+    "key": "Document",
+    "ns": "TEXT",
+    "id": "CIVIL#52",
+    "domain": "CIVIL",
+    "entries": ["title", "mock", "Alphabet", "novel", "chart", "narrate", "note", "text", "token", "Letter", "digit"]
+  },
+  {
+    "key": "typeof",
+    "ns": "TEXT",
+    "id": "CIVIL#53",
+    "domain": "CIVIL",
+    "entries": ["bible", "Story", "fable", "legend", "mystic", "temple", "theme", "graphic", "picture"]
+  },
+  {
+    "key": "partof",
+    "ns": "TEXT",
+    "id": "CIVIL#54",
+    "domain": "CIVIL",
+    "entries": ["List", "Note", "Table", "Cell", "Picture", "Record", "Board", "column", "Bit", "card", "maples"]
+  }
+]

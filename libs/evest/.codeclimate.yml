@@ -1,0 +1,14 @@
+engines:
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+languages:
+  JavaScript: true
+ratings:
+  paths:
+  - "src/**"
+exclude_paths:
+- "index.js"
+- "lib/**"
+- "node_modules/**/*"

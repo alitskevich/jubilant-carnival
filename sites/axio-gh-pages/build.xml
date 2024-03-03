@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AxioJS" default="default" basedir=".">
+    <description>The Axio.JS project</description>
+    <target name="default">    
+        <echo level="info" message="${ant.home}" />
+        <property name="jsdir" value="${basedir}/js"/>
+        <property name="libdir" value="${jsdir}/libs"/>
+
+        <concat destfile="${libdir}/axio.js" force="yes">
+            <fileset file="header.txt"/>
+            <filelist dir="${basedir}/src" files=",axio-infra.js,axio-entity.js,axio-property.js,axio-binding.js,axio-commons.js"/>
+            <filelist dir="${basedir}/js" files="axio-web-remote.js,axio-web-dom.js, axio-web-sql.js, axio-web-commons.js"/>
+        </concat>
+        <concat destfile="${libdir}/axio-ui.js" force="yes">
+            <header>(function(){
+
+</header>
+            <fileset file="header.txt"/>
+            <filelist dir="${basedir}/js" files=" axio-ui-view.js,axio-ui-basics.js,axio-ui-list.js,axio-ui-popup.js,axio-ui-field.js,axio-ui-submit.js"/>
+            <footer>
+})()</footer>
+        </concat>
+   
+        
+        <path id="yuicompressor.classpath">
+            <fileset dir="${ant.home}/lib">
+                <include name="yuicompressor*.jar"/>
+            </fileset>
+        </path>
+        <taskdef name="yuicompress" classname="com.yahoo.platform.yui.compressor.YUICompressTask">
+            <classpath>
+                <path refid="yuicompressor.classpath"/>
+            </classpath>
+        </taskdef>
+        <yuicompress linebreak="8000" warn="false" munge="yes" preserveallsemicolons="false" outputfolder="${libdir}" outputsuffix="-min">
+            <fileset dir="${libdir}">
+                <include name="axio*.js"/>
+                <exclude name="*min.js"/>
+            </fileset>
+        </yuicompress> 
+        <echo level="info" message="Build Complete" />
+    </target>
+</project>

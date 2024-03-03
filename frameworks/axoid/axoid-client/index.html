@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AXOID</title>
+        <meta name="author" content="alitskevich">
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top1" role="navigation" data-widget="Html" data-html-uri="html://navbar"></nav>
+        
+        <div class="container" data-widget="Widget" data-html-uri-expression="'html://'+(<nav.page> || 'home' )"></div>
+
+        <script src="node_modules/axoid/index.js"></script>
+        <script src="index.js"></script>
+        <script>
+        Object.DEBUG = 6
+		// test
+		Object.fire({
+
+			uri:'axoid://create/webclient.Application#app'
+			,
+			plugins:[
+			          {
+                        id: "remote:HttpService"
+                      }, {
+                        id: "script:ScriptService"
+                      }, {
+                        id: "entity:EntityService"
+                      }, {
+                        id: "settings:Settings"
+                      }, {
+                        id: 'nav:webclient.HashNavigator'
+                      }, {
+                        id: "html:HtmlLoader",
+                        storage: null//window.localStorage
+                      }
+			    ]
+			,
+			callback : function(err, app){
+				app.prop("title", "Init");
+			}
+
+		})
+	</script>
+    </body>
+</html>

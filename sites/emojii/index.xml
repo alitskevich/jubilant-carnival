@@ -1,0 +1,129 @@
+<components>
+
+  <component id="App">
+    <ToastService ref="toaster" />
+    <BrowserService ref="browser" title="Emoji" />
+    <ItemCollectionController ref="items" data="@@items | arraySortBy:'name'" labelsFields="domain,kind"
+      shownLimit="2000" />
+    <TasksList {...<-items@info} />
+    <ToastList />
+    <Tooltip ref="tooltip" />
+  </component>
+
+  <component id="Tooltip">
+    <div class="bg-slate-600 p-2 w-[300px] rounded-lg">
+      <div>Tags: {@data.tags}</div>
+    </div>
+  </component>
+
+  <component id="TasksList">
+    <main class="h-screen overflow-y-auto" scrolledDown="-> items.showMore()"
+      scroll="-> @showScrollToTopButton = data.value > 120">
+
+      <nav class="bg-gray-800" id="top">
+        <div class="mx-auto max-w-6xl p-4">
+          <div class="flex items-center justify-between">
+            <h5 class="text-xl font-bold leading-none text-slate-100">
+              <span>Emoji</span>
+              <Badge class="" value="@countsInfo" />
+            </h5>
+            <div>
+              <SearchBar.Suggestions (...)="@search" />
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="bg-slate-500 px-2 min-h-1 sticky top-0 z-10">
+        <Container class="min-h-1">
+          <Chips data="@tags" click="-> items.onTag(data)" />
+        </Container>
+      </div>
+
+      <div class="mt-4">
+        <Container class="min-h-1 py-4 grid grid-cols-2 sm:grid-cols-4 bg-white dark:bg-gray-800">
+          <TasksListItem data="@item" openDetails="-> @itemDetails" each="item of @data" />
+        </Container>
+      </div>
+    </main>
+
+    <ItemDetails data="@itemDetails" if="@itemDetails" close="-> @itemDetails=false" />
+
+    <ScrollToTopButton if="@showScrollToTopButton" />
+  </component>
+
+  <component id="TasksListItem">
+    <Meta>
+    <Property id="data" type="Item" required="true" />
+    <Property id="openDetails" type="function" required="true" />
+    </Meta>
+    <Connector data="@data" change="-> ..." />
+    <Connector data="@count|greater:1" change="-> @isMultiple" />
+
+    <div class="border border-slate-700 p-4 flex flex-col justify-between items-center" data="@data"
+      data-value="@symbol" click="@openDetails">
+
+      <div class="cursor-pointer
+      inline-flex overflow-hidden relative justify-center items-center badge rounded-full 
+      h-16 w-16 
+      ">
+        <span class="text-4xl transition-transform hover:scale-110" title="@tags" if="@symbol"
+          itemprop="symbol">{@symbol}</span>
+      </div>
+      <div class="text-lg text-center mt-4">
+        <span class="text-bold text-dark" title="@name" itemprop="name" data="@data">@name</span>
+        <b class="text-bold text-dark ml-1" title="@name" if="@isMultiple" itemprop="count">[x{@count ?? ''}]</b>
+      </div>
+    </div>
+  </component>
+
+  <component id="ItemDetails">
+    <Meta>
+    <Property id="data" type="Item" required="true" />
+    <Property id="close" type="function" required="true" />
+    </Meta>
+
+    <Connector data="@data" change="-> ..." />
+
+    <Modal opened="opened" close="@close">
+      <Modal:header>
+        <h6 title="@name" itemprop="name">{@name}</h6>
+      </Modal:header>
+      <div class="mt-4 bg-white dark:bg-gray-800">
+        <Container class="min-h-1 py-4 grid grid-cols-4 sm:grid-cols-6">
+          <ItemCell data="@item" each="item of items" />
+        </Container>
+        <div class="text-lg m-4">
+          <b class="text-bold text-dark">@domain</b>
+          <b class="text-bold text-dark ml-1">\</b>
+          <b class="text-bold text-dark ml-1">@kind</b>
+        </div>
+        <div class="text-bold text-dark m-4 lowercase" itemprop="tags">{@tags}</div>
+      </div>
+    </Modal>
+  </component>
+
+  <component id="ItemCell">
+    <Meta>
+    <Property id="data" type="Item" required="true" />
+    </Meta>
+
+    <Connector data="@data" change="-> ..." />
+
+    <div class="border border-slate-700 p-4 flex flex-col justify-between items-center">
+      <div class="text-xs text-center my-4">
+        <b class="tile-title text-bold text-dark" title="@name">@name</b>
+      </div>
+      <div class="cursor-pointer inline-flex overflow-hidden relative 
+      justify-center items-center badge rounded-full h-16 w-16" data-value="@symbol"
+        click="-> browser.copyToClipboard(data)">
+        <span class="text-4xl transition-transform  hover:scale-110" title="@name" if="@symbol">{@symbol}</span>
+      </div>
+      <div class="text-xs text-center mt-4">
+        <div class="text-bold text-dark m-2" title="@code" itemprop="code">Code:{@code}</div>
+      </div>
+
+    </div>
+  </component>
+
+</components>

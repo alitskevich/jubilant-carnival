@@ -1,0 +1,53 @@
+.slide-titleAndTwoColumns {
+  display: grid;
+  grid-template-areas: "a a b";
+}
+
+.slide-title {
+  display: grid;
+  grid-template-areas:
+    "a a a"
+    "c b b";
+}
+.slide-bigNumber {
+  display: grid;
+  grid-template-areas: "a a b";
+}
+.slide-mainPoint .wrapper {
+  display: flex;
+}
+.slide-mainPoint .area-a {
+  justify-content: center;
+  align-items: center;
+}
+.snip2DiagonalRectangle .wrapper {
+  margin: 1rem;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.snip2DiagonalRectangle .wrapper .text {
+  max-width: 200px;
+  padding: 1rem;
+  --notchSize: 16px;
+  -webkit-clip-path: polygon(
+    0 var(--notchSize),
+    var(--notchSize) 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - var(--notchSize)),
+    calc(100% - var(--notchSize)) 100%,
+    0 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 var(--notchSize),
+    var(--notchSize) 0,
+    100% 0,
+    100% 0,
+    100% calc(100% - var(--notchSize)),
+    calc(100% - var(--notchSize)) 100%,
+    0 100%,
+    0 100%
+  );
+}

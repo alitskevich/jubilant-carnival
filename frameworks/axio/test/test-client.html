@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+       <script src="/src/axio-infra.js"></script>
+        <script src="/src/axio-property.js"></script>
+        <script src="/src/axio-entity.js"></script>
+        <script src="/src-commons/axio-props.js"></script>
+        <script src="/src-commons/axio-l10n.js"></script>
+
+        <script src="/src-webclient/axio-web-cache.js"></script>
+        <script src="/src-webclient/axio-web-remote.js"></script>
+
+        <script type="text/javascript" src="test.js"></script>
+        <script><!--
+
+            function start(){
+                document.write('<h2>Async client</h2>');
+
+                Object.require(['data_require.js','data_require.js'], function (ev){
+                        assert("Object.require()"+ev, EXTRA.a, 'ok');
+                });
+
+                Object.notify({uri : 'remote://data.js', type:'',callback:
+                    function (ev){
+                        var r = Object.get(ev,'result.a');
+                        assert("simple http get", r, 'ok');
+                    }
+                });
+                Object.notify({uri : 'remote://data.js'
+                    ,
+                    callback:
+                        function (ev){
+                        var r = Object.get(ev,'result.a');
+                        assert("simple http get repeated immediately", r, 'ok');
+                    }
+                });
+
+                Object.notify({
+                    uri : 'remote://wrong.js'
+                    ,
+                    callback: function (ev){
+                        assert("failed http get: "+ev.error.reason, ev.error.code, 404);
+                    }
+                });
+
+                Object.notify({uri : 'script://data_jsonp.js', jsonp:'cb'
+                    ,
+                    callback:function (ev){
+                        assert("jsonp script ", ev.value.a, 'ok');
+                    }
+                });
+
+                Object.notify({uri : 'script://data_script.js'
+                    ,
+                    callback:function (ev){
+                        assert("script "+ev, 'ok', EXTRA_SCRIPT.a);
+                    }
+                });
+           }
+
+            --></script>
+    </head>
+    <body scroll="auto" onload="start()"></body>
+</html>

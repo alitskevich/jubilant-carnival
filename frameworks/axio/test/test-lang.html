@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+       <script src="/src/axio-infra.js"></script>
+        <script src="/src/axio-property.js"></script>
+        <script src="/src/axio-entity.js"></script>
+        <script src="/src-commons/axio-props.js"></script>
+         <script type="text/javascript" src="test.js"></script>
+        <script><!--
+
+            var ARR_123 = [{id:'1'},{id:'2'},{id:'3', value:'ok'}];
+            var URI = 'http://tadagraph.com/?e=1&r=2#cosmos3475';
+            -->
+        </script>
+    </head>
+    <body scroll="auto">
+
+        <h2>Function</h2>
+
+        <script>
+            Function.perform([
+                function(err, v) {
+                    console.log('Object.perform()1 ', arguments);
+                    this(v);
+                }
+                ,function(err, v) {
+                    console.log('Object.perform()2 ', arguments);
+                    async(this)
+                }
+                ,function(err, v) {
+                    console.log('Object.perform()3 ', arguments);
+                    async(this.cb())
+                    async(this.cb())
+                    async(this.cb())
+                    async(this.cb())
+                    return 'ok1';
+                }
+                ,function(err, a1,a2) {
+                    console.log('Object.perform()4 ', arguments, a1,a2);
+                    assert("Object.perform()", Array.slice(arguments,1).join('-'), 'ok1-ok2-ok3-ok4-ok5');
+                }
+            ], 'ok');
+        </script>
+
+
+        <h2>Array</h2>
+
+        <script>assert('Function.prototype.iterator()','s1+s2+s3', ((function (s) { this.push('s'+s.id)}).iterator())(ARR_123,[]).join('+'))</script>
+
+        <script>assert('Array.findByAttr(arr, val)', Array.findByAttr(ARR_123,'3').value,'ok')</script>
+
+        <script>assert('Array.item(arr, p)', Array.item(ARR_123,-1).value,'ok')</script>
+
+        <script>assert('Array.slice(arr)','1', Array.slice(ARR_123)[0].id,'ok')</script>
+
+        <script>assert('Array.slice(arr,1,2)', Array.slice(ARR_123,1,3)[1].value,'ok')</script>
+
+        <script>assert('Array.slice(arr, -1)', Array.slice(ARR_123,-1)[0].value,'ok')</script>
+
+        <h2>Object</h2>
+        <script>
+            var p = Object.update({a:'1'},{a:'o',b:'k'})
+            assert('Object.update()', p.a+p.b,'ok')
+        </script>
+
+        <script>
+            assert('Object.get()', Object.get({a:{b:{c:'ok'}}},'a.b.c'),'ok')
+        </script>
+
+        <script>
+            var c = {a:'o'};
+            var cc = Object.clone(c,{a:'k'})
+            assert('Object.clone()', c.a+cc.a,'ok')
+        </script>
+
+        <h2>URI</h2>
+
+        <script>assert('Object.parseUri() ',URI, ''+Object.parseUri('[script]'+URI) )</script>
+
+        <h2>Event Notifications</h2>
+
+        <script><!--
+
+            --></script>
+
+    </body>
+</html>

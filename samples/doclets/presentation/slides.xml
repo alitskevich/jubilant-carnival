@@ -1,0 +1,51 @@
+<component id="App">
+  <NavigationService ref="nav" title="@@name" />
+  <Book />
+</component>
+
+<component id="Book">
+  <main style="min-height: 100vh; background-image:linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                   url({#app.backgroundImage ?? none});object-fit: cover;">
+    <Slide (...)="@slide" each="slide of :slides" />
+  </main>
+</component>
+
+<component id="Slide">
+  <div style=" min-height: 10px;" class="w100 px-2 slide-{@layout}">
+    <Dynamic as="{@block.type | or : Shape | capitalize}" (...)="@block" each="block of @children" />
+  </div>
+</component>
+
+<component id="Shape">
+  <div style="{@style};grid-area:{@area};" class="d-flex shape-{@area} {@className}">
+    <div class="wrapper">
+      <Fragment if="@text.values">
+        <span style="@t.style" each="t of @text.values">{@t.value}</span>
+        <Else>
+          <div class="text" style="@text.style"><span>{@text.value}</span></div>
+        </Else>
+      </Fragment>
+    </div>
+  </div>
+</component>
+
+<component id="Image">
+  <img class="img-responsive img-fit-cover" style="{@style};width:{@scale.width}px;height:{@scale.height}px" src="@src"
+    alt="@name" />
+</component>
+
+<component id="Video">
+  <video class="img-responsive img-fit-cover" style="{@style};width:{@scale.width}px;height:{@scale.height}px"
+    src="@src" alt="@title" poster="@poster" />
+</component>
+
+<component id="Table">
+  <a name="{@tag}{@id}"></a>
+  <table class="mt-2 w100 {@className}" style="{@style}">
+    <tr each="row of @rows">
+      <td each="col of @row.cols" columnSpan="@col.columnSpan ?? 1" rowSpan="@col.rowSpan ?? 1">
+        <Shape (...)="@col" />
+      </td>
+    </tr>
+  </table>
+</component>

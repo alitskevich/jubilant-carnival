@@ -1,0 +1,35 @@
+{
+  "name": "reactron",
+  "version": "1.0.0",
+  "description": "Code generator for React",
+  "license": "ISC",
+  "keywords": [],
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel",
+    "dev": "nodemon --config ./nodemon.json",
+    "build": "ts-node ./build.ts",
+    "clean": "rm -fdr dist && rm -fdr ../../.parcel-cache",
+    "pnpm:publish": "pnpm publish --no-git-checks",
+    "docs": "open https://www.figma.com/developers/api"
+  },
+  "dependencies": {
+    "arrmatura-ui": "workspace:^",
+    "arrmatura-web": "workspace:^",
+    "figma-tailwind": "workspace:^",
+    "postcss": "^8.4.25",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2",
+    "ultimus": "workspace:*",
+    "ultimus-fs": "workspace:*"
+  },
+  "divider": "-------------------------------------------",
+  "projectId": "OneHub",
+  "projectConfigs": {
+    "OneHub": {
+      "inputDir": "../appSot/tmp",
+      "outputDir": "../../../adgs/lib"
+    }
+  }
+}

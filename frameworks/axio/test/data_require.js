@@ -1,0 +1,2 @@
+var EXTRA = {a:'ok'};
+

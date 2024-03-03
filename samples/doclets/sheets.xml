@@ -1,0 +1,125 @@
+<component id="App">
+  <NavigationService ref="nav" title="@@name" />
+  <Sidebar caption="@@name" sidebarWidth="300">
+    <Sidebar:aside>
+      <NavTree data="@@data | valuesOf | slice:1" class="mx-2" level="1" />
+      <div class="flex-1 centroid">
+        <!-- <img src="assets/logo.svg" width="200px" height="200px" style="opacity:0.5" /> -->
+      </div>
+      <div class="p-2 bg-secondary">
+        <span>Settings</span>
+      </div>
+    </Sidebar:aside>
+    <RefBook {...<-nav@route} />
+  </Sidebar>
+</component>
+
+<component id="RefBook">
+  <main>
+    <RefChapter (...)="@@data | dot:@page" />
+    <div style="height:30rem;"></div>
+  </main>
+</component>
+
+<component id="RefHero">
+  <main>
+    <div style="height:4rem;"></div>
+    <h1 class="centroid">@@name</h1>
+    <h4 class="right centroid">#app.motto</h4>
+    <RefImage name="@@app.description" value="@@app.bigLogo" />
+  </main>
+</component>
+
+<component id="RefChapter">
+  <article class="" style="position: relative;top: 0;">
+    <header class="p-2 navbar bg-secondary d-flex" style="position:sticky;top:0" if="@name">
+      <a class="text-gray {@class}" name="/{@id}">
+        <h3>{@name}</h3>
+      </a>
+      <div class="border-1 text-gray rounded-full centroid mx-1 px-2" style="height:1.3rem;width:1.3rem;"
+        data-showHint="@showHint#not" click="-> ..." if="@value">
+        <span>?</span>
+      </div>
+    </header>
+    <div style="position: relative;top: 0px">
+      <p class="p-2 bg-secondary" if="@showHint">{@value}</p>
+      <div class="p-2">
+        <RefSection (...)="@section" each="section of @data" />
+      </div>
+    </div>
+  </article>
+</component>
+
+<component id="RefSection">
+  <a name="/{@id}"></a>
+  <article class="">
+    <div class="d-flex" style="align-items: center; padding-top: 4rem;">
+      <a href="#/{@id}" name="/{@id}" class="c-hand">
+        <div style="display:inline-block;font-size: 1.2rem;">{@name}</div>
+      </a>
+      <div class="border-1 text-gray rounded-full centroid ml-2 px-2" style="height:1.3rem;width:1.3rem;"
+        data-showHint="@showHint#not" click="-> ..." if="@value">
+        <span>?</span>
+      </div>
+    </div>
+    <p class="p-2 bg-secondary" if="@showHint">{@value}</p>
+
+    <div class="px-2" each="block of @data">
+      <Dynamic as="Ref{@block.type | capitalize ?? Block}" (...)="@block" (...)="@block" />
+    </div>
+  </article>
+</component>
+
+<component id="RefBlock">
+  <div class="d-flex mt-2" if="@name" data-collapsed="@collapsed#not" click="-> ..."
+    style="align-items: center; padding-top: 2rem;">
+    <a href="#/{id}" class="c-hand">
+      <h6 style="display:inline-block;">{@name}</h6>
+    </a>
+    <span class="label label-warn" if="@label">{@label}</span>
+  </div>
+  <div class="px-2" if="@collapsed#not">
+    <quote class="p-2" if="@value">{@value}</quote>
+    <div class="">
+      <div class="" each="item of @data">
+        <Dynamic as="Ref{@item.type | capitalize ?? Text}" (...)="@item" item="@item" />
+      </div>
+    </div>
+  </div>
+</component>
+
+<component id="RefImage">
+  <div class="">
+    <figure class="figure">
+      <img class="img-responsive img-fit-cover" src="@value" alt="@name">
+      <figcaption class="figure-caption text-center">{@name}</figcaption>
+    </figure>
+  </div>
+</component>
+
+<component id="RefText">
+  <div class="" style="padding-top: 1rem;">
+    <b if="@name">{@name}</b>
+    <div attached="richText" style="max-height:{@expanded ? auto: 2rem}" data-expanded="@expanded#not" click="-> ...">
+    </div>
+  </div>
+</component>
+
+<component id="RefLink">
+  <a href="{@value}" target="_blank" class="c-hand {@class}">
+    <span style="display:inline-block;">{@name}</span>
+    <span class="label label-warn" if="@label">{@label}</span>
+  </a>
+</component>
+
+
+<component id="NavTree">
+  <ul class="nav">
+    <li class="nav-item" if="@item.name" each="item of @data">
+      <a href="#/{@item.id}">
+        <span class="@level ?? 0 == 1 ? text-bold" title="{@item.name}">{@item.name}</span>
+      </a>
+      <NavTree if="@item.data && @level" data="@item.data" level="@level ?? 0 | minus:1" />
+    </li>
+  </ul>
+</component>

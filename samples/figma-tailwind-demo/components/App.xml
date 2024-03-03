@@ -1,0 +1,13 @@
+<components>
+  <component id="App">
+    <LocationHashService ref="hash2" />
+    <Connector data="<- hash2@data|strHeadOrSelf:'/'" change="-> @pageId" />
+
+    <div class="inset-0 fixed">
+      <div class="mr-auto relative max-w-[1440px] h-full overflow-y-auto ">
+        <Dynamic as="{@pageId || 'Page.Gallery'}.Preview"
+          class="absolute inset-0 border-dotted border border-gray-500" />
+      </div>
+    </div>
+  </component>
+</components>

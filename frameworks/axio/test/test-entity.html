@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+       <script src="/src/axio-infra.js"></script>
+        <script src="/src/axio-property.js"></script>
+        <script src="/src/axio-entity.js"></script>
+        <script src="/src-commons/axio-props.js"></script>
+         <script type="text/javascript" src="test.js"></script>
+        <script><!--
+
+            function start(){
+                document.write('<h2>Entity</h2>');
+                
+                Object.entity.define('Test1',{});
+
+                var entity = Object.entity.create({id:'Test1:t', p:'ok', target:{expression:"'bind+'+${t.src}"}})
+                console.log(entity);
+                
+                assert("Object.entity(id)", entity, Object.entity('t'));
+ 
+                assert('Get initial setProperty value with overriden getter', 'ok', entity.getProperty('p'));
+
+                assert('Method overriding through both props and entity hierarhy', entity.f1('x'),'x-p-p1-w-w1');
+  
+                entity.setProperty('src','plus');
+  
+            }
+
+            -->
+        </script>
+    </head>
+    <body scroll="auto" onload="start()"></body>
+</html>

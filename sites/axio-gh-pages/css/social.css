@@ -1,0 +1,46 @@
+/* 
+    Document   : social
+    Created on : Apr 5, 2013, 1:17:18 AM
+    Author     : Aliaksandr_Litskevic
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/***********************
+ * Social.
+ 
+*/
+.social-icon{text-indent:100%;white-space:nowrap;overflow:hidden;
+             height:28px;width:24px;display:block;
+             background:url("social.png") no-repeat;
+             background-position:40px -4px;
+}
+ .social-icon.active {opacity:0.5}
+
+ .social-icon .social-buttons{zoom:1}
+ .social-icon .social-buttons:before,.social-icon .social-buttons:after{display:table;content:"";zoom:1}
+ .social-icon .social-buttons:after{clear:both}
+ .social-icon .social-buttons li{float:left;display:block}
+ 
+ .social-icon.twitter{background-position:0 -4px}
+ .social-icon.facebook{background-position:-30px -4px}
+ .social-icon.google{background-position:-60px -4px}
+ .social-icon.google-plus{background-position:-90px -4px}.social-icon.youtube{background-position:-120px -4px}
+ .social-icon.vkontakte{background-position:-150px -4px}
+ .social-icon.odnoklassniki{background-position:-180px -4px}
+ .social-icon.yandex{background-position:-180px -4px}
+ .social-icon.mailru{background-position:-180px -4px}
+ 
+ .social-buttons{zoom:1}
+ .social-buttons:before,.social-buttons:after{display:table;content:"";zoom:1}
+ .social-buttons:after{clear:both}
+ .social-buttons li{float:left;display:block;margin-left:5px}
+ .social-buttons li:first-child{margin-left:0}
+ .social-auth{zoom:1}
+ .social-auth:before,.social-auth:after{display:table;content:"";zoom:1}
+ .social-auth:after{clear:both}
+ .social-auth .text{display:block;line-height:24px;margin-right:10px}
+ .social{zoom:1}
+ .social:before,.social:after{display:table;content:"";zoom:1}
+ .social:after{clear:both}
+ .social .item{float:left;margin-right:6px;display:block;height:20px;padding-bottom:4px}

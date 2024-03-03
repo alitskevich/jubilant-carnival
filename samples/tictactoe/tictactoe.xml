@@ -1,0 +1,29 @@
+<components>
+  <component id="TicTacToe">
+    <link rel="stylesheet" href="@@cssHref" />
+    <Store ref="store" />
+    <Caption title="@caption" />
+    <section>
+      <Main />
+    </section>
+  </component>
+
+  <component id="Caption">
+    <header click="-> store.reset()">
+      <h1>{@title}</h1>
+    </header>
+  </component>
+
+  <component id="Main">
+    <section>
+      <div class="flex" each="row of <-store@board">
+        <Cell row="@row.id" col="@col.id" value="@col.value" each="col of @row.cols|log:row" />
+      </div>
+    </section>
+  </component>
+
+  <component id="Cell">
+    <div class="flex-1 cell cell-{@value}" data-row="@row" data-col="@col" data-value="@value" click="-> store.next()">
+    </div>
+  </component>
+</components>

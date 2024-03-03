@@ -1,0 +1,48 @@
+<components>
+  <component id="Page.Gallery">
+    <LocationHashService ref="hash" />
+    <Connector data="<- hash@data|strTail:'/' ?? 'Approvals-219-6181'" change="-> @currentId" />
+    <Connector data="@@components|find:@currentId" change="-> @current" />
+    <div class="flex flex-row items-stretch h-full w-full">
+      <div class="flex flex-col gap-3 items-start justify-start p-2 
+       bg-gray-300 min-w-56 w-56 h-full overflow-y-auto">
+        <details class="w-full" each="group of @@components|arrayGroupBy:'grouping'|valuesOf" open="true">
+          <summary>
+            <div class="inline-block font-bold capitalize text-gray-600">{@group.id}</div>
+          </summary>
+          <div class="ml-2">
+            <a href="#Page.Gallery/{@comp.id}" class="
+                {@comp.id == @currentId ? 'bg-gray-200' : ''}
+                rounded-sm  block
+                hover:bg-gray-400 p-1 w-full text-left hover:text-blue-600 capitalize" each="comp of @group.items">
+              <div class="font-mono truncate">{@comp.componentName}</div>
+              <!-- <div class="text-sm text-gray-500 max-w-xs truncate">{@comp.type}</div> -->
+            </a>
+          </div>
+        </details>
+      </div>
+
+      <div class=" flex-1 flex flex-col overflow-x-auto relative">
+        <div class="flex-1 flex flex-col items-stretch relative m-2 p-2 overflow-y-auto 
+          border-dotted border border-gray-500">
+          <div class="preview border-dotted border border-gray-500 relative min-w-[16px] min-h-[16px]">
+            <div class="fline gap-2 items-stretch ">
+              <div class="flex-1 shrink-0 overflow-auto relative">
+                <Dynamic as="{@current.componentName | capitalize}.Preview" if="@current.componentName" />
+              </div>
+              <!-- <div class="flex-1 shrink-0 overflow-auto border border-solid border-l-white  relative">
+              <Dynamic as="{@current.componentName | capitalize}.Etalon" if="@current.componentName" />
+            </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="p-2 bg-slate-700  overflow-y-auto" style="flex:3">
+          <MarkupView data="@current.markup|xmlParse" class="w-full" />
+        </div>
+        <!-- <div class="flex-1 p-2 bg-slate-600 overflow-y-auto">
+        <JsonView data="@current.node" />
+      </div> -->
+      </div>
+    </div>
+  </component>
+</components>

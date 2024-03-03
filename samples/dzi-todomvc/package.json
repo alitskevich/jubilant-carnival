@@ -1,0 +1,22 @@
+{
+  "name": "dzi-ui",
+  "version": "2.1.11",
+  "description": "todoMVC based on Dzi-UI framework",
+  "private": true,
+  "dependencies": {
+  },
+  "author": "http://linkedin.com/alitskevich",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "**/out/",
+      "/dist/",
+      "/node_modules/",
+      "tmp.js"
+    ]
+  }
+}

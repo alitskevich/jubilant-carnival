@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TicTacToe on Arrmatura</title>
+  <link rel="stylesheet" href="tictactoe.css" />
+</head>
+
+<script type="module">
+  import components from "./tictactoe.xml";
+  import { defineCustomElement } from "arrmatura-web";
+  // service component
+  class Store {
+    // hook on init
+    init() {
+      return this.reset();
+    }
+
+    next({ col, row, value }, { board, step }) {
+      const cell = board[row].cols[col];
+      if (value ?? cell.value) return;
+      board[row].cols[col] = { ...cell, value: 1 + (step % 2) };
+      step++;
+
+      return {
+        board: [...board].map((r) => ({
+          ...r,
+          cols: r.cols.map((c) => ({ ...c })),
+        })),
+        step,
+      };
+    }
+
+    reset() {
+      return {
+        board: [0, 1, 2].map((r) => ({
+          id: r,
+          cols: [0, 1, 2].map((c) => ({ id: c, value: 0 })),
+        })),
+        step: 0,
+      };
+    }
+  }
+
+  // component types
+  const types = [Store, components];
+  const cssHref = document.querySelector("link").href;
+
+  defineCustomElement({
+    tag: "tic-tac-toe",
+    attributes: "caption, style",
+    types,
+    resources: {
+      cssHref,
+    },
+  });
+</script>
+
+<body>
+  <tic-tac-toe caption="Tic Tac Toe" />
+</body>
+
+</html>

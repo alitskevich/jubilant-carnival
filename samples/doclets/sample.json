@@ -1,0 +1,206 @@
+{
+  "enums": {
+    "chapters": [
+      {
+        "id": "R1",
+        "name": "Azy"
+      },
+      {
+        "id": "RR1",
+        "name": "Rux"
+      },
+      {
+        "id": "R2",
+        "name": "Qalavelk"
+      },
+      {
+        "id": "R3",
+        "name": "Gramada"
+      }
+    ],
+    "sitemap": [
+      {
+        "id": "inbox",
+        "name": "Inbox"
+      }
+    ],
+    "status": [
+      {
+        "color": "orange",
+        "caption": "Draft",
+        "id": "draft",
+        "name": "draft"
+      },
+      {
+        "color": "red",
+        "caption": "Ready",
+        "id": "ready",
+        "name": "ready"
+      },
+      {
+        "color": "blue",
+        "caption": "In progress",
+        "id": "inprogress",
+        "name": "inprogress"
+      },
+      {
+        "color": "green",
+        "caption": "Done",
+        "id": "done",
+        "name": "done"
+      },
+      {
+        "color": "red",
+        "caption": "Re-open",
+        "id": "reopen",
+        "name": "reopen"
+      },
+      {
+        "color": "red",
+        "caption": "Verified",
+        "id": "verified",
+        "name": "verified"
+      },
+      {
+        "color": "gray",
+        "caption": "Closed",
+        "id": "closed",
+        "name": "closed"
+      }
+    ]
+  },
+  "app": {
+    "name": "DOGMATURA",
+    "version": "1.0.10",
+    "bigLogo": "https://picturepan2.github.io/spectre/img/osx-yosemite-2.jpg",
+    "description": "Pragnost zrazumett Susvet — ti ne edina req, qto troxi prypodnimaet Dhytte nad uzrovem farsa i prydajet adcenne vysokaj tragedyi ©️ Stiven Vainberg",
+    "motto": "Duranj Dumkaj Bagateet"
+  },
+  "data": [
+    {
+      "value": "Azy",
+      "chapter": "Azy",
+      "id": "R1"
+    },
+    {
+      "chapter": "",
+      "section": "Az",
+      "block": "",
+      "key": "",
+      "value": "",
+      "enKen": "",
+      "note": "",
+      "id": "R1.2"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "",
+      "key": "Az",
+      "value": "sposab adkazvatt na koghnyj advolny az-znak dakladno adnym i tym gha azom-znaqennem.",
+      "enKen": "Operator",
+      "note": "A: x → y ",
+      "id": "R1.3"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "",
+      "key": "Totus(@)",
+      "value": "az :: adkazvaet spres trapno.",
+      "enKen": "Identity, unit ",
+      "note": "@: x → x ",
+      "id": "R1.4"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "",
+      "key": "",
+      "value": "*trapnym* e adkaz samim gha znakam.",
+      "enKen": " fixed ",
+      "note": "",
+      "id": "R1.5"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "",
+      "key": "Dzirka(0)",
+      "value": "az :: adkazvaet spres pusto.  ",
+      "enKen": "Zero",
+      "note": "0: x → 0 ",
+      "id": "R1.6"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "",
+      "key": "",
+      "value": "adkaz dirkaj e *pustym*, inaksh - *vartym*",
+      "enKen": " Empty/Valent",
+      "note": "",
+      "id": "R1.7"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "Sito",
+      "key": "",
+      "value": "",
+      "enKen": "",
+      "note": "",
+      "id": "R1.8"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "",
+      "key": "Sito",
+      "value": "az :: adkazvaet ti trapno, ti pusto. ",
+      "enKen": "Set ",
+      "note": "S: x → ( x | 0 ) ",
+      "id": "R1.9"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "",
+      "key": "",
+      "value": "az-Kropka *naleghyt* da sita S (sito *zmestqaet* az-Kropku ), kali S adkazvaet na x varto.",
+      "enKen": "belongs",
+      "note": "x IN S :: S(x) ISNT 0",
+      "id": "R1.10"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "",
+      "key": "Pryjom/Vydaqa<R>",
+      "value": "sito :: zmestqaet tolko vse znaki/znaqenni vartyx adkazaw aza R",
+      "enKen": "Domain/Codomain",
+      "note": "Dom(R) / Cdom(R)",
+      "id": "R1.11"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "",
+      "key": "Strelka",
+      "value": "az :: adkazvaet spres pusto, akrem adnago znaku. ",
+      "enKen": "Arrow",
+      "note": "P: x → (x IS C ? D : 0)",
+      "id": "R1.12"
+    },
+    {
+      "chapter": "",
+      "section": "",
+      "block": "",
+      "key": "Ton",
+      "value": "trapnaja strelka (e sitom z adnago elementa). ",
+      "enKen": "Tone",
+      "note": "Ton: x → (x IS C ? C : 0)  Ton(0)≡0",
+      "id": "R1.13"
+    }
+  ]
+}

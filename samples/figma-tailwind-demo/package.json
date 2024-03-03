@@ -1,0 +1,16 @@
+{
+  "name": "figma-tailwind-demo",
+  "version": "1.0.1",
+  "description": "demoapp",
+  "source": "./index.html",
+  "scripts": {
+    "start": "parcel --no-cache",
+    "docs:figma": "open https://www.figma.com/developers/api"
+  },
+  "dependencies": {
+    "arrmatura-ui": "workspace:*",
+    "arrmatura-web": "workspace:*",
+    "figma-tailwind": "workspace:*",
+    "ultimus": "workspace:*"
+  }
+}

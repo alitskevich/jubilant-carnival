@@ -1,0 +1,57 @@
+[
+  {
+    "id": "",
+    "symbol": "🌐",
+    "name": "all"
+  },
+  {
+    "id": "LT",
+    "symbol": "🇱🇹",
+    "name": "Lithuania"
+  },
+  {
+    "id": "PL",
+    "symbol": "🇵🇱",
+    "name": "Pospolita"
+  },
+  {
+    "id": "UA",
+    "symbol": "🇺🇦",
+    "name": "Ukraine"
+  },
+  {
+    "id": "DE",
+    "symbol": "🇩🇪",
+    "name": "Deutchland"
+  },
+  {
+    "id": "DK",
+    "symbol": "🇩🇰",
+    "name": "Denmark"
+  },
+  {
+    "id": "LV",
+    "symbol": "🇱🇻",
+    "name": "Latgalia"
+  },
+  {
+    "id": "IT",
+    "symbol": "🇮🇹",
+    "name": "Italia"
+  },
+  {
+    "id": "NL",
+    "symbol": "🇳🇱",
+    "name": "Nederland"
+  },
+  {
+    "id": "FR",
+    "symbol": "🇫🇷",
+    "name": "France"
+  },
+  {
+    "id": "BE",
+    "symbol": "🇧🇪",
+    "name": "Belgium"
+  }
+]

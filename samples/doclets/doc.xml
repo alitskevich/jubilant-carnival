@@ -1,0 +1,86 @@
+<component id="App">
+  <NavigationService ref="nav" title="@@name" />
+  <Sidebar sidebarWidth="300">
+    <Sidebar:aside>
+      <NavTree data="@@navTree" class="mx-2" level="3" />
+      <div class="flex-1 centroid">
+        <!-- <img src="assets/logo.svg" width="200px" height="200px" style="opacity:0.5" /> -->
+      </div>
+      <div class="p-2 bg-secondary">
+        <span>Settings</span>
+      </div>
+    </Sidebar:aside>
+    <Book />
+  </Sidebar>
+</component>
+
+<component id="Book">
+  <main style="position:relative; background-color:gray;">
+    <h1 style="height:2.5rem;padding-left:2.5rem;position: sticky; top:0rem; background-color:white;">#app.name</h1>
+    <Sub children="@:content" />
+    <div style="height:30rem;"></div>
+  </main>
+</component>
+
+<component id="Sub">
+  <Dynamic as="Ref.{@block.tag | capitalize}" (...)="@block" (...)="@block" each="block of @children" />
+</component>
+
+<component id="Ref">
+  <a name="{@tag}{@id}">{@className}</a>
+  <div class="m-1 {@className}" style="{@style}">
+    <span style="@style">{@text}P</span>
+    <Sub children="@children" />
+  </div>
+</component>
+
+<component id="Ref.Span">
+  <span style="@style">{@text}</span>
+</component>
+
+<component id="Ref.A">
+  <a class="c-hand " style="@style" href="@href" target="_p{@id}">{@text}</a>
+</component>
+
+<component id="Ref.Img">
+  <figure class="figure">
+    <img class="img-responsive img-fit-cover" style="@style" src="@src" alt="@name" />
+    <figcaption class="figure-caption text-center">{@name}</figcaption>
+  </figure>
+</component>
+
+<component id="Ref.P">
+  <a name="{@tag}{@id}"></a>
+  <div class="m-1 {@className}" style="{@style}">
+    <Sub children="@children" />
+  </div>
+</component>
+
+<component id="Ref.Li">
+  <a name="{@tag}{@id}"></a>
+  <div class="ml-2 {@className}" style="{@style}">
+    <Sub children="@children" />
+  </div>
+</component>
+
+<component id="Ref.Table">
+  <a name="{@tag}{@id}"></a>
+  <table class="mt-2 w100 {@className}" style="{@style}">
+    <tr each="tr of @rows" style="{@tr.style}">
+      <td each="td of @tr.cols" style="{@td.style}">
+        <Sub children="@td.children" />
+      </td>
+    </tr>
+  </table>
+</component>
+
+<component id="NavTree">
+  <ul class="nav">
+    <li class="nav-item" each="item of @data">
+      <a href="#/{@item.id}">
+        <span class="@level ?? 0 == 1 ? text-bold" title="{@item.name}">{@item.name}</span>
+      </a>
+      <NavTree if="@item.children.length && @level" data="@item.children" level="@level ?? 0 | minus:1" />
+    </li>
+  </ul>
+</component>

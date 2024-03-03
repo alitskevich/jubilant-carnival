@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+    <div class="span2">
+        <ul id="index" class="" data-widget="List" 
+            data-data-url="string://docsIndex" 
+            data-value-expression="(${nav.index} || 'intro')"
+            data-item-template="<a href='#!docs-{id}'>{name}</a>"
+            data-item-style="line-height2"
+            ></ul>
+    </div>
+    <div id="content" class="span10" data-widget="ShowDownHtml" data-html-url-expression="'docs/'+${*index}+'.html'"></div>
+    </div>
+</div>

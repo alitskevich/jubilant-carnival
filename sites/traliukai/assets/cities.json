@@ -1,0 +1,1633 @@
+{
+  "data": [
+    {
+      "name": "Paris",
+      "geo": "48.8566:2.3522",
+      "type": "FR",
+      "admin": "Île-de-France",
+      "kind": "c",
+      "size": 11027,
+      "id": "paris"
+    },
+    {
+      "name": "Berlin",
+      "geo": "52.5167:13.3833",
+      "type": "DE",
+      "admin": "Berlin",
+      "kind": "c",
+      "size": 3664.088,
+      "id": "berlin"
+    },
+    {
+      "name": "Kyiv",
+      "geo": "50.45:30.5236",
+      "type": "UA",
+      "admin": "Kyyiv, Misto",
+      "kind": "c",
+      "size": 2963.199,
+      "id": "kyiv"
+    },
+    {
+      "name": "Rome",
+      "geo": "41.8931:12.4828",
+      "type": "IT",
+      "admin": "Lazio",
+      "kind": "c",
+      "size": 2872.8,
+      "id": "rome"
+    },
+    {
+      "name": "Hamburg",
+      "geo": "53.55:10",
+      "type": "DE",
+      "admin": "Hamburg",
+      "kind": "a",
+      "size": 1852.478,
+      "id": "hamburg"
+    },
+    {
+      "name": "Warsaw",
+      "geo": "52.23:21.0111",
+      "type": "PL",
+      "admin": "Mazowieckie",
+      "kind": "c",
+      "size": 1790.658,
+      "id": "warsaw"
+    },
+    {
+      "name": "Munich",
+      "geo": "48.1375:11.575",
+      "type": "DE",
+      "admin": "Bavaria",
+      "kind": "a",
+      "size": 1488.202,
+      "id": "munich"
+    },
+    {
+      "name": "Kharkiv",
+      "geo": "50:36.2292",
+      "type": "UA",
+      "admin": "Kharkivs’ka Oblast’",
+      "kind": "a",
+      "size": 1446.107,
+      "id": "kharkiv"
+    },
+    {
+      "name": "Milan",
+      "geo": "45.4669:9.19",
+      "type": "IT",
+      "admin": "Lombardy",
+      "kind": "a",
+      "size": 1366.18,
+      "id": "milan"
+    },
+    {
+      "name": "Odesa",
+      "geo": "46.4775:30.7326",
+      "type": "UA",
+      "admin": "Odes’ka Oblast’",
+      "kind": "a",
+      "size": 1017.699,
+      "id": "odesa"
+    },
+    {
+      "name": "Dnipro",
+      "geo": "48.4675:35.04",
+      "type": "UA",
+      "admin": "Dnipropetrovs’ka Oblast’",
+      "kind": "a",
+      "size": 980.948,
+      "id": "dnipro"
+    },
+    {
+      "name": "Naples",
+      "geo": "40.8333:14.25",
+      "type": "IT",
+      "admin": "Campania",
+      "kind": "a",
+      "size": 966.144,
+      "id": "naples"
+    },
+    {
+      "name": "Donetsk",
+      "geo": "48.0089:37.8042",
+      "type": "UA",
+      "admin": "Donets’ka Oblast’",
+      "kind": "a",
+      "size": 929.063,
+      "id": "donetsk"
+    },
+    {
+      "name": "Turin",
+      "geo": "45.0667:7.7",
+      "type": "IT",
+      "admin": "Piedmont",
+      "kind": "a",
+      "size": 870.952,
+      "id": "turin"
+    },
+    {
+      "name": "Marseille",
+      "geo": "43.2964:5.37",
+      "type": "FR",
+      "admin": "Provence-Alpes-Côte d’Azur",
+      "kind": "a",
+      "size": 868.277,
+      "id": "marseille"
+    },
+    {
+      "name": "Krakow",
+      "geo": "50.0614:19.9372",
+      "type": "PL",
+      "admin": "Małopolskie",
+      "kind": "a",
+      "size": 766.739,
+      "id": "krakow"
+    },
+    {
+      "name": "Zaporizhzhia",
+      "geo": "47.8378:35.1383",
+      "type": "UA",
+      "admin": "Zaporiz’ka Oblast’",
+      "kind": "a",
+      "size": 741.717,
+      "id": "zaporizhzhia"
+    },
+    {
+      "name": "Lviv",
+      "geo": "49.8419:24.0315",
+      "type": "UA",
+      "admin": "L’vivs’ka Oblast’",
+      "kind": "a",
+      "size": 724.314,
+      "id": "lviv"
+    },
+    {
+      "name": "Lodz",
+      "geo": "51.7769:19.4547",
+      "type": "PL",
+      "admin": "Łódzkie",
+      "kind": "a",
+      "size": 690.422,
+      "id": "lodz"
+    },
+    {
+      "name": "Palermo",
+      "geo": "38.1111:13.3517",
+      "type": "IT",
+      "admin": "Sicilia",
+      "kind": "a",
+      "size": 668.405,
+      "id": "palermo"
+    },
+    {
+      "name": "Dusseldorf",
+      "geo": "51.2311:6.7724",
+      "type": "DE",
+      "admin": "North Rhine-Westphalia",
+      "kind": "a",
+      "size": 645.923,
+      "id": "dusseldorf"
+    },
+    {
+      "name": "Wroclaw",
+      "geo": "51.11:17.0325",
+      "type": "PL",
+      "admin": "Dolnośląskie",
+      "kind": "a",
+      "size": 638.586,
+      "id": "wroclaw"
+    },
+    {
+      "name": "Stuttgart",
+      "geo": "48.7761:9.1775",
+      "type": "DE",
+      "admin": "Baden-Württemberg",
+      "kind": "a",
+      "size": 630.305,
+      "id": "stuttgart"
+    },
+    {
+      "name": "Riga",
+      "geo": "56.9475:24.1069",
+      "type": "LV",
+      "admin": "Rīga",
+      "kind": "c",
+      "size": 614.618,
+      "id": "riga"
+    },
+    {
+      "name": "Genoa",
+      "geo": "44.4072:8.934",
+      "type": "IT",
+      "admin": "Liguria",
+      "kind": "a",
+      "size": 580.097,
+      "id": "genoa"
+    },
+    {
+      "name": "Vilnius",
+      "geo": "54.6833:25.2833",
+      "type": "LT",
+      "admin": "Vilniaus Miestas",
+      "kind": "c",
+      "size": 574.147,
+      "id": "vilnius"
+    },
+    {
+      "name": "Bremen",
+      "geo": "53.0769:8.8089",
+      "type": "DE",
+      "admin": "Bremen",
+      "kind": "a",
+      "size": 566.573,
+      "id": "bremen"
+    },
+    {
+      "name": "Dresden",
+      "geo": "51.05:13.74",
+      "type": "DE",
+      "admin": "Saxony",
+      "kind": "a",
+      "size": 554.907,
+      "id": "dresden"
+    },
+    {
+      "name": "Hannover",
+      "geo": "52.3744:9.7386",
+      "type": "DE",
+      "admin": "Lower Saxony",
+      "kind": "a",
+      "size": 542.668,
+      "id": "hannover"
+    },
+    {
+      "name": "Poznan",
+      "geo": "52.4083:16.9336",
+      "type": "PL",
+      "admin": "Wielkopolskie",
+      "kind": "a",
+      "size": 533.83,
+      "id": "poznan"
+    },
+    {
+      "name": "Lyon",
+      "geo": "45.76:4.84",
+      "type": "FR",
+      "admin": "Auvergne-Rhône-Alpes",
+      "kind": "a",
+      "size": 518.635,
+      "id": "lyon"
+    },
+    {
+      "name": "Sevastopol",
+      "geo": "44.6:33.5333",
+      "type": "UA",
+      "admin": "Sevastopol’, Misto",
+      "kind": "a",
+      "size": 509.992,
+      "id": "sevastopol"
+    },
+    {
+      "name": "Mykolaiv",
+      "geo": "46.9667:32",
+      "type": "UA",
+      "admin": "Mykolayivs’ka Oblast’",
+      "kind": "a",
+      "size": 498.748,
+      "id": "mykolaiv"
+    },
+    {
+      "name": "Toulouse",
+      "geo": "43.6045:1.444",
+      "type": "FR",
+      "admin": "Occitanie",
+      "kind": "a",
+      "size": 486.828,
+      "id": "toulouse"
+    },
+    {
+      "name": "Gdansk",
+      "geo": "54.3667:18.6333",
+      "type": "PL",
+      "admin": "Pomorskie",
+      "kind": "a",
+      "size": 464.254,
+      "id": "gdansk"
+    },
+    {
+      "name": "Luhansk",
+      "geo": "48.5833:39.3333",
+      "type": "UA",
+      "admin": "Luhans’ka Oblast’",
+      "kind": "a",
+      "size": 417.99,
+      "id": "luhansk"
+    },
+    {
+      "name": "Szczecin",
+      "geo": "53.4247:14.5553",
+      "type": "PL",
+      "admin": "Zachodniopomorskie",
+      "kind": "a",
+      "size": 403.833,
+      "id": "szczecin"
+    },
+    {
+      "name": "Bologna",
+      "geo": "44.4939:11.3428",
+      "type": "IT",
+      "admin": "Emilia-Romagna",
+      "kind": "a",
+      "size": 389.261,
+      "id": "bologna"
+    },
+    {
+      "name": "Florence",
+      "geo": "43.7714:11.2542",
+      "type": "IT",
+      "admin": "Tuscany",
+      "kind": "a",
+      "size": 380.948,
+      "id": "florence"
+    },
+    {
+      "name": "Vinnytsia",
+      "geo": "49.2167:28.4333",
+      "type": "UA",
+      "admin": "Vinnyts’ka Oblast’",
+      "kind": "a",
+      "size": 371.855,
+      "id": "vinnytsia"
+    },
+    {
+      "name": "Bydgoszcz",
+      "geo": "53.1167:18",
+      "type": "PL",
+      "admin": "Kujawsko-Pomorskie",
+      "kind": "a",
+      "size": 346.739,
+      "id": "bydgoszcz"
+    },
+    {
+      "name": "Simferopol",
+      "geo": "44.9484:34.1",
+      "type": "UA",
+      "admin": "Krym, Avtonomna Respublika",
+      "kind": "a",
+      "size": 341.799,
+      "id": "simferopol"
+    },
+    {
+      "name": "Lublin",
+      "geo": "51.2333:22.5667",
+      "type": "PL",
+      "admin": "Lubelskie",
+      "kind": "a",
+      "size": 339.85,
+      "id": "lublin"
+    },
+    {
+      "name": "Bari",
+      "geo": "41.1253:16.8667",
+      "type": "IT",
+      "admin": "Puglia",
+      "kind": "a",
+      "size": 323.37,
+      "id": "bari"
+    },
+    {
+      "name": "Poltava",
+      "geo": "49.5744:34.5686",
+      "type": "UA",
+      "admin": "Poltavs’ka Oblast’",
+      "kind": "a",
+      "size": 317.847,
+      "id": "poltava"
+    },
+    {
+      "name": "Nantes",
+      "geo": "47.2181:-1.5528",
+      "type": "FR",
+      "admin": "Pays de la Loire",
+      "kind": "a",
+      "size": 314.138,
+      "id": "nantes"
+    },
+    {
+      "name": "Bialystok",
+      "geo": "53.1167:23.1667",
+      "type": "PL",
+      "admin": "Podlaskie",
+      "kind": "a",
+      "size": 297.554,
+      "id": "bialystok"
+    },
+    {
+      "name": "Chernihiv",
+      "geo": "51.4939:31.2947",
+      "type": "UA",
+      "admin": "Chernihivs’ka Oblast’",
+      "kind": "a",
+      "size": 294.522,
+      "id": "chernihiv"
+    },
+    {
+      "name": "Kherson",
+      "geo": "46.6333:32.6",
+      "type": "UA",
+      "admin": "Khersons’ka Oblast’",
+      "kind": "a",
+      "size": 291.428,
+      "id": "kherson"
+    },
+    {
+      "name": "Kaunas",
+      "geo": "54.9:23.9333",
+      "type": "LT",
+      "admin": "Kauno Miestas",
+      "kind": "a",
+      "size": 288.466,
+      "id": "kaunas"
+    },
+    {
+      "name": "Strasbourg",
+      "geo": "48.5833:7.7458",
+      "type": "FR",
+      "admin": "Grand Est",
+      "kind": "a",
+      "size": 284.677,
+      "id": "strasbourg"
+    },
+    {
+      "name": "Wiesbaden",
+      "geo": "50.0825:8.24",
+      "type": "DE",
+      "admin": "Hesse",
+      "kind": "a",
+      "size": 278.609,
+      "id": "wiesbaden"
+    },
+    {
+      "name": "Katowice",
+      "geo": "50.25:19",
+      "type": "PL",
+      "admin": "Śląskie",
+      "kind": "a",
+      "size": 276.499,
+      "id": "katowice"
+    },
+    {
+      "name": "Cherkasy",
+      "geo": "49.4444:32.0597",
+      "type": "UA",
+      "admin": "Cherkas’ka Oblast’",
+      "kind": "a",
+      "size": 276.36,
+      "id": "cherkasy"
+    },
+    {
+      "name": "Khmelnytskyi",
+      "geo": "49.42:27",
+      "type": "UA",
+      "admin": "Khmel’nyts’ka Oblast’",
+      "kind": "a",
+      "size": 274.176,
+      "id": "khmelnytskyi"
+    },
+    {
+      "name": "Chernivtsi",
+      "geo": "48.2908:25.9344",
+      "type": "UA",
+      "admin": "Chernivets’ka Oblast’",
+      "kind": "a",
+      "size": 266.55,
+      "id": "chernivtsi"
+    },
+    {
+      "name": "Sumy",
+      "geo": "50.9068:34.7992",
+      "type": "UA",
+      "admin": "Sums’ka Oblast’",
+      "kind": "a",
+      "size": 265.758,
+      "id": "sumy"
+    },
+    {
+      "name": "Zhytomyr",
+      "geo": "50.2544:28.6578",
+      "type": "UA",
+      "admin": "Zhytomyrs’ka Oblast’",
+      "kind": "a",
+      "size": 264.452,
+      "id": "zhytomyr"
+    },
+    {
+      "name": "Venice",
+      "geo": "45.4397:12.3319",
+      "type": "IT",
+      "admin": "Veneto",
+      "kind": "a",
+      "size": 261.321,
+      "id": "venice"
+    },
+    {
+      "name": "Bordeaux",
+      "geo": "44.84:-0.58",
+      "type": "FR",
+      "admin": "Nouvelle-Aquitaine",
+      "kind": "a",
+      "size": 257.068,
+      "id": "bordeaux"
+    },
+    {
+      "name": "Kiel",
+      "geo": "54.3233:10.1394",
+      "type": "DE",
+      "admin": "Schleswig-Holstein",
+      "kind": "a",
+      "size": 246.601,
+      "id": "kiel"
+    },
+    {
+      "name": "Rivne",
+      "geo": "50.6197:26.2514",
+      "type": "UA",
+      "admin": "Rivnens’ka Oblast’",
+      "kind": "a",
+      "size": 246.574,
+      "id": "rivne"
+    },
+    {
+      "name": "Ivano-Frankivsk",
+      "geo": "48.9228:24.7106",
+      "type": "UA",
+      "admin": "Ivano-Frankivs’ka Oblast’",
+      "kind": "a",
+      "size": 236.602,
+      "id": "ivano-frankivsk"
+    },
+    {
+      "name": "Magdeburg",
+      "geo": "52.1317:11.6392",
+      "type": "DE",
+      "admin": "Saxony-Anhalt",
+      "kind": "a",
+      "size": 235.775,
+      "id": "magdeburg"
+    },
+    {
+      "name": "Lille",
+      "geo": "50.6278:3.0583",
+      "type": "FR",
+      "admin": "Hauts-de-France",
+      "kind": "a",
+      "size": 233.098,
+      "id": "lille"
+    },
+    {
+      "name": "Kropyvnytskyi",
+      "geo": "48.5103:32.2667",
+      "type": "UA",
+      "admin": "Kirovohrads’ka Oblast’",
+      "kind": "a",
+      "size": 227.413,
+      "id": "kropyvnytskyi"
+    },
+    {
+      "name": "Ternopil",
+      "geo": "49.5667:25.6",
+      "type": "UA",
+      "admin": "Ternopil’s’ka Oblast’",
+      "kind": "a",
+      "size": 218.653,
+      "id": "ternopil"
+    },
+    {
+      "name": "Rennes",
+      "geo": "48.1147:-1.6794",
+      "type": "FR",
+      "admin": "Bretagne",
+      "kind": "a",
+      "size": 217.728,
+      "id": "rennes"
+    },
+    {
+      "name": "Mainz",
+      "geo": "50:8.2667",
+      "type": "DE",
+      "admin": "Rhineland-Palatinate",
+      "kind": "a",
+      "size": 217.123,
+      "id": "mainz"
+    },
+    {
+      "name": "Lutsk",
+      "geo": "50.7478:25.3244",
+      "type": "UA",
+      "admin": "Volyns’ka Oblast’",
+      "kind": "a",
+      "size": 216.505,
+      "id": "lutsk"
+    },
+    {
+      "name": "Erfurt",
+      "geo": "50.9781:11.0292",
+      "type": "DE",
+      "admin": "Thuringia",
+      "kind": "a",
+      "size": 213.835,
+      "id": "erfurt"
+    },
+    {
+      "name": "Trieste",
+      "geo": "45.6503:13.7703",
+      "type": "IT",
+      "admin": "Friuli-Venezia Giulia",
+      "kind": "a",
+      "size": 204.338,
+      "id": "trieste"
+    },
+    {
+      "name": "Torun",
+      "geo": "53.0167:18.6167",
+      "type": "PL",
+      "admin": "Kujawsko-Pomorskie",
+      "kind": "a",
+      "size": 201.447,
+      "id": "torun"
+    },
+    {
+      "name": "Kielce",
+      "geo": "50.8725:20.6319",
+      "type": "PL",
+      "admin": "Świętokrzyskie",
+      "kind": "a",
+      "size": 191.605,
+      "id": "kielce"
+    },
+    {
+      "name": "Rzeszow",
+      "geo": "50.05:22",
+      "type": "PL",
+      "admin": "Podkarpackie",
+      "kind": "a",
+      "size": 182.548,
+      "id": "rzeszow"
+    },
+    {
+      "name": "Potsdam",
+      "geo": "52.4:13.0667",
+      "type": "DE",
+      "admin": "Brandenburg",
+      "kind": "a",
+      "size": 182.112,
+      "id": "potsdam"
+    },
+    {
+      "name": "Saarbrucken",
+      "geo": "49.2333:7",
+      "type": "DE",
+      "admin": "Saarland",
+      "kind": "a",
+      "size": 179.349,
+      "id": "saarbrucken"
+    },
+    {
+      "name": "Olsztyn",
+      "geo": "53.78:20.4942",
+      "type": "PL",
+      "admin": "Warmińsko-Mazurskie",
+      "kind": "a",
+      "size": 173.599,
+      "id": "olsztyn"
+    },
+    {
+      "name": "Perugia",
+      "geo": "43.1121:12.3888",
+      "type": "IT",
+      "admin": "Umbria",
+      "kind": "a",
+      "size": 165.683,
+      "id": "perugia"
+    },
+    {
+      "name": "Klaipeda",
+      "geo": "55.7075:21.1428",
+      "type": "LT",
+      "admin": "Klaipėdos Miestas",
+      "kind": "a",
+      "size": 164.31,
+      "id": "klaipeda"
+    },
+    {
+      "name": "Dijon",
+      "geo": "47.3167:5.0167",
+      "type": "FR",
+      "admin": "Bourgogne-Franche-Comté",
+      "kind": "a",
+      "size": 156.854,
+      "id": "dijon"
+    },
+    {
+      "name": "Cagliari",
+      "geo": "39.2167:9.1167",
+      "type": "IT",
+      "admin": "Sardegna",
+      "kind": "a",
+      "size": 154.106,
+      "id": "cagliari"
+    },
+    {
+      "name": "Zielona Gora",
+      "geo": "51.9397:15.505",
+      "type": "PL",
+      "admin": "Lubuskie",
+      "kind": "a",
+      "size": 139.33,
+      "id": "zielona_gora"
+    },
+    {
+      "name": "Opole",
+      "geo": "50.6722:17.9253",
+      "type": "PL",
+      "admin": "Opolskie",
+      "kind": "a",
+      "size": 127.792,
+      "id": "opole"
+    },
+    {
+      "name": "Gorzow Wielkopolski",
+      "geo": "52.7333:15.25",
+      "type": "PL",
+      "admin": "Lubuskie",
+      "kind": "a",
+      "size": 123.341,
+      "id": "gorzow_wielkopolski"
+    },
+    {
+      "name": "Trento",
+      "geo": "46.0667:11.1167",
+      "type": "IT",
+      "admin": "Trentino-Alto Adige",
+      "kind": "a",
+      "size": 117.997,
+      "id": "trento"
+    },
+    {
+      "name": "Orleans",
+      "geo": "47.9025:1.909",
+      "type": "FR",
+      "admin": "Centre-Val de Loire",
+      "kind": "a",
+      "size": 116.238,
+      "id": "orleans"
+    },
+    {
+      "name": "Uzhhorod",
+      "geo": "48.6239:22.295",
+      "type": "UA",
+      "admin": "Zakarpats’ka Oblast’",
+      "kind": "a",
+      "size": 114.897,
+      "id": "uzhhorod"
+    },
+    {
+      "name": "Rouen",
+      "geo": "49.4428:1.0886",
+      "type": "FR",
+      "admin": "Normandie",
+      "kind": "a",
+      "size": 111.36,
+      "id": "rouen"
+    },
+    {
+      "name": "Siauliai",
+      "geo": "55.9281:23.3167",
+      "type": "LT",
+      "admin": "Šiaulių Miestas",
+      "kind": "a",
+      "size": 107.086,
+      "id": "siauliai"
+    },
+    {
+      "name": "Ancona",
+      "geo": "43.6167:13.5167",
+      "type": "IT",
+      "admin": "Marche",
+      "kind": "a",
+      "size": 100.924,
+      "id": "ancona"
+    },
+    {
+      "name": "Schwerin",
+      "geo": "53.6333:11.4167",
+      "type": "DE",
+      "admin": "Mecklenburg-Western Pomerania",
+      "kind": "a",
+      "size": 95.818,
+      "id": "schwerin"
+    },
+    {
+      "name": "Panevezys",
+      "geo": "55.725:24.3639",
+      "type": "LT",
+      "admin": "Panevėžio Miestas",
+      "kind": "a",
+      "size": 91.054,
+      "id": "panevezys"
+    },
+    {
+      "name": "Catanzaro",
+      "geo": "38.91:16.5875",
+      "type": "IT",
+      "admin": "Calabria",
+      "kind": "a",
+      "size": 89.718,
+      "id": "catanzaro"
+    },
+    {
+      "name": "Daugavpils",
+      "geo": "55.8714:26.5161",
+      "type": "LV",
+      "admin": "Daugavpils",
+      "kind": "a",
+      "size": 80.627,
+      "id": "daugavpils"
+    },
+    {
+      "name": "Ajaccio",
+      "geo": "41.9267:8.7369",
+      "type": "FR",
+      "admin": "Corsica",
+      "kind": "a",
+      "size": 70.817,
+      "id": "ajaccio"
+    },
+    {
+      "name": "L'Aquila",
+      "geo": "42.354:13.392",
+      "type": "IT",
+      "admin": "Abruzzo",
+      "kind": "a",
+      "size": 69.439,
+      "id": "l'aquila"
+    },
+    {
+      "name": "Liepaja",
+      "geo": "56.5083:21.0111",
+      "type": "LV",
+      "admin": "Liepāja",
+      "kind": "a",
+      "size": 67.964,
+      "id": "liepaja"
+    },
+    {
+      "name": "Potenza",
+      "geo": "40.6333:15.8",
+      "type": "IT",
+      "admin": "Basilicata",
+      "kind": "a",
+      "size": 67.211,
+      "id": "potenza"
+    },
+    {
+      "name": "Jelgava",
+      "geo": "56.6522:23.7244",
+      "type": "LV",
+      "admin": "Jelgavas Novads",
+      "kind": "a",
+      "size": 55.336,
+      "id": "jelgava"
+    },
+    {
+      "name": "Jurmala",
+      "geo": "56.9722:23.7969",
+      "type": "LV",
+      "admin": "Jūrmala",
+      "kind": "a",
+      "size": 50.248,
+      "id": "jurmala"
+    },
+    {
+      "name": "Alytus",
+      "geo": "54.4014:24.0492",
+      "type": "LT",
+      "admin": "Alytaus Miestas",
+      "kind": "a",
+      "size": 49.888,
+      "id": "alytus"
+    },
+    {
+      "name": "Campobasso",
+      "geo": "41.561:14.6684",
+      "type": "IT",
+      "admin": "Molise",
+      "kind": "a",
+      "size": 49.262,
+      "id": "campobasso"
+    },
+    {
+      "name": "Marijampole",
+      "geo": "54.5567:23.3544",
+      "type": "LT",
+      "admin": "Marijampolė",
+      "kind": "a",
+      "size": 34.968,
+      "id": "marijampole"
+    },
+    {
+      "name": "Aosta",
+      "geo": "45.7372:7.3206",
+      "type": "IT",
+      "admin": "Valle d’Aosta",
+      "kind": "a",
+      "size": 34.082,
+      "id": "aosta"
+    },
+    {
+      "name": "Ventspils",
+      "geo": "57.3897:21.5644",
+      "type": "LV",
+      "admin": "Ventspils",
+      "kind": "a",
+      "size": 33.372,
+      "id": "ventspils"
+    },
+    {
+      "name": "Mazeikiai",
+      "geo": "56.3111:22.3361",
+      "type": "LT",
+      "admin": "Mažeikiai",
+      "kind": "a",
+      "size": 32.477,
+      "id": "mazeikiai"
+    },
+    {
+      "name": "Rezekne",
+      "geo": "56.5067:27.3308",
+      "type": "LV",
+      "admin": "Rēzeknes Novads",
+      "kind": "a",
+      "size": 26.839,
+      "id": "rezekne"
+    },
+    {
+      "name": "Utena",
+      "geo": "55.5:25.6028",
+      "type": "LT",
+      "admin": "Utena",
+      "kind": "a",
+      "size": 26.491,
+      "id": "utena"
+    },
+    {
+      "name": "Jonava",
+      "geo": "55.0722:24.2806",
+      "type": "LT",
+      "admin": "Jonava",
+      "kind": "a",
+      "size": 26.427,
+      "id": "jonava"
+    },
+    {
+      "name": "Ogre",
+      "geo": "56.8169:24.6047",
+      "type": "LV",
+      "admin": "Ogres Novads",
+      "kind": "a",
+      "size": 22.978,
+      "id": "ogre"
+    },
+    {
+      "name": "Valmiera",
+      "geo": "57.5381:25.4231",
+      "type": "LV",
+      "admin": "Valmiera",
+      "kind": "a",
+      "size": 22.971,
+      "id": "valmiera"
+    },
+    {
+      "name": "Kedainiai",
+      "geo": "55.2833:23.9667",
+      "type": "LT",
+      "admin": "Kėdainiai",
+      "kind": "a",
+      "size": 22.682,
+      "id": "kedainiai"
+    },
+    {
+      "name": "Telsiai",
+      "geo": "55.9833:22.25",
+      "type": "LT",
+      "admin": "Telšiai",
+      "kind": "a",
+      "size": 22.039,
+      "id": "telsiai"
+    },
+    {
+      "name": "Jekabpils",
+      "geo": "56.4975:25.8664",
+      "type": "LV",
+      "admin": "Jēkabpils Novads",
+      "kind": "a",
+      "size": 21.629,
+      "id": "jekabpils"
+    },
+    {
+      "name": "Taurage",
+      "geo": "55.2514:22.2903",
+      "type": "LT",
+      "admin": "Tauragė",
+      "kind": "a",
+      "size": 21.516,
+      "id": "taurage"
+    },
+    {
+      "name": "Ukmerge",
+      "geo": "55.2667:24.75",
+      "type": "LT",
+      "admin": "Ukmergė",
+      "kind": "a",
+      "size": 21.226,
+      "id": "ukmerge"
+    },
+    {
+      "name": "Visaginas",
+      "geo": "55.6:26.4333",
+      "type": "LT",
+      "admin": "Visaginas",
+      "kind": "a",
+      "size": 18.514,
+      "id": "visaginas"
+    },
+    {
+      "name": "Salaspils",
+      "geo": "56.8614:24.35",
+      "type": "LV",
+      "admin": "Salaspils Novads",
+      "kind": "a",
+      "size": 17.905,
+      "id": "salaspils"
+    },
+    {
+      "name": "Marupe",
+      "geo": "56.9069:24.0575",
+      "type": "LV",
+      "admin": "Mārupes Novads",
+      "kind": "a",
+      "size": 16.826,
+      "id": "marupe"
+    },
+    {
+      "name": "Plunge",
+      "geo": "55.9167:21.85",
+      "type": "LT",
+      "admin": "Plungė",
+      "kind": "a",
+      "size": 16.75,
+      "id": "plunge"
+    },
+    {
+      "name": "Tukums",
+      "geo": "56.9669:23.1531",
+      "type": "LV",
+      "admin": "Tukuma Novads",
+      "kind": "a",
+      "size": 16.691,
+      "id": "tukums"
+    },
+    {
+      "name": "Kretinga",
+      "geo": "55.8942:21.2472",
+      "type": "LT",
+      "admin": "Kretinga",
+      "kind": "a",
+      "size": 16.58,
+      "id": "kretinga"
+    },
+    {
+      "name": "Silute",
+      "geo": "55.35:21.4833",
+      "type": "LT",
+      "admin": "Šilutė",
+      "kind": "a",
+      "size": 15.902,
+      "id": "silute"
+    },
+    {
+      "name": "Palanga",
+      "geo": "55.9167:21.0639",
+      "type": "LT",
+      "admin": "Palangos Miestas",
+      "kind": "a",
+      "size": 15.381,
+      "id": "palanga"
+    },
+    {
+      "name": "Radviliskis",
+      "geo": "55.8:23.55",
+      "type": "LT",
+      "admin": "Radviliškis",
+      "kind": "a",
+      "size": 15.275,
+      "id": "radviliskis"
+    },
+    {
+      "name": "Cesis",
+      "geo": "57.3131:25.2747",
+      "type": "LV",
+      "admin": "Cēsu Novads",
+      "kind": "a",
+      "size": 14.815,
+      "id": "cesis"
+    },
+    {
+      "name": "Sigulda",
+      "geo": "57.1539:24.8544",
+      "type": "LV",
+      "admin": "Siguldas Novads",
+      "kind": "a",
+      "size": 14.396,
+      "id": "sigulda"
+    },
+    {
+      "name": "Rokiskis",
+      "geo": "55.9616:25.5807",
+      "type": "LT",
+      "admin": "Rokiškis",
+      "kind": "a",
+      "size": 12.738,
+      "id": "rokiskis"
+    },
+    {
+      "name": "Druskininkai",
+      "geo": "54.0206:23.9725",
+      "type": "LT",
+      "admin": "Druskininkai",
+      "kind": "a",
+      "size": 12.055,
+      "id": "druskininkai"
+    },
+    {
+      "name": "Elektrenai",
+      "geo": "54.7886:24.6612",
+      "type": "LT",
+      "admin": "Elektrénai",
+      "kind": "a",
+      "size": 11.588,
+      "id": "elektrenai"
+    },
+    {
+      "name": "Olaine",
+      "geo": "56.7844:23.9369",
+      "type": "LV",
+      "admin": "Olaines Novads",
+      "kind": "a",
+      "size": 10.324,
+      "id": "olaine"
+    },
+    {
+      "name": "Birzai",
+      "geo": "56.2:24.75",
+      "type": "LT",
+      "admin": "Biržai",
+      "kind": "a",
+      "size": 10.146,
+      "id": "birzai"
+    },
+    {
+      "name": "Kuldiga",
+      "geo": "56.9672:21.97",
+      "type": "LV",
+      "admin": "Kuldīgas Novads",
+      "kind": "a",
+      "size": 10.109,
+      "id": "kuldiga"
+    },
+    {
+      "name": "Bauska",
+      "geo": "56.4067:24.1875",
+      "type": "LV",
+      "admin": "Bauskas Novads",
+      "kind": "a",
+      "size": 9.84,
+      "id": "bauska"
+    },
+    {
+      "name": "Jurbarkas",
+      "geo": "55.0778:22.7756",
+      "type": "LT",
+      "admin": "Jurbarkas",
+      "kind": "a",
+      "size": 9.711,
+      "id": "jurbarkas"
+    },
+    {
+      "name": "Saldus",
+      "geo": "56.6667:22.4936",
+      "type": "LV",
+      "admin": "Saldus Novads",
+      "kind": "a",
+      "size": 9.679,
+      "id": "saldus"
+    },
+    {
+      "name": "Vilkaviskis",
+      "geo": "54.6667:23.0333",
+      "type": "LT",
+      "admin": "Vilkaviškis",
+      "kind": "a",
+      "size": 9.444,
+      "id": "vilkaviskis"
+    },
+    {
+      "name": "Talsi",
+      "geo": "57.2447:22.5889",
+      "type": "LV",
+      "admin": "Talsu Novads",
+      "kind": "a",
+      "size": 8.816,
+      "id": "talsi"
+    },
+    {
+      "name": "Joniskis",
+      "geo": "56.2433:23.6179",
+      "type": "LT",
+      "admin": "Joniškis",
+      "kind": "a",
+      "size": 8.757,
+      "id": "joniskis"
+    },
+    {
+      "name": "Dobele",
+      "geo": "56.6258:23.2811",
+      "type": "LV",
+      "admin": "Dobeles Novads",
+      "kind": "a",
+      "size": 8.731,
+      "id": "dobele"
+    },
+    {
+      "name": "Anyksciai",
+      "geo": "55.5344:25.1072",
+      "type": "LT",
+      "admin": "Anykščiai",
+      "kind": "a",
+      "size": 8.491,
+      "id": "anyksciai"
+    },
+    {
+      "name": "Varena",
+      "geo": "54.2111:24.5722",
+      "type": "LT",
+      "admin": "Varėna",
+      "kind": "a",
+      "size": 8.477,
+      "id": "varena"
+    },
+    {
+      "name": "Prienai",
+      "geo": "54.6333:23.9417",
+      "type": "LT",
+      "admin": "Prienai",
+      "kind": "a",
+      "size": 8.451,
+      "id": "prienai"
+    },
+    {
+      "name": "Kelme",
+      "geo": "55.6333:22.9333",
+      "type": "LT",
+      "admin": "Kelmė",
+      "kind": "a",
+      "size": 7.499,
+      "id": "kelme"
+    },
+    {
+      "name": "Ludza",
+      "geo": "56.5439:27.7211",
+      "type": "LV",
+      "admin": "Ludzas Novads",
+      "kind": "a",
+      "size": 7.473,
+      "id": "ludza"
+    },
+    {
+      "name": "Kraslava",
+      "geo": "55.8956:27.1644",
+      "type": "LV",
+      "admin": "Krāslavas Novads",
+      "kind": "a",
+      "size": 7.289,
+      "id": "kraslava"
+    },
+    {
+      "name": "Naujoji Akmene",
+      "geo": "56.325:22.8833",
+      "type": "LT",
+      "admin": "Akmenė",
+      "kind": "a",
+      "size": 7.194,
+      "id": "naujoji_akmene"
+    },
+    {
+      "name": "Adazi",
+      "geo": "57.0769:24.3236",
+      "type": "LV",
+      "admin": "Ādažu Novads",
+      "kind": "a",
+      "size": 7.154,
+      "id": "adazi"
+    },
+    {
+      "name": "Aizkraukle",
+      "geo": "56.6008:25.255",
+      "type": "LV",
+      "admin": "Aizkraukles Novads",
+      "kind": "a",
+      "size": 7.044,
+      "id": "aizkraukle"
+    },
+    {
+      "name": "Livani",
+      "geo": "56.3539:26.1761",
+      "type": "LV",
+      "admin": "Līvānu Novads",
+      "kind": "a",
+      "size": 7.035,
+      "id": "livani"
+    },
+    {
+      "name": "Gulbene",
+      "geo": "57.175:26.7564",
+      "type": "LV",
+      "admin": "Gulbenes Novads",
+      "kind": "a",
+      "size": 6.982,
+      "id": "gulbene"
+    },
+    {
+      "name": "Limbazi",
+      "geo": "57.5147:24.7131",
+      "type": "LV",
+      "admin": "Limbažu Novads",
+      "kind": "a",
+      "size": 6.888,
+      "id": "limbazi"
+    },
+    {
+      "name": "Madona",
+      "geo": "56.8542:26.22",
+      "type": "LV",
+      "admin": "Madonas Novads",
+      "kind": "a",
+      "size": 6.792,
+      "id": "madona"
+    },
+    {
+      "name": "Salcininkai",
+      "geo": "54.3111:25.3806",
+      "type": "LT",
+      "admin": "Šalčininkai",
+      "kind": "a",
+      "size": 6.715,
+      "id": "salcininkai"
+    },
+    {
+      "name": "Aluksne",
+      "geo": "57.4239:27.0503",
+      "type": "LV",
+      "admin": "Alūksnes Novads",
+      "kind": "a",
+      "size": 6.535,
+      "id": "aluksne"
+    },
+    {
+      "name": "Pasvalys",
+      "geo": "56.0611:24.4028",
+      "type": "LT",
+      "admin": "Pasvalys",
+      "kind": "a",
+      "size": 6.361,
+      "id": "pasvalys"
+    },
+    {
+      "name": "Preili",
+      "geo": "56.2942:26.7247",
+      "type": "LV",
+      "admin": "Preiļu Novads",
+      "kind": "a",
+      "size": 6.161,
+      "id": "preili"
+    },
+    {
+      "name": "Zarasai",
+      "geo": "55.7306:26.2472",
+      "type": "LT",
+      "admin": "Zarasai",
+      "kind": "a",
+      "size": 6.051,
+      "id": "zarasai"
+    },
+    {
+      "name": "Kupiskis",
+      "geo": "55.8333:24.9667",
+      "type": "LT",
+      "admin": "Kupiškis",
+      "kind": "a",
+      "size": 5.907,
+      "id": "kupiskis"
+    },
+    {
+      "name": "Balvi",
+      "geo": "57.1292:27.2667",
+      "type": "LV",
+      "admin": "Balvu Novads",
+      "kind": "a",
+      "size": 5.84,
+      "id": "balvi"
+    },
+    {
+      "name": "Kazlu Ruda",
+      "geo": "54.7492:23.4865",
+      "type": "LT",
+      "admin": "Kazlų Rūdos",
+      "kind": "a",
+      "size": 5.539,
+      "id": "kazlu_ruda"
+    },
+    {
+      "name": "Moletai",
+      "geo": "55.2333:25.4167",
+      "type": "LT",
+      "admin": "Molėtai",
+      "kind": "a",
+      "size": 5.497,
+      "id": "moletai"
+    },
+    {
+      "name": "Smiltene",
+      "geo": "57.4242:25.9064",
+      "type": "LV",
+      "admin": "Smiltenes Novads",
+      "kind": "a",
+      "size": 5.151,
+      "id": "smiltene"
+    },
+    {
+      "name": "Kekava",
+      "geo": "56.8266:24.23",
+      "type": "LV",
+      "admin": "Ķekavas Novads",
+      "kind": "a",
+      "size": 5.134,
+      "id": "kekava"
+    },
+    {
+      "name": "Skuodas",
+      "geo": "56.2667:21.5333",
+      "type": "LT",
+      "admin": "Skuodas",
+      "kind": "a",
+      "size": 5.083,
+      "id": "skuodas"
+    },
+    {
+      "name": "Sakiai",
+      "geo": "54.9556:23.0444",
+      "type": "LT",
+      "admin": "Šakiai",
+      "kind": "a",
+      "size": 4.998,
+      "id": "sakiai"
+    },
+    {
+      "name": "Silale",
+      "geo": "55.4917:22.1778",
+      "type": "LT",
+      "admin": "Šilalė",
+      "kind": "a",
+      "size": 4.64,
+      "id": "silale"
+    },
+    {
+      "name": "Valka",
+      "geo": "57.7753:26.0214",
+      "type": "LV",
+      "admin": "Valkas Novads",
+      "kind": "a",
+      "size": 4.51,
+      "id": "valka"
+    },
+    {
+      "name": "Trakai",
+      "geo": "54.6333:24.9333",
+      "type": "LT",
+      "admin": "Trakai",
+      "kind": "a",
+      "size": 4.43,
+      "id": "trakai"
+    },
+    {
+      "name": "Pakruojis",
+      "geo": "55.9809:23.8551",
+      "type": "LT",
+      "admin": "Pakruojis",
+      "kind": "a",
+      "size": 4.352,
+      "id": "pakruojis"
+    },
+    {
+      "name": "Svencionys",
+      "geo": "55.1333:26.1556",
+      "type": "LT",
+      "admin": "Švenčionys",
+      "kind": "a",
+      "size": 4.065,
+      "id": "svencionys"
+    },
+    {
+      "name": "Kalvarija",
+      "geo": "54.4147:23.2281",
+      "type": "LT",
+      "admin": "Kalvarijos",
+      "kind": "a",
+      "size": 3.766,
+      "id": "kalvarija"
+    },
+    {
+      "name": "Lazdijai",
+      "geo": "54.2319:23.517",
+      "type": "LT",
+      "admin": "Lazdijai",
+      "kind": "a",
+      "size": 3.629,
+      "id": "lazdijai"
+    },
+    {
+      "name": "Rietavas",
+      "geo": "55.725:21.9278",
+      "type": "LT",
+      "admin": "Rietavo",
+      "kind": "a",
+      "size": 3.149,
+      "id": "rietavas"
+    },
+    {
+      "name": "Saulkrasti",
+      "geo": "57.2636:24.4164",
+      "type": "LV",
+      "admin": "Saulkrastu Novads",
+      "kind": "a",
+      "size": 3.12,
+      "id": "saulkrasti"
+    },
+    {
+      "name": "Ulbroka",
+      "geo": "56.9408:24.2861",
+      "type": "LV",
+      "admin": "Ropažu Novads",
+      "kind": "a",
+      "size": 3.102,
+      "id": "ulbroka"
+    },
+    {
+      "name": "Nida",
+      "geo": "55.304:21.0053",
+      "type": "LT",
+      "admin": "Neringa",
+      "kind": "a",
+      "size": 2.385,
+      "id": "nida"
+    },
+    {
+      "name": "Birstonas",
+      "geo": "54.6056:24.0292",
+      "type": "LT",
+      "admin": "Birštono",
+      "kind": "a",
+      "size": 2.331,
+      "id": "birstonas"
+    },
+    {
+      "name": "Varaklani",
+      "geo": "56.6078:26.755",
+      "type": "LV",
+      "admin": "Varakļānu Novads",
+      "kind": "a",
+      "size": 1.73,
+      "id": "varaklani"
+    },
+    {
+      "name": "Ropazi",
+      "geo": "56.9718:24.6318",
+      "type": "LV",
+      "admin": "Ropažu Novads",
+      "kind": "a",
+      "size": 1.661,
+      "id": "ropazi"
+    }
+  ]
+}

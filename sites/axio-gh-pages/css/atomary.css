@@ -1,0 +1,71 @@
+/* 
+    Document   : system
+    Created on : Apr 5, 2013, 1:18:18 AM
+    Author     : Aliaksandr_Litskevic
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/***********************
+ * Atomary classes.
+ * Placed at end as most important
+ */
+ 
+.hide {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+
+
+.pull-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fixed {
+  position: fixed;
+}
+.relative {
+  position: relative;left:0;top:0;
+}
+.absolute {
+  position: absolute;left:0;top:0;
+}
+.clearfix:after {
+  clear: both;
+}
+.w100 {
+  width: 100%;
+}
+.h100 {
+  height: 100%;
+}
+.margin10 {
+  margin: 10px;
+}
+.no-border {
+    zoom: 1;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    border: 0px;
+}

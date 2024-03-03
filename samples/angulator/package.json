@@ -1,0 +1,20 @@
+{
+  "name": "arrmatura-angulator",
+  "version": "1.0.1",
+  "description": "NG template parser and generator",
+  "main": "./index.ts",
+  "scripts": {
+    "dev": "nodemon --config ./nodemon.json",
+    "build": "ts-node ./build.ts",
+    "clean": "rm -fdr dist && rm -fdr ../../.parcel-cache",
+    "docs": "open https://www.figma.com/developers/api"
+  },
+  "dependencies": {
+    "@figma/plugin-typings": "^1.69.0",
+    "arrmatura-web": "workspace:^",
+    "postcss": "^8.4.25",
+    "tailwindcss": "^3.3.2",
+    "ultimus": "workspace:*",
+    "ultimus-fs": "workspace:*"
+  }
+}

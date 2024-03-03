@@ -1,0 +1,24 @@
+{
+  "name": "quiz-app",
+  "version": "2.0.0",
+  "description": "Quiz on Arrmatura",
+  "author": "alitskevich",
+  "license": "MIT",
+  "source": [
+    "index.html"
+  ],
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "rm -fdr dist && parcel build --no-scope-hoist",
+    "fetch": "./make.sh fetch",
+    "deploy": "firebase deploy --project 373433080161 --only hosting"
+  },
+  "dependencies": {
+    "arrmatura-ui": "workspace:^",
+    "arrmatura-web": "workspace:*",
+    "postcss": "^8.4.19",
+    "tailwindcss": "3.3.2",
+    "ultimus": "^2.0.1"
+  }
+}

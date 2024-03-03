@@ -1,0 +1,13 @@
+<components>
+  <component id="Text">
+    <p class="@class" style="@style">{@text || ''}</p>
+  </component>
+
+  <component id="Img">
+    <img class="@class" src="@src ?? @@images.w1h1" />
+  </component>
+
+  <component id="DynamicComponent">
+    <Dynamic as="@as" (...)="@props" />
+  </component>
+</components>

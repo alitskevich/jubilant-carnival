@@ -1,0 +1,24 @@
+{
+  "name": "reversee",
+  "version": "1.0.1",
+  "description": "Reversee is a library of reveversee engineering raw HTML markup into components",
+  "author": "alitskevich",
+  "license": "ISC",
+  "type": "module",
+  "source": "index.ts",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*",
+    "src/**/*"
+  ],
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "watch": "parcel watch src/indexAssets.js",
+    "npm:publish": "parcel build && npm publish"
+  },
+  "dependencies": {
+    "ultimus": "workspace:*",
+    "ultimus-fs": "workspace:*"
+  }
+}

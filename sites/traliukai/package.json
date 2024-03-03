@@ -1,0 +1,22 @@
+{
+  "name": "traliukai-app",
+  "version": "2.0.0",
+  "description": "traliukai",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "rm -fdr dist && parcel build --no-scope-hoist",
+    "meta": "curl -X POST -d '{\"data\": {} }' -L \"https://script.google.com/macros/s/AKfycbxDogq1M4coHGjfXi4HUaw3mfXxy3lP9EMdq8Uh8w0Y4nw8SBGh6_pWBbhPnHC1bc3Wkg/exec?action=metadata\" > meta.json",
+    "deploy": "firebase deploy --project 998906531698 --only hosting"
+  },
+  "dependencies": {
+    "arrmatura-ui": "workspace:^1.0.2",
+    "arrmatura-web": "workspace:^6.2.0",
+    "ultimus": "workspace:^2.0.1"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.19",
+    "tailwindcss": "3.3.2"
+  }
+}

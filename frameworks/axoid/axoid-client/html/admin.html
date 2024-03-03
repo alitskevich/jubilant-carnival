@@ -1,0 +1,21 @@
+
+<div class="page-header1">
+  <div class="pull-right" id="searchByName" data-widget="Input" data-caption="none" data-hint="Search by Name"></div>
+  <h1>Admin console</h1>
+</div>
+<div class="row">
+  <div class="col-md-3 well">
+    <h4 data-widget="Label" data-caption-expression="['Remote error', 'Loading...','No Items yet'][<carriers.dataCount>+2] || (<carriers.dataCount>+' items')"></h4>
+    <ul style="height:500px;overflow-y:auto;" id="list" data-widget="List" 
+		data-value-binding="nav.index" 
+		data-data-uri="remote://*/resources/data.json">
+	</ul>
+    <button class="btn btn-primary" id="carrierNew" data-widget="Button" data-value-uri="l10n://carrierNewDoc" data-need-prompt-id="true"><span class="mdi-content-add"></span>Add new item
+    </button>
+  </div>
+  <div class="col-md-9">
+    <form id="document" data-widget="Form" data-value-expression="<list.datum required>">
+      <div style="height:500px;overflow-y:auto;" data-widget="Widget" data-html-uri="html://details"></div>
+    </form>
+  </div>
+</div>
